@@ -1,0 +1,221 @@
+[0.025s] Invoking command in '/home/agilex/autoware.ai/build/tablet_socket_msgs': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/messages/tablet_socket_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/tablet_socket_msgs
+[0.083s] -- The C compiler identification is GNU 7.5.0
+[0.141s] -- The CXX compiler identification is GNU 7.5.0
+[0.147s] -- Check for working C compiler: /usr/bin/cc
+[0.226s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.226s] -- Detecting C compiler ABI info
+[0.313s] -- Detecting C compiler ABI info - done
+[0.320s] -- Detecting C compile features
+[0.510s] -- Detecting C compile features - done
+[0.512s] -- Check for working CXX compiler: /usr/bin/c++
+[0.592s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.592s] -- Detecting CXX compiler ABI info
+[0.678s] -- Detecting CXX compiler ABI info - done
+[0.684s] -- Detecting CXX compile features
+[1.024s] -- Detecting CXX compile features - done
+[1.024s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/tablet_socket_msgs/devel
+[1.024s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.024s] -- This workspace overlays: /opt/ros/melodic
+[1.036s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.036s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.036s] -- Using Debian Python package layout
+[1.036s] -- Using empy: /usr/bin/empy
+[1.164s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.164s] -- Call enable_testing()
+[1.165s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/tablet_socket_msgs/test_results
+[1.180s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.180s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.189s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.190s] -- Looking for pthread.h
+[1.254s] -- Looking for pthread.h - found
+[1.255s] -- Looking for pthread_create
+[1.316s] -- Looking for pthread_create - not found
+[1.316s] -- Looking for pthread_create in pthreads
+[1.369s] -- Looking for pthread_create in pthreads - not found
+[1.369s] -- Looking for pthread_create in pthread
+[1.445s] -- Looking for pthread_create in pthread - found
+[1.446s] -- Found Threads: TRUE  
+[1.449s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.486s] -- catkin 0.7.29
+[1.486s] -- BUILD_SHARED_LIBS is on
+[1.623s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.846s] -- tablet_socket_msgs: 6 messages, 0 services
+[1.983s] -- Configuring done
+[2.004s] -- Generating done
+[2.007s] -- Build files have been written to: /home/agilex/autoware.ai/build/tablet_socket_msgs
+[2.014s] Invoked command in '/home/agilex/autoware.ai/build/tablet_socket_msgs' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/messages/tablet_socket_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/tablet_socket_msgs
+[2.015s] Invoking command in '/home/agilex/autoware.ai/build/tablet_socket_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/tablet_socket_msgs -- -j8 -l8
+[2.089s] [35m[1mScanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_mode_info[0m
+[2.092s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[2.094s] [35m[1mScanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_Waypoint[0m
+[2.096s] [35m[1mScanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_route_cmd[0m
+[2.112s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[2.123s] [35m[1mScanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_error_info[0m
+[2.124s] [35m[1mScanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_mode_cmd[0m
+[2.126s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.137s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_Waypoint
+[2.143s] [35m[1mScanning dependencies of target _tablet_socket_msgs_generate_messages_check_deps_gear_cmd[0m
+[2.158s] [  0%] Built target std_msgs_generate_messages_py
+[2.160s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[2.169s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_info
+[2.213s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[2.226s] [  0%] Built target std_msgs_generate_messages_eus
+[2.232s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_error_info
+[2.236s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_route_cmd
+[2.243s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[2.247s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.269s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_cmd
+[2.271s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_gear_cmd
+[2.334s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_nodejs[0m
+[2.336s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.342s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_py[0m
+[2.346s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_cpp[0m
+[2.377s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_eus[0m
+[2.395s] [  3%] [34m[1mGenerating Python from MSG tablet_socket_msgs/gear_cmd[0m
+[2.399s] [  6%] [34m[1mGenerating C++ code from tablet_socket_msgs/mode_cmd.msg[0m
+[2.410s] [  9%] [34m[1mGenerating C++ code from tablet_socket_msgs/gear_cmd.msg[0m
+[2.416s] [ 12%] [34m[1mGenerating C++ code from tablet_socket_msgs/error_info.msg[0m
+[2.425s] [ 15%] [34m[1mGenerating EusLisp code from tablet_socket_msgs/gear_cmd.msg[0m
+[2.439s] [ 18%] [34m[1mGenerating Javascript code from tablet_socket_msgs/gear_cmd.msg[0m
+[2.446s] [ 21%] [34m[1mGenerating C++ code from tablet_socket_msgs/mode_info.msg[0m
+[2.498s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages_lisp[0m
+[2.584s] [ 25%] [34m[1mGenerating Lisp code from tablet_socket_msgs/gear_cmd.msg[0m
+[2.611s] [ 28%] [34m[1mGenerating Javascript code from tablet_socket_msgs/error_info.msg[0m
+[2.828s] [ 31%] [34m[1mGenerating EusLisp code from tablet_socket_msgs/error_info.msg[0m
+[2.848s] [ 34%] [34m[1mGenerating Javascript code from tablet_socket_msgs/mode_info.msg[0m
+[2.868s] [ 37%] [34m[1mGenerating Python from MSG tablet_socket_msgs/error_info[0m
+[2.880s] [ 40%] [34m[1mGenerating Lisp code from tablet_socket_msgs/error_info.msg[0m
+[2.938s] [ 43%] [34m[1mGenerating EusLisp code from tablet_socket_msgs/mode_info.msg[0m
+[2.979s] [ 46%] [34m[1mGenerating Javascript code from tablet_socket_msgs/mode_cmd.msg[0m
+[2.989s] [ 50%] [34m[1mGenerating C++ code from tablet_socket_msgs/Waypoint.msg[0m
+[3.070s] [ 53%] [34m[1mGenerating Javascript code from tablet_socket_msgs/route_cmd.msg[0m
+[3.071s] [ 56%] [34m[1mGenerating Javascript code from tablet_socket_msgs/Waypoint.msg[0m
+[3.185s] [ 59%] [34m[1mGenerating Lisp code from tablet_socket_msgs/mode_info.msg[0m
+[3.207s] [ 62%] [34m[1mGenerating EusLisp code from tablet_socket_msgs/Waypoint.msg[0m
+[3.209s] [ 65%] [34m[1mGenerating EusLisp code from tablet_socket_msgs/mode_cmd.msg[0m
+[3.247s] [ 68%] [34m[1mGenerating Python from MSG tablet_socket_msgs/mode_info[0m
+[3.262s] [ 71%] [34m[1mGenerating Lisp code from tablet_socket_msgs/mode_cmd.msg[0m
+[3.296s] [ 75%] [34m[1mGenerating Python from MSG tablet_socket_msgs/mode_cmd[0m
+[3.362s] [ 75%] Built target tablet_socket_msgs_generate_messages_nodejs
+[3.393s] [ 78%] [34m[1mGenerating Python from MSG tablet_socket_msgs/Waypoint[0m
+[3.413s] [ 81%] [34m[1mGenerating C++ code from tablet_socket_msgs/route_cmd.msg[0m
+[3.464s] [ 84%] [34m[1mGenerating Lisp code from tablet_socket_msgs/Waypoint.msg[0m
+[3.482s] [ 87%] [34m[1mGenerating EusLisp code from tablet_socket_msgs/route_cmd.msg[0m
+[3.486s] [ 90%] [34m[1mGenerating Lisp code from tablet_socket_msgs/route_cmd.msg[0m
+[3.495s] [ 93%] [34m[1mGenerating Python from MSG tablet_socket_msgs/route_cmd[0m
+[3.636s] [ 96%] [34m[1mGenerating EusLisp manifest code for tablet_socket_msgs[0m
+[3.692s] [ 96%] Built target tablet_socket_msgs_generate_messages_lisp
+[3.796s] [100%] [34m[1mGenerating Python msg __init__.py for tablet_socket_msgs[0m
+[3.806s] [100%] Built target tablet_socket_msgs_generate_messages_cpp
+[4.228s] [100%] Built target tablet_socket_msgs_generate_messages_py
+[4.610s] [100%] Built target tablet_socket_msgs_generate_messages_eus
+[4.689s] [35m[1mScanning dependencies of target tablet_socket_msgs_generate_messages[0m
+[4.736s] [100%] Built target tablet_socket_msgs_generate_messages
+[4.896s] Invoked command in '/home/agilex/autoware.ai/build/tablet_socket_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/tablet_socket_msgs -- -j8 -l8
+[5.843s] Invoking command in '/home/agilex/autoware.ai/build/tablet_socket_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/tablet_socket_msgs --target tests -- -j8 -l8
+[6.104s] [35m[1mScanning dependencies of target tests[0m
+[6.176s] Built target tests
+[6.204s] Invoked command in '/home/agilex/autoware.ai/build/tablet_socket_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/tablet_socket_msgs --target tests -- -j8 -l8
+[6.844s] Invoking command in '/home/agilex/autoware.ai/build/tablet_socket_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/tablet_socket_msgs --target install -- -j8 -l8
+[7.133s] [  0%] Built target std_msgs_generate_messages_py
+[7.183s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_cmd
+[7.185s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.218s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_gear_cmd
+[7.263s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_Waypoint
+[7.277s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_route_cmd
+[7.289s] [  0%] Built target std_msgs_generate_messages_nodejs
+[7.326s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_error_info
+[7.326s] [  0%] Built target _tablet_socket_msgs_generate_messages_check_deps_mode_info
+[7.351s] [  0%] Built target std_msgs_generate_messages_lisp
+[7.351s] [  0%] Built target std_msgs_generate_messages_eus
+[7.437s] [ 18%] Built target tablet_socket_msgs_generate_messages_nodejs
+[7.445s] [ 37%] Built target tablet_socket_msgs_generate_messages_cpp
+[7.490s] [ 56%] Built target tablet_socket_msgs_generate_messages_lisp
+[7.508s] [ 78%] Built target tablet_socket_msgs_generate_messages_py
+[7.567s] [100%] Built target tablet_socket_msgs_generate_messages_eus
+[7.698s] [100%] Built target tablet_socket_msgs_generate_messages
+[7.836s] [36mInstall the project...[0m
+[7.869s] -- Install configuration: "Release"
+[7.869s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/Waypoint.msg
+[7.869s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/error_info.msg
+[7.870s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/gear_cmd.msg
+[7.870s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/mode_cmd.msg
+[7.870s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/mode_info.msg
+[7.870s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/msg/route_cmd.msg
+[7.870s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgs-msg-paths.cmake
+[7.870s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/include/tablet_socket_msgs
+[7.870s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/include/tablet_socket_msgs/route_cmd.h
+[7.870s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/include/tablet_socket_msgs/error_info.h
+[7.871s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/include/tablet_socket_msgs/mode_info.h
+[7.871s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/include/tablet_socket_msgs/Waypoint.h
+[7.871s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/include/tablet_socket_msgs/gear_cmd.h
+[7.871s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/include/tablet_socket_msgs/mode_cmd.h
+[7.871s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs
+[7.871s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/manifest.l
+[7.871s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg
+[7.872s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/Waypoint.l
+[7.872s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/gear_cmd.l
+[7.872s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/error_info.l
+[7.880s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/mode_info.l
+[7.880s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/mode_cmd.l
+[7.880s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/roseus/ros/tablet_socket_msgs/msg/route_cmd.l
+[7.880s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs
+[7.881s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg
+[7.881s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/mode_cmd.lisp
+[7.881s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package.lisp
+[7.881s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_mode_info.lisp
+[7.881s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/route_cmd.lisp
+[7.881s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_error_info.lisp
+[7.881s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_Waypoint.lisp
+[7.881s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_mode_cmd.lisp
+[7.881s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_gear_cmd.lisp
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/Waypoint.lisp
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/error_info.lisp
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/tablet_socket_msgs-msg.asd
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/_package_route_cmd.lisp
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/gear_cmd.lisp
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/common-lisp/ros/tablet_socket_msgs/msg/mode_info.lisp
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/gear_cmd.js
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/error_info.js
+[7.882s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/route_cmd.js
+[7.883s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/_index.js
+[7.883s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/Waypoint.js
+[7.883s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/mode_info.js
+[7.883s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/msg/mode_cmd.js
+[7.883s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/gennodejs/ros/tablet_socket_msgs/_index.js
+[7.927s] Listing /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs ...
+[7.927s] Compiling /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/__init__.py ...
+[7.927s] Listing /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg ...
+[7.927s] Compiling /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_Waypoint.py ...
+[7.927s] Compiling /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/__init__.py ...
+[7.927s] Compiling /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_error_info.py ...
+[7.928s] Compiling /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_gear_cmd.py ...
+[7.928s] Compiling /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_cmd.py ...
+[7.928s] Compiling /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_info.py ...
+[7.928s] Compiling /home/agilex/autoware.ai/build/tablet_socket_msgs/devel/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_route_cmd.py ...
+[7.932s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs
+[7.932s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/__init__.pyc
+[7.932s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg
+[7.932s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_gear_cmd.py
+[7.932s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_route_cmd.py
+[7.933s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_Waypoint.pyc
+[7.933s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_error_info.py
+[7.933s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_cmd.py
+[7.933s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/__init__.pyc
+[7.933s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_gear_cmd.pyc
+[7.933s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_Waypoint.py
+[7.933s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_cmd.pyc
+[7.933s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_route_cmd.pyc
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/__init__.py
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_info.py
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_error_info.pyc
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/msg/_mode_info.pyc
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages/tablet_socket_msgs/__init__.py
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig/tablet_socket_msgs.pc
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgs-msg-extras.cmake
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgsConfig.cmake
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/cmake/tablet_socket_msgsConfig-version.cmake
+[7.934s] -- Installing: /home/agilex/autoware.ai/install/tablet_socket_msgs/share/tablet_socket_msgs/package.xml
+[7.939s] Invoked command in '/home/agilex/autoware.ai/build/tablet_socket_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/tablet_socket_msgs --target install -- -j8 -l8

@@ -1,0 +1,101 @@
+[0.013s] Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/vehicle_description
+[0.063s] -- The C compiler identification is GNU 7.5.0
+[0.141s] -- The CXX compiler identification is GNU 7.5.0
+[0.145s] -- Check for working C compiler: /usr/bin/cc
+[0.240s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.240s] -- Detecting C compiler ABI info
+[0.394s] -- Detecting C compiler ABI info - done
+[0.402s] -- Detecting C compile features
+[0.819s] -- Detecting C compile features - done
+[0.822s] -- Check for working CXX compiler: /usr/bin/c++
+[1.017s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.017s] -- Detecting CXX compiler ABI info
+[1.088s] -- Detecting CXX compiler ABI info - done
+[1.096s] -- Detecting CXX compile features
+[1.407s] -- Detecting CXX compile features - done
+[1.409s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/vehicle_description/devel
+[1.409s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[1.410s] -- This workspace overlays: /opt/ros/melodic
+[1.423s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.423s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.424s] -- Using Debian Python package layout
+[1.425s] -- Using empy: /usr/bin/empy
+[1.586s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.586s] -- Call enable_testing()
+[1.588s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/vehicle_description/test_results
+[1.606s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.607s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.622s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.623s] -- Looking for pthread.h
+[1.684s] -- Looking for pthread.h - found
+[1.685s] -- Looking for pthread_create
+[1.743s] -- Looking for pthread_create - not found
+[1.744s] -- Looking for pthread_create in pthreads
+[1.797s] -- Looking for pthread_create in pthreads - not found
+[1.797s] -- Looking for pthread_create in pthread
+[1.857s] -- Looking for pthread_create in pthread - found
+[1.858s] -- Found Threads: TRUE  
+[1.862s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.903s] -- catkin 0.7.29
+[1.903s] -- BUILD_SHARED_LIBS is on
+[2.112s] -- Configuring done
+[2.122s] -- Generating done
+[2.125s] -- Build files have been written to: /home/agilex/autoware.ai/build/vehicle_description
+[2.132s] Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/vehicle_description
+[2.132s] Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description -- -j8 -l8
+[2.205s] [35m[1mScanning dependencies of target vehicle_description_xacro_generated_to_devel_space_[0m
+[2.226s] Built target vehicle_description_xacro_generated_to_devel_space_
+[2.238s] Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description -- -j8 -l8
+[2.285s] Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target tests -- -j8 -l8
+[2.341s] [35m[1mScanning dependencies of target tests[0m
+[2.351s] Built target tests
+[2.364s] Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target tests -- -j8 -l8
+[2.490s] Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target install -- -j8 -l8
+[2.572s] Built target vehicle_description_xacro_generated_to_devel_space_
+[2.618s] [36mInstall the project...[0m
+[2.626s] -- Install configuration: "Release"
+[2.627s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/lib/pkgconfig/vehicle_description.pc
+[2.627s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/cmake/vehicle_descriptionConfig.cmake
+[2.627s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/cmake/vehicle_descriptionConfig-version.cmake
+[2.628s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/package.xml
+[2.628s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/launch
+[2.628s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/launch/estima_gray.launch
+[2.628s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/launch/lexus.launch
+[2.629s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/launch/vehicle_model.launch
+[2.629s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/launch/estima_black.launch
+[2.629s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/launch/estima_white.launch
+[2.629s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/launch/milee.launch
+[2.629s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh
+[2.630s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_right_white.jpg
+[2.630s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/default.dae
+[2.633s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_right_black.jpg
+[2.634s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_bg_black.jpg
+[2.637s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/_51225ex1diffuse.jpeg
+[2.638s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_white.dae
+[2.656s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_bg_white.jpg
+[2.656s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/_51225ex2diffuse.jpeg
+[2.656s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/CAR_original.dae
+[2.659s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_black.dae
+[2.664s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_left_white.jpg
+[2.664s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/lexus.jpg
+[2.664s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_right_gray.jpg
+[2.665s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_gray.dae
+[2.669s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_left_gray.jpg
+[2.669s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/CAR_original.stl
+[2.673s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_bg_gray.jpg
+[2.673s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/xe.dae
+[2.700s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/estima_left_black.jpg
+[2.700s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/lexus.dae
+[2.711s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/prius.dae
+[2.711s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/mesh/milee.dae
+[2.715s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf
+[2.716s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/sim_default.urdf
+[2.716s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/estima_black.urdf
+[2.716s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/xe.urdf
+[2.716s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/default.urdf
+[2.716s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/estima_gray.urdf
+[2.717s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/estima_white.urdf
+[2.717s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/lexus.urdf
+[2.717s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/milee.urdf
+[2.717s] -- Installing: /home/agilex/autoware.ai/install/vehicle_description/share/vehicle_description/urdf/prius.urdf
+[2.722s] Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target install -- -j8 -l8

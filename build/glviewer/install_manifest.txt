@@ -1,0 +1,6 @@
+/home/agilex/autoware.ai/install/glviewer/lib/pkgconfig/glviewer.pc
+/home/agilex/autoware.ai/install/glviewer/share/glviewer/cmake/glviewerConfig.cmake
+/home/agilex/autoware.ai/install/glviewer/share/glviewer/cmake/glviewerConfig-version.cmake
+/home/agilex/autoware.ai/install/glviewer/share/glviewer/package.xml
+/home/agilex/autoware.ai/install/glviewer/include/glviewer/glviewer.h
+/home/agilex/autoware.ai/install/glviewer/lib/libglviewer.so

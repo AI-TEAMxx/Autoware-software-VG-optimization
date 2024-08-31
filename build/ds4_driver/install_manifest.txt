@@ -1,0 +1,6 @@
+/home/agilex/autoware.ai/install/ds4_driver/lib/pkgconfig/ds4_driver.pc
+/home/agilex/autoware.ai/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake
+/home/agilex/autoware.ai/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake
+/home/agilex/autoware.ai/install/ds4_driver/share/ds4_driver/package.xml
+/home/agilex/autoware.ai/install/ds4_driver/lib/ds4_driver/ds4_driver
+/home/agilex/autoware.ai/install/ds4_driver/share/ds4_driver/launch/ds4_driver.launch

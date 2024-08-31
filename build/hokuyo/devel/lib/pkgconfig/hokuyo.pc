@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/build/hokuyo/devel
+
+Name: hokuyo
+Description: Description of hokuyo
+Version: 1.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs

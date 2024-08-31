@@ -1,0 +1,14 @@
+[0.058s] Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler -- -j8 -l8
+[0.099s] Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler -- -j8 -l8
+[0.177s] Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target tests -- -j8 -l8
+[0.216s] Built target tests
+[0.231s] Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target tests -- -j8 -l8
+[0.274s] Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target install -- -j8 -l8
+[0.313s] [36mInstall the project...[0m
+[0.320s] -- Install configuration: "Release"
+[0.320s] -- Up-to-date: /home/agilex/autoware.ai/install/marker_downsampler/lib/pkgconfig/marker_downsampler.pc
+[0.322s] -- Up-to-date: /home/agilex/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig.cmake
+[0.322s] -- Up-to-date: /home/agilex/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig-version.cmake
+[0.322s] -- Up-to-date: /home/agilex/autoware.ai/install/marker_downsampler/share/marker_downsampler/package.xml
+[0.322s] -- Up-to-date: /home/agilex/autoware.ai/install/marker_downsampler/lib/marker_downsampler/app.py
+[0.329s] Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target install -- -j8 -l8

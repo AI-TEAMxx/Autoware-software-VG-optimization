@@ -1,0 +1,67 @@
+[0.023s] Invoking command in '/home/agilex/autoware.ai/build/ds4_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_msgs -- -j8 -l8
+[0.118s] [  0%] Built target std_msgs_generate_messages_py
+[0.119s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.120s] [  0%] Built target std_msgs_generate_messages_eus
+[0.121s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.139s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.156s] [  0%] Built target _ds4_msgs_generate_messages_check_deps_DS4
+[0.182s] [ 14%] Built target ds4_msgs_generate_messages_lisp
+[0.189s] [ 42%] Built target ds4_msgs_generate_messages_eus
+[0.194s] [ 57%] Built target ds4_msgs_generate_messages_nodejs
+[0.200s] [ 85%] Built target ds4_msgs_generate_messages_py
+[0.212s] [100%] Built target ds4_msgs_generate_messages_cpp
+[0.258s] [100%] Built target ds4_msgs_generate_messages
+[0.269s] Invoked command in '/home/agilex/autoware.ai/build/ds4_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_msgs -- -j8 -l8
+[0.476s] Invoking command in '/home/agilex/autoware.ai/build/ds4_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_msgs --target tests -- -j8 -l8
+[0.601s] Built target tests
+[0.613s] Invoked command in '/home/agilex/autoware.ai/build/ds4_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_msgs --target tests -- -j8 -l8
+[1.253s] Invoking command in '/home/agilex/autoware.ai/build/ds4_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_msgs --target install -- -j8 -l8
+[1.339s] [  0%] Built target std_msgs_generate_messages_py
+[1.363s] [  0%] Built target std_msgs_generate_messages_eus
+[1.393s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.393s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.394s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.402s] [  0%] Built target _ds4_msgs_generate_messages_check_deps_DS4
+[1.445s] [ 14%] Built target ds4_msgs_generate_messages_cpp
+[1.446s] [ 28%] Built target ds4_msgs_generate_messages_lisp
+[1.461s] [ 42%] Built target ds4_msgs_generate_messages_nodejs
+[1.461s] [ 71%] Built target ds4_msgs_generate_messages_eus
+[1.472s] [100%] Built target ds4_msgs_generate_messages_py
+[1.502s] [100%] Built target ds4_msgs_generate_messages
+[1.527s] [36mInstall the project...[0m
+[1.561s] -- Install configuration: "Release"
+[1.562s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/ds4_msgs/msg/DS4.msg
+[1.562s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/ds4_msgs/cmake/ds4_msgs-msg-paths.cmake
+[1.562s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/include/ds4_msgs
+[1.562s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/include/ds4_msgs/DS4.h
+[1.562s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/roseus/ros/ds4_msgs
+[1.563s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/roseus/ros/ds4_msgs/manifest.l
+[1.563s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/roseus/ros/ds4_msgs/msg
+[1.563s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/roseus/ros/ds4_msgs/msg/DS4.l
+[1.563s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs
+[1.563s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg
+[1.564s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg/DS4.lisp
+[1.564s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg/_package.lisp
+[1.564s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg/ds4_msgs-msg.asd
+[1.564s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/common-lisp/ros/ds4_msgs/msg/_package_DS4.lisp
+[1.564s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs
+[1.565s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs/msg
+[1.565s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs/msg/_index.js
+[1.565s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs/msg/DS4.js
+[1.565s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/gennodejs/ros/ds4_msgs/_index.js
+[1.621s] Listing /home/agilex/autoware.ai/build/ds4_msgs/devel/lib/python2.7/dist-packages/ds4_msgs ...
+[1.621s] Listing /home/agilex/autoware.ai/build/ds4_msgs/devel/lib/python2.7/dist-packages/ds4_msgs/msg ...
+[1.621s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs
+[1.621s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/__init__.pyc
+[1.622s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg
+[1.622s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg/__init__.pyc
+[1.623s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg/__init__.py
+[1.623s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg/_DS4.pyc
+[1.623s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/msg/_DS4.py
+[1.623s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/lib/python2.7/dist-packages/ds4_msgs/__init__.py
+[1.623s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/lib/pkgconfig/ds4_msgs.pc
+[1.623s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/ds4_msgs/cmake/ds4_msgs-msg-extras.cmake
+[1.623s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/ds4_msgs/cmake/ds4_msgsConfig.cmake
+[1.623s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/ds4_msgs/cmake/ds4_msgsConfig-version.cmake
+[1.623s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_msgs/share/ds4_msgs/package.xml
+[1.634s] Invoked command in '/home/agilex/autoware.ai/build/ds4_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_msgs --target install -- -j8 -l8

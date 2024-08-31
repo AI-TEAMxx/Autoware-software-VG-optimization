@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/rosinterface
+
+Name: rosinterface
+Description: Description of rosinterface
+Version: 1.11.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lrosinterface
+Requires: roscpp tf

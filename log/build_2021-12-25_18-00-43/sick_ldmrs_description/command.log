@@ -1,0 +1,6 @@
+Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description --target install -- -j8 -l8

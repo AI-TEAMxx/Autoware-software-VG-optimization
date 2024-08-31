@@ -1,0 +1,40 @@
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator_node.cpp:32[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/points_to_costmap.cpp:31[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator.cpp:33[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator_node.cpp:32[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/points_to_costmap.cpp:31[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator.cpp:33[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/test/src/test_costmap_generator.cpp:34[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K

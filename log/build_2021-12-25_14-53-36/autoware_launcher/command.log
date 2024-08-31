@@ -1,0 +1,8 @@
+Invoking command in '/home/agilex/autoware.ai/build/autoware_launcher': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/autoware_launcher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/autoware_launcher
+Invoked command in '/home/agilex/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/autoware_launcher -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/autoware_launcher
+Invoking command in '/home/agilex/autoware.ai/build/autoware_launcher': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/autoware_launcher': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/autoware_launcher': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher --target install -- -j8 -l8

@@ -1,0 +1,6 @@
+Invoking command in '/home/agilex/autoware.ai/build/vector_map_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_msgs -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/vector_map_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_msgs -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/vector_map_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_msgs --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/vector_map_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_msgs --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/vector_map_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_msgs --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/vector_map_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_msgs --target install -- -j8 -l8

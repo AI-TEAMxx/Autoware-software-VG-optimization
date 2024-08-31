@@ -1,0 +1,8 @@
+Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/autoware_bag_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/autoware_bag_tools
+Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/autoware_bag_tools -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/autoware_bag_tools
+Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target install -- -j8 -l8

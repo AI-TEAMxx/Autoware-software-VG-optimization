@@ -1,0 +1,6 @@
+/home/agilex/autoware.ai/install/vehicle_socket/lib/pkgconfig/vehicle_socket.pc
+/home/agilex/autoware.ai/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig.cmake
+/home/agilex/autoware.ai/install/vehicle_socket/share/vehicle_socket/cmake/vehicle_socketConfig-version.cmake
+/home/agilex/autoware.ai/install/vehicle_socket/share/vehicle_socket/package.xml
+/home/agilex/autoware.ai/install/vehicle_socket/lib/vehicle_socket/vehicle_sender
+/home/agilex/autoware.ai/install/vehicle_socket/lib/vehicle_socket/vehicle_receiver

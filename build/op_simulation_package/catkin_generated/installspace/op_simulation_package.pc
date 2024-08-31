@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/op_simulation_package
+
+Name: op_simulation_package
+Description: Description of op_simulation_package
+Version: 1.11.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs autoware_msgs map_file op_utility op_planner op_simu op_ros_helpers waypoint_follower

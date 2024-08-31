@@ -1,0 +1,78 @@
+[0.014s] Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools -- -j8 -l8
+[0.108s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.110s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.112s] [  0%] Built target nmea_msgs_generate_messages_py
+[0.117s] [  0%] Built target std_msgs_generate_messages_py
+[0.128s] [  0%] Built target roscpp_generate_messages_eus
+[0.130s] [  0%] Built target std_msgs_generate_messages_eus
+[0.132s] [  0%] Built target roscpp_generate_messages_py
+[0.142s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.160s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.162s] [  0%] Built target roscpp_generate_messages_cpp
+[0.176s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.180s] [  0%] Built target nmea_msgs_generate_messages_eus
+[0.188s] [  0%] Built target std_srvs_generate_messages_cpp
+[0.188s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[0.190s] [  0%] Built target roscpp_generate_messages_lisp
+[0.198s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.225s] [  0%] Built target std_srvs_generate_messages_py
+[0.234s] [  0%] Built target std_srvs_generate_messages_eus
+[0.238s] [  0%] Built target topic_tools_generate_messages_cpp
+[0.246s] [  0%] Built target std_srvs_generate_messages_nodejs
+[0.250s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[0.255s] [  0%] Built target topic_tools_generate_messages_eus
+[0.260s] [  0%] Built target std_srvs_generate_messages_lisp
+[0.264s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.276s] [  0%] Built target topic_tools_generate_messages_lisp
+[0.291s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.302s] [  0%] Built target topic_tools_generate_messages_nodejs
+[0.303s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[0.305s] [  0%] Built target topic_tools_generate_messages_py
+[0.311s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.367s] [100%] Built target nmea2kml
+[0.393s] Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools -- -j8 -l8
+[0.619s] Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target tests -- -j8 -l8
+[0.740s] Built target tests
+[0.764s] Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target tests -- -j8 -l8
+[1.007s] Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target install -- -j8 -l8
+[1.099s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.113s] [  0%] Built target std_msgs_generate_messages_py
+[1.114s] [  0%] Built target nmea_msgs_generate_messages_py
+[1.114s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.118s] [  0%] Built target roscpp_generate_messages_eus
+[1.121s] [  0%] Built target std_msgs_generate_messages_eus
+[1.131s] [  0%] Built target roscpp_generate_messages_py
+[1.146s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.152s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.155s] [  0%] Built target roscpp_generate_messages_cpp
+[1.167s] [  0%] Built target roscpp_generate_messages_lisp
+[1.171s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.184s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.186s] [  0%] Built target std_srvs_generate_messages_nodejs
+[1.190s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[1.196s] [  0%] Built target nmea_msgs_generate_messages_eus
+[1.211s] [  0%] Built target std_srvs_generate_messages_cpp
+[1.222s] [  0%] Built target std_srvs_generate_messages_py
+[1.234s] [  0%] Built target topic_tools_generate_messages_eus
+[1.234s] [  0%] Built target topic_tools_generate_messages_cpp
+[1.253s] [  0%] Built target std_srvs_generate_messages_eus
+[1.254s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.254s] [  0%] Built target std_srvs_generate_messages_lisp
+[1.268s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[1.270s] [  0%] Built target topic_tools_generate_messages_lisp
+[1.279s] [  0%] Built target topic_tools_generate_messages_py
+[1.281s] [  0%] Built target topic_tools_generate_messages_nodejs
+[1.285s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.296s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.324s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[1.363s] [100%] Built target nmea2kml
+[1.403s] [36mInstall the project...[0m
+[1.429s] -- Install configuration: "Release"
+[1.429s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_bag_tools/lib/pkgconfig/autoware_bag_tools.pc
+[1.430s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/cmake/autoware_bag_toolsConfig.cmake
+[1.430s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/cmake/autoware_bag_toolsConfig-version.cmake
+[1.430s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_bag_tools/share/autoware_bag_tools/package.xml
+[1.430s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/change_frame_id.py
+[1.430s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/replace_msg_time_with_hdr.py
+[1.430s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_bag_tools/lib/autoware_bag_tools/nmea2kml
+[1.435s] Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target install -- -j8 -l8

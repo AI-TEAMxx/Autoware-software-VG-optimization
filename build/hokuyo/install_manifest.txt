@@ -1,0 +1,7 @@
+/home/agilex/autoware.ai/install/hokuyo/lib/pkgconfig/hokuyo.pc
+/home/agilex/autoware.ai/install/hokuyo/share/hokuyo/cmake/hokuyoConfig.cmake
+/home/agilex/autoware.ai/install/hokuyo/share/hokuyo/cmake/hokuyoConfig-version.cmake
+/home/agilex/autoware.ai/install/hokuyo/share/hokuyo/package.xml
+/home/agilex/autoware.ai/install/hokuyo/lib/hokuyo/hokuyo_3d
+/home/agilex/autoware.ai/install/hokuyo/share/hokuyo/launch/hokuyo_3d.launch
+/home/agilex/autoware.ai/install/hokuyo/share/hokuyo/launch/top_urg.launch

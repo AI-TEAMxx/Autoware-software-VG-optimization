@@ -1,0 +1,13 @@
+[0.041s] Invoking command in '/home/agilex/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/graph_tools -- -j8 -l8
+[0.100s] Invoked command in '/home/agilex/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/graph_tools -- -j8 -l8
+[0.265s] Invoking command in '/home/agilex/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/graph_tools --target tests -- -j8 -l8
+[0.418s] Built target tests
+[0.442s] Invoked command in '/home/agilex/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/graph_tools --target tests -- -j8 -l8
+[0.578s] Invoking command in '/home/agilex/autoware.ai/build/graph_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/graph_tools --target install -- -j8 -l8
+[0.671s] [36mInstall the project...[0m
+[0.671s] -- Install configuration: "Release"
+[0.671s] -- Up-to-date: /home/agilex/autoware.ai/install/graph_tools/lib/pkgconfig/graph_tools.pc
+[0.671s] -- Up-to-date: /home/agilex/autoware.ai/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig.cmake
+[0.672s] -- Up-to-date: /home/agilex/autoware.ai/install/graph_tools/share/graph_tools/cmake/graph_toolsConfig-version.cmake
+[0.673s] -- Up-to-date: /home/agilex/autoware.ai/install/graph_tools/share/graph_tools/package.xml
+[0.693s] Invoked command in '/home/agilex/autoware.ai/build/graph_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/graph_tools --target install -- -j8 -l8

@@ -1,0 +1,90 @@
+[0.009s] Invoking command in '/home/agilex/autoware.ai/build/javad_navsat_driver': /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/javad_navsat_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/javad_navsat_driver
+[0.074s] -- The C compiler identification is GNU 7.5.0
+[0.126s] -- The CXX compiler identification is GNU 7.5.0
+[0.131s] -- Check for working C compiler: /usr/bin/cc
+[0.187s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.187s] -- Detecting C compiler ABI info
+[0.243s] -- Detecting C compiler ABI info - done
+[0.251s] -- Detecting C compile features
+[0.422s] -- Detecting C compile features - done
+[0.425s] -- Check for working CXX compiler: /usr/bin/c++
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.503s] -- Detecting CXX compiler ABI info
+[0.580s] -- Detecting CXX compiler ABI info - done
+[0.588s] -- Detecting CXX compile features
+[0.907s] -- Detecting CXX compile features - done
+[0.909s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/javad_navsat_driver/devel
+[0.909s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[0.909s] -- This workspace overlays: /opt/ros/melodic
+[0.921s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.921s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.921s] -- Using Debian Python package layout
+[0.921s] -- Using empy: /usr/bin/empy
+[1.077s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.077s] -- Call enable_testing()
+[1.079s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/javad_navsat_driver/test_results
+[1.096s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.096s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.108s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.110s] -- Looking for pthread.h
+[1.170s] -- Looking for pthread.h - found
+[1.170s] -- Looking for pthread_create
+[1.234s] -- Looking for pthread_create - not found
+[1.235s] -- Looking for pthread_create in pthreads
+[1.293s] -- Looking for pthread_create in pthreads - not found
+[1.294s] -- Looking for pthread_create in pthread
+[1.352s] -- Looking for pthread_create in pthread - found
+[1.353s] -- Found Threads: TRUE  
+[1.357s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.400s] -- catkin 0.7.29
+[1.400s] -- BUILD_SHARED_LIBS is on
+[1.952s] -- Configuring done
+[1.958s] -- Generating done
+[1.958s] -- Build files have been written to: /home/agilex/autoware.ai/build/javad_navsat_driver
+[1.965s] Invoked command in '/home/agilex/autoware.ai/build/javad_navsat_driver' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/javad_navsat_driver -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/javad_navsat_driver
+[1.966s] Invoking command in '/home/agilex/autoware.ai/build/javad_navsat_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/javad_navsat_driver -- -j8 -l8
+[2.006s] Invoked command in '/home/agilex/autoware.ai/build/javad_navsat_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/javad_navsat_driver -- -j8 -l8
+[2.044s] Invoking command in '/home/agilex/autoware.ai/build/javad_navsat_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/javad_navsat_driver --target tests -- -j8 -l8
+[2.101s] [35m[1mScanning dependencies of target tests[0m
+[2.111s] Built target tests
+[2.125s] Invoked command in '/home/agilex/autoware.ai/build/javad_navsat_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/javad_navsat_driver --target tests -- -j8 -l8
+[2.150s] Invoking command in '/home/agilex/autoware.ai/build/javad_navsat_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/javad_navsat_driver --target install -- -j8 -l8
+[2.199s] [36mInstall the project...[0m
+[2.207s] -- Install configuration: "Release"
+[2.208s] + cd /home/agilex/autoware.ai/src/drivers/awf_drivers/javad_navsat_driver
+[2.208s] + mkdir -p /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages
+[2.209s] + /usr/bin/env PYTHONPATH=/home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages:/home/agilex/autoware.ai/build/javad_navsat_driver/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/agilex/autoware.ai/build/javad_navsat_driver /usr/bin/python2 /home/agilex/autoware.ai/src/drivers/awf_drivers/javad_navsat_driver/setup.py build --build-base /home/agilex/autoware.ai/build/javad_navsat_driver install --root=/ --install-layout=deb --prefix=/home/agilex/autoware.ai/install/javad_navsat_driver --install-scripts=/home/agilex/autoware.ai/install/javad_navsat_driver/bin
+[2.244s] running build
+[2.244s] running build_py
+[2.245s] creating /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7
+[2.245s] creating /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7/libjavad_navsat_driver
+[2.245s] copying lib/libjavad_navsat_driver/driver.py -> /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7/libjavad_navsat_driver
+[2.245s] copying lib/libjavad_navsat_driver/checksum_utils.py -> /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7/libjavad_navsat_driver
+[2.245s] copying lib/libjavad_navsat_driver/__init__.py -> /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7/libjavad_navsat_driver
+[2.245s] copying lib/libjavad_navsat_driver/parser.py -> /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7/libjavad_navsat_driver
+[2.245s] running install
+[2.246s] running install_lib
+[2.246s] creating /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/libjavad_navsat_driver
+[2.246s] copying /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7/libjavad_navsat_driver/driver.py -> /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/libjavad_navsat_driver
+[2.246s] copying /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7/libjavad_navsat_driver/checksum_utils.py -> /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/libjavad_navsat_driver
+[2.246s] copying /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7/libjavad_navsat_driver/__init__.py -> /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/libjavad_navsat_driver
+[2.246s] copying /home/agilex/autoware.ai/build/javad_navsat_driver/lib.linux-x86_64-2.7/libjavad_navsat_driver/parser.py -> /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/libjavad_navsat_driver
+[2.246s] byte-compiling /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/libjavad_navsat_driver/driver.py to driver.pyc
+[2.249s] byte-compiling /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/libjavad_navsat_driver/checksum_utils.py to checksum_utils.pyc
+[2.250s] byte-compiling /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/libjavad_navsat_driver/__init__.py to __init__.pyc
+[2.250s] byte-compiling /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/libjavad_navsat_driver/parser.py to parser.pyc
+[2.250s] running install_egg_info
+[2.250s] Writing /home/agilex/autoware.ai/install/javad_navsat_driver/lib/python2.7/dist-packages/javad_navsat_driver-1.11.0.egg-info
+[2.256s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/lib/pkgconfig/javad_navsat_driver.pc
+[2.256s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/share/javad_navsat_driver/cmake/javad_navsat_driverConfig.cmake
+[2.256s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/share/javad_navsat_driver/cmake/javad_navsat_driverConfig-version.cmake
+[2.256s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/share/javad_navsat_driver/package.xml
+[2.256s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/lib/javad_navsat_driver/javad_serial_driver
+[2.257s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/lib/javad_navsat_driver/javad_topic_driver
+[2.257s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/lib/javad_navsat_driver/javad_topic_serial_reader
+[2.257s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/share/javad_navsat_driver/launch
+[2.257s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/share/javad_navsat_driver/launch/javad_navsat.launch
+[2.257s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/share/javad_navsat_driver/cfg
+[2.259s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/share/javad_navsat_driver/cfg/disable.cfg
+[2.259s] -- Installing: /home/agilex/autoware.ai/install/javad_navsat_driver/share/javad_navsat_driver/cfg/enable.cfg
+[2.265s] Invoked command in '/home/agilex/autoware.ai/build/javad_navsat_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/javad_navsat_driver --target install -- -j8 -l8

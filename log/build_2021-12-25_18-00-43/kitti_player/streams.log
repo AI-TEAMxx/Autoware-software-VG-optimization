@@ -1,0 +1,197 @@
+[0.020s] Invoking command in '/home/agilex/autoware.ai/build/kitti_player': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kitti_player -- -j8 -l8
+[0.088s] [  0%] Built target stereo_msgs_generate_messages_nodejs
+[0.098s] [  0%] Built target stereo_msgs_generate_messages_eus
+[0.101s] [  0%] Built target std_srvs_generate_messages_py
+[0.105s] [  0%] Built target topic_tools_generate_messages_lisp
+[0.106s] [  0%] Built target topic_tools_generate_messages_nodejs
+[0.121s] [  0%] Built target stereo_msgs_generate_messages_lisp
+[0.121s] [  0%] Built target stereo_msgs_generate_messages_cpp
+[0.122s] [  0%] Built target topic_tools_generate_messages_eus
+[0.150s] [  0%] Built target topic_tools_generate_messages_cpp
+[0.155s] [  0%] Built target stereo_msgs_generate_messages_py
+[0.164s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.180s] [  0%] Built target roscpp_generate_messages_cpp
+[0.201s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.207s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.208s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.211s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.222s] [  0%] Built target actionlib_generate_messages_cpp
+[0.227s] [  0%] Built target bond_generate_messages_lisp
+[0.260s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.261s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.280s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.286s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.290s] [  0%] Built target tf_generate_messages_nodejs
+[0.295s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.323s] [  0%] Built target std_srvs_generate_messages_eus
+[0.335s] [  0%] Built target nodelet_generate_messages_py
+[0.340s] [  0%] Built target tf_generate_messages_lisp
+[0.344s] [  0%] Built target roscpp_generate_messages_lisp
+[0.356s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.361s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.368s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.385s] [  0%] Built target bond_generate_messages_eus
+[0.390s] [  0%] Built target std_msgs_generate_messages_py
+[0.417s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.418s] [  0%] Built target roscpp_generate_messages_py
+[0.433s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.437s] [  0%] Built target tf_generate_messages_py
+[0.441s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[0.466s] [  0%] Built target std_msgs_generate_messages_eus
+[0.470s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.470s] [  0%] Built target bond_generate_messages_cpp
+[0.479s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.488s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.500s] [  0%] Built target actionlib_generate_messages_lisp
+[0.502s] [  0%] Built target bond_generate_messages_py
+[0.526s] [  0%] Built target std_srvs_generate_messages_cpp
+[0.536s] [  0%] Built target pcl_ros_gencfg
+[0.540s] [  0%] Built target std_srvs_generate_messages_nodejs
+[0.545s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.551s] [  0%] Built target nodelet_generate_messages_cpp
+[0.557s] [  0%] Built target tf_generate_messages_eus
+[0.575s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.581s] [  0%] Built target roscpp_generate_messages_eus
+[0.597s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.605s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.606s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.614s] [  0%] Built target nodelet_generate_messages_lisp
+[0.617s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.637s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.637s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.644s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.661s] [  0%] Built target actionlib_generate_messages_py
+[0.663s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[0.667s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[0.686s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[0.691s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.694s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[0.696s] [  0%] Built target dynamic_reconfigure_gencfg
+[0.711s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.712s] [  0%] Built target nodelet_generate_messages_eus
+[0.719s] [  0%] Built target nodelet_generate_messages_nodejs
+[0.737s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.738s] [  0%] Built target nodelet_topic_tools_gencfg
+[0.739s] [  0%] Built target topic_tools_generate_messages_py
+[0.744s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.749s] [  0%] Built target bond_generate_messages_nodejs
+[0.751s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.766s] [  0%] Built target tf_generate_messages_cpp
+[0.789s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.793s] [ 33%] Built target kitti_player_gencfg
+[0.798s] [ 33%] Built target std_srvs_generate_messages_lisp
+[0.798s] [ 33%] Built target actionlib_generate_messages_eus
+[0.823s] [ 33%] Built target pcl_msgs_generate_messages_py
+[0.830s] [ 33%] Built target pcl_msgs_generate_messages_lisp
+[0.902s] [100%] Built target kitti_player
+[0.923s] Invoked command in '/home/agilex/autoware.ai/build/kitti_player' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kitti_player -- -j8 -l8
+[1.294s] Invoking command in '/home/agilex/autoware.ai/build/kitti_player': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kitti_player --target tests -- -j8 -l8
+[1.369s] Built target tests
+[1.385s] Invoked command in '/home/agilex/autoware.ai/build/kitti_player' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kitti_player --target tests -- -j8 -l8
+[1.695s] Invoking command in '/home/agilex/autoware.ai/build/kitti_player': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kitti_player --target install -- -j8 -l8
+[1.809s] [  0%] Built target topic_tools_generate_messages_eus
+[1.811s] [  0%] Built target stereo_msgs_generate_messages_lisp
+[1.813s] [  0%] Built target stereo_msgs_generate_messages_eus
+[1.822s] [  0%] Built target stereo_msgs_generate_messages_nodejs
+[1.827s] [  0%] Built target stereo_msgs_generate_messages_cpp
+[1.836s] [  0%] Built target std_srvs_generate_messages_py
+[1.837s] [  0%] Built target topic_tools_generate_messages_nodejs
+[1.859s] [  0%] Built target stereo_msgs_generate_messages_py
+[1.859s] [  0%] Built target topic_tools_generate_messages_lisp
+[1.863s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.882s] [  0%] Built target actionlib_generate_messages_cpp
+[1.886s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[1.897s] [  0%] Built target topic_tools_generate_messages_cpp
+[1.902s] [  0%] Built target roscpp_generate_messages_cpp
+[1.904s] [  0%] Built target bond_generate_messages_lisp
+[1.904s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[1.919s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[1.927s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.935s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.937s] [  0%] Built target sensor_msgs_generate_messages_py
+[1.944s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.950s] [  0%] Built target tf_generate_messages_nodejs
+[1.954s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.960s] [  0%] Built target nodelet_generate_messages_py
+[1.967s] [  0%] Built target tf_generate_messages_lisp
+[1.969s] [  0%] Built target sensor_msgs_generate_messages_eus
+[1.978s] [  0%] Built target std_srvs_generate_messages_eus
+[1.993s] [  0%] Built target roscpp_generate_messages_lisp
+[2.002s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.003s] [  0%] Built target std_msgs_generate_messages_py
+[2.014s] [  0%] Built target roscpp_generate_messages_py
+[2.023s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.032s] [  0%] Built target bond_generate_messages_cpp
+[2.046s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.059s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.061s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[2.062s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.070s] [  0%] Built target bond_generate_messages_eus
+[2.079s] [  0%] Built target tf_generate_messages_py
+[2.113s] [  0%] Built target std_msgs_generate_messages_eus
+[2.123s] [  0%] Built target nodelet_generate_messages_cpp
+[2.140s] [  0%] Built target actionlib_generate_messages_lisp
+[2.144s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.147s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.155s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.190s] [  0%] Built target pcl_ros_gencfg
+[2.190s] [  0%] Built target std_srvs_generate_messages_nodejs
+[2.193s] [  0%] Built target bond_generate_messages_py
+[2.204s] [  0%] Built target std_srvs_generate_messages_cpp
+[2.208s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.214s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[2.219s] [  0%] Built target tf_generate_messages_eus
+[2.235s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[2.245s] [  0%] Built target roscpp_generate_messages_eus
+[2.253s] [  0%] Built target nodelet_generate_messages_lisp
+[2.255s] [  0%] Built target actionlib_msgs_generate_messages_py
+[2.273s] [  0%] Built target tf2_msgs_generate_messages_py
+[2.274s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[2.280s] [  0%] Built target actionlib_generate_messages_py
+[2.290s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[2.306s] [  0%] Built target tf2_msgs_generate_messages_eus
+[2.310s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[2.314s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[2.324s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[2.331s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[2.335s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[2.362s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[2.369s] [  0%] Built target nodelet_generate_messages_eus
+[2.373s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[2.375s] [  0%] Built target nodelet_generate_messages_nodejs
+[2.380s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[2.385s] [  0%] Built target dynamic_reconfigure_gencfg
+[2.394s] [  0%] Built target bond_generate_messages_nodejs
+[2.406s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[2.421s] [  0%] Built target nodelet_topic_tools_gencfg
+[2.431s] [  0%] Built target topic_tools_generate_messages_py
+[2.432s] [  0%] Built target std_srvs_generate_messages_lisp
+[2.439s] [  0%] Built target pcl_msgs_generate_messages_eus
+[2.441s] [  0%] Built target actionlib_generate_messages_nodejs
+[2.452s] [  0%] Built target tf_generate_messages_cpp
+[2.453s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[2.461s] [  0%] Built target actionlib_generate_messages_eus
+[2.500s] [  0%] Built target pcl_msgs_generate_messages_py
+[2.524s] [ 33%] Built target kitti_player_gencfg
+[2.576s] [100%] Built target kitti_player
+[2.608s] [36mInstall the project...[0m
+[2.622s] -- Install configuration: "Release"
+[2.622s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/include/kitti_player/kitti_playerConfig.h
+[2.622s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/__init__.py
+[2.640s] Listing /home/agilex/autoware.ai/build/kitti_player/devel/lib/python2.7/dist-packages/kitti_player/cfg ...
+[2.644s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/cfg
+[2.644s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/cfg/kitti_playerConfig.py
+[2.644s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/cfg/kitti_playerConfig.pyc
+[2.644s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/cfg/__init__.pyc
+[2.644s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/lib/python2.7/dist-packages/kitti_player/cfg/__init__.py
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/lib/pkgconfig/kitti_player.pc
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/share/kitti_player/cmake/kitti_playerConfig.cmake
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/share/kitti_player/cmake/kitti_playerConfig-version.cmake
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/share/kitti_player/package.xml
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/lib/kitti_player/kitti_player
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/share/kitti_player/launch
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/share/kitti_player/launch/kittiplayer_libviso2.launch
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/share/kitti_player/cfg
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/share/kitti_player/cfg/rviz_kitti_player.rviz
+[2.645s] -- Up-to-date: /home/agilex/autoware.ai/install/kitti_player/share/kitti_player/cfg/kitti_player.cfg
+[2.647s] Invoked command in '/home/agilex/autoware.ai/build/kitti_player' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kitti_player --target install -- -j8 -l8

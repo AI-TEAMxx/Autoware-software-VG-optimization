@@ -1,0 +1,4 @@
+[01m[K/home/agilex/autoware.ai/src/autoware/core_planning/op_utilities/nodes/op_data_logger/op_data_logger_core.cpp:[m[K In member function '[01m[Kvoid DataLoggerNS::OpenPlannerDataLogger::CompareAndLog(DataLoggerNS::VehicleDataContainer&, PlannerHNS::DetectedObject&)[m[K':
+[01m[K/home/agilex/autoware.ai/src/autoware/core_planning/op_utilities/nodes/op_data_logger/op_data_logger_core.cpp:293:41:[m[K [01;35m[Kwarning: [m[Kcomparison between '[01m[Kenum PlannerHNS::STATE_TYPE[m[K' and '[01m[Kenum PlannerHNS::BEH_STATE_TYPE[m[K' [[01;35m[K-Wenum-compare[m[K]
+  if(ground_truth.beh.state == predicted.[01;35m[Kbehavior_state[m[K)
+                                         [01;35m[K^~~~~~~~~~~~~~[m[K

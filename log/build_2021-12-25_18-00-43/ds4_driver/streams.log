@@ -1,0 +1,16 @@
+[0.016s] Invoking command in '/home/agilex/autoware.ai/build/ds4_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver -- -j8 -l8
+[0.076s] Invoked command in '/home/agilex/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver -- -j8 -l8
+[0.189s] Invoking command in '/home/agilex/autoware.ai/build/ds4_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver --target tests -- -j8 -l8
+[0.259s] Built target tests
+[0.272s] Invoked command in '/home/agilex/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver --target tests -- -j8 -l8
+[0.478s] Invoking command in '/home/agilex/autoware.ai/build/ds4_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver --target install -- -j8 -l8
+[0.646s] [36mInstall the project...[0m
+[0.661s] -- Install configuration: "Release"
+[0.661s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_driver/lib/pkgconfig/ds4_driver.pc
+[0.661s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake
+[0.662s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake
+[0.662s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_driver/share/ds4_driver/package.xml
+[0.662s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_driver/lib/ds4_driver/ds4_driver
+[0.662s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_driver/share/ds4_driver/launch
+[0.662s] -- Up-to-date: /home/agilex/autoware.ai/install/ds4_driver/share/ds4_driver/launch/ds4_driver.launch
+[0.684s] Invoked command in '/home/agilex/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver --target install -- -j8 -l8

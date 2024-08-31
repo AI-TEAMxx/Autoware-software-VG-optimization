@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/build/vehicle_model/devel
+
+Name: vehicle_model
+Description: Description of vehicle_model
+Version: 1.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

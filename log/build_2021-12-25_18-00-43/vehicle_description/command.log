@@ -1,0 +1,6 @@
+Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target install -- -j8 -l8

@@ -1,0 +1,6 @@
+/home/agilex/autoware.ai/install/way_planner/lib/pkgconfig/way_planner.pc
+/home/agilex/autoware.ai/install/way_planner/share/way_planner/cmake/way_plannerConfig.cmake
+/home/agilex/autoware.ai/install/way_planner/share/way_planner/cmake/way_plannerConfig-version.cmake
+/home/agilex/autoware.ai/install/way_planner/share/way_planner/package.xml
+/home/agilex/autoware.ai/install/way_planner/lib/way_planner/way_planner
+/home/agilex/autoware.ai/install/way_planner/share/way_planner/launch/way_planner.launch

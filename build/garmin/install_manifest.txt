@@ -1,0 +1,5 @@
+/home/agilex/autoware.ai/install/garmin/lib/pkgconfig/garmin.pc
+/home/agilex/autoware.ai/install/garmin/share/garmin/cmake/garminConfig.cmake
+/home/agilex/autoware.ai/install/garmin/share/garmin/cmake/garminConfig-version.cmake
+/home/agilex/autoware.ai/install/garmin/share/garmin/package.xml
+/home/agilex/autoware.ai/install/garmin/lib/garmin/garmin_gps_18x_lvc

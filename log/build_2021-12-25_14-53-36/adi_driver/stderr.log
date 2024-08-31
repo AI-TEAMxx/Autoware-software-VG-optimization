@@ -1,0 +1,4 @@
+[01m[K/home/agilex/autoware.ai/src/drivers/awf_drivers/analog_devices/src/adis16470.cpp:[m[K In member function '[01m[Kint Adis16470::read_register(char, int16_t&)[m[K':
+[01m[K/home/agilex/autoware.ai/src/drivers/awf_drivers/analog_devices/src/adis16470.cpp:201:47:[m[K [01;35m[Kwarning: [m[Knarrowing conversion of '[01m[Kaddress[m[K' from '[01m[Kchar[m[K' to '[01m[Kunsigned char[m[K' inside { } [[01;35m[K-Wnarrowing[m[K]
+   unsigned char buff[3] = {0x61, address, 0x00[01;35m[K}[m[K;
+                                               [01;35m[K^[m[K

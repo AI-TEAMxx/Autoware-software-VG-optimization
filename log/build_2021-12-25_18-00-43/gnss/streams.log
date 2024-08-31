@@ -1,0 +1,18 @@
+[0.036s] Invoking command in '/home/agilex/autoware.ai/build/gnss': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss -- -j8 -l8
+[0.170s] [100%] Built target gnss
+[0.184s] Invoked command in '/home/agilex/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss -- -j8 -l8
+[0.620s] Invoking command in '/home/agilex/autoware.ai/build/gnss': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss --target tests -- -j8 -l8
+[0.749s] Built target tests
+[0.770s] Invoked command in '/home/agilex/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss --target tests -- -j8 -l8
+[0.904s] Invoking command in '/home/agilex/autoware.ai/build/gnss': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss --target install -- -j8 -l8
+[1.038s] [100%] Built target gnss
+[1.053s] [36mInstall the project...[0m
+[1.061s] -- Install configuration: "Release"
+[1.061s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss/lib/pkgconfig/gnss.pc
+[1.061s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig.cmake
+[1.062s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+[1.062s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss/share/gnss/package.xml
+[1.063s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss/include/gnss
+[1.063s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss/include/gnss/geo_pos_conv.hpp
+[1.063s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss/lib/libgnss.so
+[1.081s] Invoked command in '/home/agilex/autoware.ai/build/gnss' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss --target install -- -j8 -l8

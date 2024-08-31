@@ -1,0 +1,9 @@
+/home/agilex/autoware.ai/install/pcl_omp_registration/lib/pkgconfig/pcl_omp_registration.pc
+/home/agilex/autoware.ai/install/pcl_omp_registration/share/pcl_omp_registration/cmake/pcl_omp_registrationConfig.cmake
+/home/agilex/autoware.ai/install/pcl_omp_registration/share/pcl_omp_registration/cmake/pcl_omp_registrationConfig-version.cmake
+/home/agilex/autoware.ai/install/pcl_omp_registration/share/pcl_omp_registration/package.xml
+/home/agilex/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration/registration.h
+/home/agilex/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration/ndt.h
+/home/agilex/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration/impl/registration.hpp
+/home/agilex/autoware.ai/install/pcl_omp_registration/include/pcl_omp_registration/impl/ndt.hpp
+/home/agilex/autoware.ai/install/pcl_omp_registration/lib/libpcl_omp_registration.so

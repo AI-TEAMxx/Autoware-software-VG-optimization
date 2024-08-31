@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/sick_ldmrs_msgs
+
+Name: sick_ldmrs_msgs
+Description: Description of sick_ldmrs_msgs
+Version: 1.11.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: message_runtime std_msgs geometry_msgs

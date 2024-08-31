@@ -1,0 +1,15 @@
+[0.017s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description -- -j8 -l8
+[0.097s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description -- -j8 -l8
+[0.261s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description --target tests -- -j8 -l8
+[0.428s] Built target tests
+[0.430s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description --target tests -- -j8 -l8
+[0.568s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description --target install -- -j8 -l8
+[0.638s] [36mInstall the project...[0m
+[0.646s] -- Install configuration: "Release"
+[0.646s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_imu_description/lib/pkgconfig/gazebo_imu_description.pc
+[0.647s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig.cmake
+[0.647s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig-version.cmake
+[0.647s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/package.xml
+[0.647s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/urdf
+[0.648s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/urdf/imu.xacro
+[0.650s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description --target install -- -j8 -l8

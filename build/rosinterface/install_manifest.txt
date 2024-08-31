@@ -1,0 +1,6 @@
+/home/agilex/autoware.ai/install/rosinterface/lib/pkgconfig/rosinterface.pc
+/home/agilex/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig.cmake
+/home/agilex/autoware.ai/install/rosinterface/share/rosinterface/cmake/rosinterfaceConfig-version.cmake
+/home/agilex/autoware.ai/install/rosinterface/share/rosinterface/package.xml
+/home/agilex/autoware.ai/install/rosinterface/include/rosinterface/rosinterface.h
+/home/agilex/autoware.ai/install/rosinterface/lib/librosinterface.so

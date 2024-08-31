@@ -1,0 +1,15 @@
+/home/agilex/autoware.ai/install/autoware_health_checker/lib/pkgconfig/autoware_health_checker.pc
+/home/agilex/autoware.ai/install/autoware_health_checker/share/autoware_health_checker/cmake/autoware_health_checkerConfig.cmake
+/home/agilex/autoware.ai/install/autoware_health_checker/share/autoware_health_checker/cmake/autoware_health_checkerConfig-version.cmake
+/home/agilex/autoware.ai/install/autoware_health_checker/share/autoware_health_checker/package.xml
+/home/agilex/autoware.ai/install/autoware_health_checker/lib/autoware_health_checker/health_aggregator
+/home/agilex/autoware.ai/install/autoware_health_checker/lib/autoware_health_checker/health_analyzer
+/home/agilex/autoware.ai/install/autoware_health_checker/include/autoware_health_checker/health_analyzer.h
+/home/agilex/autoware.ai/install/autoware_health_checker/include/autoware_health_checker/diag_buffer.h
+/home/agilex/autoware.ai/install/autoware_health_checker/include/autoware_health_checker/node_status_publisher.h
+/home/agilex/autoware.ai/install/autoware_health_checker/include/autoware_health_checker/health_aggregator.h
+/home/agilex/autoware.ai/install/autoware_health_checker/include/autoware_health_checker/constants.h
+/home/agilex/autoware.ai/install/autoware_health_checker/include/autoware_health_checker/system_status_subscriber.h
+/home/agilex/autoware.ai/install/autoware_health_checker/include/autoware_health_checker/rate_checker.h
+/home/agilex/autoware.ai/install/autoware_health_checker/lib/libnode_status_publisher.so
+/home/agilex/autoware.ai/install/autoware_health_checker/lib/libsystem_status_subscriber.so

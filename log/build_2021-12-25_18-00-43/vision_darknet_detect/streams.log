@@ -1,0 +1,140 @@
+[0.065s] Invoking command in '/home/agilex/autoware.ai/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vision_darknet_detect -- -j8 -l8
+[0.161s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[0.164s] [  0%] Built target roscpp_generate_messages_lisp
+[0.168s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.197s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.197s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.200s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.217s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.232s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.237s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.239s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.281s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.281s] [  0%] Built target roscpp_generate_messages_eus
+[0.298s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.303s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.322s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.331s] [  0%] Built target std_msgs_generate_messages_eus
+[0.338s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[0.373s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.380s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.394s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.414s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.437s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.443s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.447s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.448s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.490s] [  0%] Built target std_msgs_generate_messages_py
+[0.490s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.492s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.499s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.524s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.529s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.544s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.558s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.577s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.582s] [  0%] Built target roscpp_generate_messages_cpp
+[0.591s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.603s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.633s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.637s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.641s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.648s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[0.682s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.691s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.692s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.711s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.728s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.732s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.742s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.747s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.777s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.781s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[0.784s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[0.785s] [  0%] Built target roscpp_generate_messages_py
+[0.787s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.793s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.871s] [ 93%] Built target vision_darknet_detect_lib
+[0.920s] [100%] Built target vision_darknet_detect
+[0.964s] Invoked command in '/home/agilex/autoware.ai/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vision_darknet_detect -- -j8 -l8
+[1.326s] Invoking command in '/home/agilex/autoware.ai/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vision_darknet_detect --target tests -- -j8 -l8
+[1.434s] Built target tests
+[1.446s] Invoked command in '/home/agilex/autoware.ai/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vision_darknet_detect --target tests -- -j8 -l8
+[2.079s] Invoking command in '/home/agilex/autoware.ai/build/vision_darknet_detect': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vision_darknet_detect --target install -- -j8 -l8
+[2.143s] [  0%] Built target roscpp_generate_messages_lisp
+[2.144s] [  0%] Built target autoware_config_msgs_generate_messages_py
+[2.144s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[2.150s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.181s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[2.186s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.187s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[2.192s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.209s] [  0%] Built target roscpp_generate_messages_py
+[2.216s] [  0%] Built target sensor_msgs_generate_messages_eus
+[2.229s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.241s] [  0%] Built target roscpp_generate_messages_nodejs
+[2.241s] [  0%] Built target pcl_msgs_generate_messages_py
+[2.242s] [  0%] Built target roscpp_generate_messages_eus
+[2.263s] [  0%] Built target geometry_msgs_generate_messages_eus
+[2.274s] [  0%] Built target autoware_config_msgs_generate_messages_nodejs
+[2.277s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[2.295s] [  0%] Built target std_msgs_generate_messages_eus
+[2.298s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[2.306s] [  0%] Built target autoware_msgs_generate_messages_eus
+[2.310s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[2.323s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[2.345s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[2.351s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.352s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[2.386s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.388s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.397s] [  0%] Built target autoware_msgs_generate_messages_py
+[2.401s] [  0%] Built target std_msgs_generate_messages_py
+[2.409s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.422s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.428s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[2.436s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[2.456s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[2.480s] [  0%] Built target roscpp_generate_messages_cpp
+[2.493s] [  0%] Built target autoware_config_msgs_generate_messages_cpp
+[2.511s] [  0%] Built target sensor_msgs_generate_messages_py
+[2.511s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[2.535s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[2.542s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[2.575s] [  0%] Built target pcl_msgs_generate_messages_eus
+[2.578s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.581s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[2.599s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[2.601s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.606s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[2.623s] [  0%] Built target actionlib_msgs_generate_messages_py
+[2.634s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[2.658s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[2.716s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[2.716s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[2.716s] [  0%] Built target autoware_config_msgs_generate_messages_eus
+[2.717s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[2.717s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.717s] [  0%] Built target autoware_config_msgs_generate_messages_lisp
+[2.723s] [ 93%] Built target vision_darknet_detect_lib
+[2.791s] [100%] Built target vision_darknet_detect
+[2.841s] [36mInstall the project...[0m
+[2.863s] -- Install configuration: "Release"
+[2.864s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/lib/pkgconfig/vision_darknet_detect.pc
+[2.864s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig.cmake
+[2.864s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/cmake/vision_darknet_detectConfig-version.cmake
+[2.864s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/package.xml
+[2.871s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/lib/libvision_darknet_detect_lib.so
+[2.878s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/lib/vision_darknet_detect/vision_darknet_detect
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/launch
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo2_detect.launch
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/launch/vision_yolo3_detect.launch
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg/
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-voc.cfg
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3.cfg
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//voc.names
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//coco.names
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2.cfg
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov2-tiny.cfg
+[2.879s] -- Up-to-date: /home/agilex/autoware.ai/install/vision_darknet_detect/share/vision_darknet_detect/darknet/cfg//yolov3-tiny.cfg
+[2.888s] Invoked command in '/home/agilex/autoware.ai/build/vision_darknet_detect' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vision_darknet_detect --target install -- -j8 -l8

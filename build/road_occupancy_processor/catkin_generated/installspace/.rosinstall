@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/agilex/autoware.ai/install/road_occupancy_processor/setup.sh

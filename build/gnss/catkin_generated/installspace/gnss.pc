@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/gnss
+
+Name: gnss
+Description: Description of gnss
+Version: 1.11.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lgnss
+Requires: 

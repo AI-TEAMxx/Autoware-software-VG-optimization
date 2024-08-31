@@ -1,0 +1,14 @@
+/home/agilex/autoware.ai/install/waypoint_maker/lib/pkgconfig/waypoint_maker.pc
+/home/agilex/autoware.ai/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig.cmake
+/home/agilex/autoware.ai/install/waypoint_maker/share/waypoint_maker/cmake/waypoint_makerConfig-version.cmake
+/home/agilex/autoware.ai/install/waypoint_maker/share/waypoint_maker/package.xml
+/home/agilex/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_loader
+/home/agilex/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_replanner
+/home/agilex/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_saver
+/home/agilex/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_clicker
+/home/agilex/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_marker_publisher
+/home/agilex/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_velocity_visualizer
+/home/agilex/autoware.ai/install/waypoint_maker/lib/waypoint_maker/waypoint_extractor
+/home/agilex/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_saver.launch
+/home/agilex/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_loader.launch
+/home/agilex/autoware.ai/install/waypoint_maker/share/waypoint_maker/launch/waypoint_velocity_visualizer.launch

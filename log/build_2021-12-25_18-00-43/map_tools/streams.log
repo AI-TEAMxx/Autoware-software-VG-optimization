@@ -1,0 +1,34 @@
+[0.018s] Invoking command in '/home/agilex/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/map_tools -- -j8 -l8
+[0.097s] [ 14%] Built target csv2pcd
+[0.100s] [ 28%] Built target pcd2csv
+[0.105s] [ 42%] Built target pcd_grid_divider
+[0.108s] [ 57%] Built target pcd_arealist
+[0.111s] [ 71%] Built target map_extender
+[0.136s] [ 85%] Built target pcd_filter
+[0.145s] [100%] Built target pcd_binarizer
+[0.159s] Invoked command in '/home/agilex/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/map_tools -- -j8 -l8
+[0.478s] Invoking command in '/home/agilex/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/map_tools --target tests -- -j8 -l8
+[0.568s] Built target tests
+[0.579s] Invoked command in '/home/agilex/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/map_tools --target tests -- -j8 -l8
+[0.998s] Invoking command in '/home/agilex/autoware.ai/build/map_tools': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/map_tools --target install -- -j8 -l8
+[1.074s] [ 14%] Built target csv2pcd
+[1.083s] [ 28%] Built target pcd_arealist
+[1.084s] [ 42%] Built target pcd2csv
+[1.101s] [ 57%] Built target pcd_grid_divider
+[1.101s] [ 71%] Built target map_extender
+[1.117s] [ 85%] Built target pcd_filter
+[1.131s] [100%] Built target pcd_binarizer
+[1.155s] [36mInstall the project...[0m
+[1.165s] -- Install configuration: "Release"
+[1.165s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/lib/pkgconfig/map_tools.pc
+[1.165s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/share/map_tools/cmake/map_toolsConfig.cmake
+[1.165s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/share/map_tools/cmake/map_toolsConfig-version.cmake
+[1.165s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/share/map_tools/package.xml
+[1.167s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/lib/map_tools/pcd_filter
+[1.167s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/lib/map_tools/pcd_binarizer
+[1.171s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/lib/map_tools/pcd_arealist
+[1.171s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/lib/map_tools/csv2pcd
+[1.173s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/lib/map_tools/pcd2csv
+[1.173s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/lib/map_tools/map_extender
+[1.174s] -- Up-to-date: /home/agilex/autoware.ai/install/map_tools/lib/map_tools/pcd_grid_divider
+[1.189s] Invoked command in '/home/agilex/autoware.ai/build/map_tools' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/map_tools --target install -- -j8 -l8

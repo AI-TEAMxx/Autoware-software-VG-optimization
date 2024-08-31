@@ -1,0 +1,8 @@
+Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/vehicle_description
+Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/visualization/vehicle_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/vehicle_description
+Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/vehicle_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/vehicle_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/vehicle_description --target install -- -j8 -l8

@@ -1,0 +1,163 @@
+[0.021s] Invoking command in '/home/agilex/autoware.ai/build/kvaser': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/kvaser -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/kvaser
+[0.083s] -- The C compiler identification is GNU 7.5.0
+[0.138s] -- The CXX compiler identification is GNU 7.5.0
+[0.143s] -- Check for working C compiler: /usr/bin/cc
+[0.209s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.210s] -- Detecting C compiler ABI info
+[0.270s] -- Detecting C compiler ABI info - done
+[0.281s] -- Detecting C compile features
+[0.461s] -- Detecting C compile features - done
+[0.464s] -- Check for working CXX compiler: /usr/bin/c++
+[0.534s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.535s] -- Detecting CXX compiler ABI info
+[0.608s] -- Detecting CXX compiler ABI info - done
+[0.616s] -- Detecting CXX compile features
+[0.917s] -- Detecting CXX compile features - done
+[0.919s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/kvaser/devel
+[0.919s] -- Using CMAKE_PREFIX_PATH: /home/agilex/autoware.ai/install/autoware_can_msgs;/opt/ros/melodic
+[0.920s] -- This workspace overlays: /home/agilex/autoware.ai/install/autoware_can_msgs;/opt/ros/melodic
+[0.933s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.934s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.934s] -- Using Debian Python package layout
+[0.934s] -- Using empy: /usr/bin/empy
+[1.092s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.092s] -- Call enable_testing()
+[1.094s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/kvaser/test_results
+[1.113s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.113s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.126s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.127s] -- Looking for pthread.h
+[1.190s] -- Looking for pthread.h - found
+[1.191s] -- Looking for pthread_create
+[1.252s] -- Looking for pthread_create - not found
+[1.252s] -- Looking for pthread_create in pthreads
+[1.300s] -- Looking for pthread_create in pthreads - not found
+[1.300s] -- Looking for pthread_create in pthread
+[1.355s] -- Looking for pthread_create in pthread - found
+[1.356s] -- Found Threads: TRUE  
+[1.361s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.408s] -- catkin 0.7.29
+[1.408s] -- BUILD_SHARED_LIBS is on
+[1.736s] 'canlib' is not installed. 'can_listener' is not built.
+[1.738s] -- Configuring done
+[1.761s] -- Generating done
+[1.765s] -- Build files have been written to: /home/agilex/autoware.ai/build/kvaser
+[1.772s] Invoked command in '/home/agilex/autoware.ai/build/kvaser' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/kvaser -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/kvaser
+[1.775s] Invoking command in '/home/agilex/autoware.ai/build/kvaser': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kvaser -- -j8 -l8
+[1.820s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_lisp[0m
+[1.830s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[1.838s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[1.850s] [  0%] Built target roscpp_generate_messages_py
+[1.868s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[1.878s] [  0%] Built target std_msgs_generate_messages_py
+[1.887s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[1.900s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.910s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[1.919s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.929s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[1.939s] [  0%] Built target roscpp_generate_messages_eus
+[1.950s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[1.962s] [  0%] Built target roscpp_generate_messages_lisp
+[1.974s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_eus[0m
+[1.983s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[1.992s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[2.002s] [  0%] Built target roscpp_generate_messages_cpp
+[2.011s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[2.021s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[2.030s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[2.039s] [  0%] Built target std_msgs_generate_messages_lisp
+[2.049s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[2.058s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.070s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[2.079s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[2.098s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[2.108s] [  0%] Built target visualization_msgs_generate_messages_eus
+[2.143s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[2.167s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[2.199s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[2.233s] [  0%] Built target std_msgs_generate_messages_cpp
+[2.284s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[2.318s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[2.350s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[2.392s] [  0%] Built target visualization_msgs_generate_messages_py
+[2.427s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_py[0m
+[2.450s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[2.483s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[2.533s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[2.565s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[2.588s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[2.597s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[2.609s] [  0%] Built target geometry_msgs_generate_messages_py
+[2.618s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_cpp[0m
+[2.629s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[2.639s] [35m[1mScanning dependencies of target autoware_can_msgs_generate_messages_nodejs[0m
+[2.650s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[2.660s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[2.674s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[2.699s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[2.732s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[2.764s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[2.798s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[2.835s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[2.844s] [  0%] Built target std_msgs_generate_messages_eus
+[2.854s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[2.883s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[2.917s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[2.950s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[2.984s] [35m[1mScanning dependencies of target can_draw[0m
+[3.050s] [ 25%] [32mBuilding CXX object CMakeFiles/can_draw.dir/nodes/can_draw/can_draw.cpp.o[0m
+[5.009s] [ 50%] [32m[1mLinking CXX executable devel/lib/kvaser/can_draw[0m
+[5.164s] [ 50%] Built target can_draw
+[5.179s] [35m[1mScanning dependencies of target can_converter[0m
+[5.207s] [ 75%] [32mBuilding CXX object CMakeFiles/can_converter.dir/nodes/can_converter/can_converter.cpp.o[0m
+[6.903s] [100%] [32m[1mLinking CXX executable devel/lib/kvaser/can_converter[0m
+[7.046s] [100%] Built target can_converter
+[7.055s] Invoked command in '/home/agilex/autoware.ai/build/kvaser' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kvaser -- -j8 -l8
+[7.120s] Invoking command in '/home/agilex/autoware.ai/build/kvaser': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kvaser --target tests -- -j8 -l8
+[7.176s] [35m[1mScanning dependencies of target tests[0m
+[7.188s] Built target tests
+[7.200s] Invoked command in '/home/agilex/autoware.ai/build/kvaser' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kvaser --target tests -- -j8 -l8
+[7.255s] Invoking command in '/home/agilex/autoware.ai/build/kvaser': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kvaser --target install -- -j8 -l8
+[7.319s] [  0%] Built target autoware_can_msgs_generate_messages_lisp
+[7.343s] [  0%] Built target roscpp_generate_messages_py
+[7.359s] [  0%] Built target std_msgs_generate_messages_py
+[7.379s] [  0%] Built target geometry_msgs_generate_messages_eus
+[7.396s] [  0%] Built target roscpp_generate_messages_nodejs
+[7.418s] [  0%] Built target roscpp_generate_messages_eus
+[7.433s] [  0%] Built target roscpp_generate_messages_lisp
+[7.452s] [  0%] Built target autoware_can_msgs_generate_messages_eus
+[7.473s] [  0%] Built target roscpp_generate_messages_cpp
+[7.491s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[7.507s] [  0%] Built target std_msgs_generate_messages_lisp
+[7.526s] [  0%] Built target std_msgs_generate_messages_nodejs
+[7.548s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[7.566s] [  0%] Built target visualization_msgs_generate_messages_eus
+[7.583s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[7.602s] [  0%] Built target std_msgs_generate_messages_cpp
+[7.618s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[7.638s] [  0%] Built target visualization_msgs_generate_messages_py
+[7.659s] [  0%] Built target autoware_can_msgs_generate_messages_py
+[7.675s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[7.696s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[7.717s] [  0%] Built target geometry_msgs_generate_messages_py
+[7.743s] [  0%] Built target autoware_can_msgs_generate_messages_cpp
+[7.763s] [  0%] Built target autoware_can_msgs_generate_messages_nodejs
+[7.780s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[7.798s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[7.815s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[7.833s] [  0%] Built target std_msgs_generate_messages_eus
+[7.849s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[7.865s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[7.889s] [ 50%] Built target can_draw
+[7.911s] [100%] Built target can_converter
+[7.930s] [36mInstall the project...[0m
+[7.937s] -- Install configuration: "Release"
+[7.937s] -- Installing: /home/agilex/autoware.ai/install/kvaser/lib/pkgconfig/kvaser.pc
+[7.937s] -- Installing: /home/agilex/autoware.ai/install/kvaser/share/kvaser/cmake/kvaserConfig.cmake
+[7.938s] -- Installing: /home/agilex/autoware.ai/install/kvaser/share/kvaser/cmake/kvaserConfig-version.cmake
+[7.938s] -- Installing: /home/agilex/autoware.ai/install/kvaser/share/kvaser/package.xml
+[7.938s] -- Installing: /home/agilex/autoware.ai/install/kvaser/lib/kvaser/can_converter
+[7.938s] -- Set runtime path of "/home/agilex/autoware.ai/install/kvaser/lib/kvaser/can_converter" to ""
+[7.938s] -- Installing: /home/agilex/autoware.ai/install/kvaser/lib/kvaser/can_draw
+[7.938s] -- Set runtime path of "/home/agilex/autoware.ai/install/kvaser/lib/kvaser/can_draw" to ""
+[7.941s] Invoked command in '/home/agilex/autoware.ai/build/kvaser' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_can_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/kvaser --target install -- -j8 -l8

@@ -1,0 +1,434 @@
+[0.029s] Invoking command in '/home/agilex/autoware.ai/build/trafficlight_recognizer': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_server:/home/agilex/autoware.ai/install/libvectormap:/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/runtime_manager:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_server/share:/home/agilex/autoware.ai/install/libvectormap/share:/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/runtime_manager/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/trafficlight_recognizer
+[0.089s] -- The C compiler identification is GNU 7.5.0
+[0.148s] -- The CXX compiler identification is GNU 7.5.0
+[0.150s] -- Check for working C compiler: /usr/bin/cc
+[0.214s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.215s] -- Detecting C compiler ABI info
+[0.275s] -- Detecting C compiler ABI info - done
+[0.284s] -- Detecting C compile features
+[0.462s] -- Detecting C compile features - done
+[0.465s] -- Check for working CXX compiler: /usr/bin/c++
+[0.540s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.541s] -- Detecting CXX compiler ABI info
+[0.622s] -- Detecting CXX compiler ABI info - done
+[0.631s] -- Detecting CXX compile features
+[0.968s] -- Detecting CXX compile features - done
+[0.970s] -- CUDA compilation status: .
+[1.034s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/trafficlight_recognizer/devel
+[1.034s] -- Using CMAKE_PREFIX_PATH: /home/agilex/autoware.ai/install/vector_map_server;/home/agilex/autoware.ai/install/libvectormap;/home/agilex/autoware.ai/install/vector_map;/home/agilex/autoware.ai/install/runtime_manager;/home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/tablet_socket_msgs;/home/agilex/autoware.ai/install/autoware_msgs;/home/agilex/autoware.ai/install/autoware_config_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.034s] -- This workspace overlays: /home/agilex/autoware.ai/install/vector_map_server;/home/agilex/autoware.ai/install/libvectormap;/home/agilex/autoware.ai/install/vector_map;/home/agilex/autoware.ai/install/runtime_manager;/home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/tablet_socket_msgs;/home/agilex/autoware.ai/install/autoware_msgs;/home/agilex/autoware.ai/install/autoware_config_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.051s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.051s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.051s] -- Using Debian Python package layout
+[1.051s] -- Using empy: /usr/bin/empy
+[1.203s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.203s] -- Call enable_testing()
+[1.205s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/trafficlight_recognizer/test_results
+[1.223s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.224s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.237s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.239s] -- Looking for pthread.h
+[1.296s] -- Looking for pthread.h - found
+[1.297s] -- Looking for pthread_create
+[1.366s] -- Looking for pthread_create - not found
+[1.367s] -- Looking for pthread_create in pthreads
+[1.418s] -- Looking for pthread_create in pthreads - not found
+[1.419s] -- Looking for pthread_create in pthread
+[1.483s] -- Looking for pthread_create in pthread - found
+[1.484s] -- Found Threads: TRUE  
+[1.488s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.535s] -- catkin 0.7.29
+[1.535s] -- BUILD_SHARED_LIBS is on
+[1.639s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.890s] -- Found OpenCV: /usr (found version "3.2.0") 
+[1.908s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.051s] -- Found TinyXML: /usr/lib/x86_64-linux-gnu/libtinyxml.so  
+[2.052s] CMake Warning at /home/agilex/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:36 (message):
+[2.052s]   CUDA support is disabled.  Set the AUTOWARE_COMPILE_WITH_CUDA environment
+[2.052s]   variable and recompile to enable it
+[2.052s] Call Stack (most recent call first):
+[2.052s]   CMakeLists.txt:251 (AW_CHECK_CUDA)
+[2.052s] 
+[2.053s] 
+[2.053s] 'SSD/Caffe' is not installed. 'region_tlr_ssd' will not be built.
+[2.053s] CMake Warning at /home/agilex/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:36 (message):
+[2.054s]   CUDA support is disabled.  Set the AUTOWARE_COMPILE_WITH_CUDA environment
+[2.054s]   variable and recompile to enable it
+[2.054s] Call Stack (most recent call first):
+[2.054s]   CMakeLists.txt:315 (AW_CHECK_CUDA)
+[2.054s] 
+[2.054s] 
+[2.055s] 'MXNET Package' is not installed. 'region_tlr_mxnet' will not be built.
+[2.059s] -- Configuring done
+[2.165s] -- Generating done
+[2.178s] -- Build files have been written to: /home/agilex/autoware.ai/build/trafficlight_recognizer
+[2.187s] Invoked command in '/home/agilex/autoware.ai/build/trafficlight_recognizer' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_server:/home/agilex/autoware.ai/install/libvectormap:/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/runtime_manager:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_server/share:/home/agilex/autoware.ai/install/libvectormap/share:/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/runtime_manager/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/trafficlight_recognizer
+[2.188s] Invoking command in '/home/agilex/autoware.ai/build/trafficlight_recognizer': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_server:/home/agilex/autoware.ai/install/libvectormap:/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/runtime_manager:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_server/share:/home/agilex/autoware.ai/install/libvectormap/share:/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/runtime_manager/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/trafficlight_recognizer -- -j8 -l8
+[2.232s] [35m[1mScanning dependencies of target label_maker_autogen[0m
+[2.242s] [  2%] [34m[1mAutomatic MOC, UIC and RCC for target label_maker[0m
+[2.365s] [  2%] Built target label_maker_autogen
+[2.378s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_lisp[0m
+[2.388s] [  2%] Built target vector_map_server_generate_messages_lisp
+[2.397s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[2.405s] [  2%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[2.414s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[2.423s] [  2%] Built target jsk_footstep_msgs_generate_messages_lisp
+[2.432s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[2.443s] [  2%] Built target jsk_footstep_msgs_generate_messages_eus
+[2.451s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[2.460s] [  2%] Built target actionlib_msgs_generate_messages_py
+[2.473s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[2.482s] [  2%] Built target geometry_msgs_generate_messages_py
+[2.492s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[2.501s] [  2%] Built target pcl_msgs_generate_messages_nodejs
+[2.510s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[2.519s] [  2%] Built target jsk_recognition_msgs_generate_messages_py
+[2.528s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[2.537s] [  2%] Built target pcl_msgs_generate_messages_eus
+[2.546s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[2.555s] [  2%] Built target rosgraph_msgs_generate_messages_eus
+[2.563s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[2.572s] [  2%] Built target jsk_recognition_msgs_generate_messages_lisp
+[2.581s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[2.590s] [  2%] Built target jsk_recognition_msgs_generate_messages_eus
+[2.599s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[2.608s] [  2%] Built target tf2_msgs_generate_messages_cpp
+[2.616s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[2.625s] [  2%] Built target sensor_msgs_generate_messages_py
+[2.635s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[2.644s] [  2%] Built target tf_generate_messages_py
+[2.657s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[2.666s] [  2%] Built target sensor_msgs_generate_messages_nodejs
+[2.675s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_eus[0m
+[2.685s] [  2%] Built target vector_map_server_generate_messages_eus
+[2.694s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[2.703s] [  2%] Built target roscpp_generate_messages_cpp
+[2.712s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[2.723s] [  2%] Built target actionlib_generate_messages_cpp
+[2.730s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[2.739s] [  2%] Built target autoware_msgs_generate_messages_lisp
+[2.750s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[2.757s] [  2%] Built target jsk_footstep_msgs_generate_messages_py
+[2.766s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[2.775s] [  2%] Built target std_msgs_generate_messages_cpp
+[2.784s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[2.793s] [  2%] Built target visualization_msgs_generate_messages_nodejs
+[2.802s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[2.811s] [  2%] Built target geometry_msgs_generate_messages_lisp
+[2.820s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[2.831s] [  2%] Built target autoware_msgs_generate_messages_py
+[2.840s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[2.850s] [  2%] Built target std_msgs_generate_messages_py
+[2.860s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[2.869s] [  2%] Built target autoware_msgs_generate_messages_cpp
+[2.879s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[2.888s] [  2%] Built target rosgraph_msgs_generate_messages_cpp
+[2.900s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[2.909s] [  2%] Built target pcl_msgs_generate_messages_cpp
+[2.919s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[2.929s] [  2%] Built target jsk_recognition_msgs_generate_messages_cpp
+[2.940s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[2.949s] [  2%] Built target sensor_msgs_generate_messages_lisp
+[2.958s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[2.971s] [  2%] Built target autoware_msgs_generate_messages_eus
+[2.980s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[2.989s] [  2%] Built target autoware_msgs_generate_messages_nodejs
+[2.998s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[3.008s] [  2%] Built target visualization_msgs_generate_messages_lisp
+[3.017s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[3.026s] [  2%] Built target std_msgs_generate_messages_eus
+[3.035s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[3.044s] [  2%] Built target geometry_msgs_generate_messages_eus
+[3.053s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[3.063s] [  2%] Built target std_msgs_generate_messages_nodejs
+[3.072s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[3.081s] [  2%] Built target sensor_msgs_generate_messages_eus
+[3.090s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[3.099s] [  2%] Built target roscpp_generate_messages_nodejs
+[3.109s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[3.118s] [  2%] Built target std_msgs_generate_messages_lisp
+[3.127s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[3.136s] [  2%] Built target sensor_msgs_generate_messages_cpp
+[3.146s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[3.155s] [  2%] Built target actionlib_msgs_generate_messages_lisp
+[3.164s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[3.173s] [  2%] Built target actionlib_msgs_generate_messages_nodejs
+[3.182s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[3.192s] [  2%] Built target geometry_msgs_generate_messages_nodejs
+[3.201s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[3.211s] [  2%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[3.220s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[3.229s] [  2%] Built target roscpp_generate_messages_lisp
+[3.239s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[3.249s] [  2%] Built target roscpp_generate_messages_py
+[3.258s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[3.268s] [  2%] Built target rosgraph_msgs_generate_messages_lisp
+[3.277s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[3.286s] [  2%] Built target rosgraph_msgs_generate_messages_nodejs
+[3.296s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_py[0m
+[3.305s] [  2%] Built target vector_map_server_generate_messages_py
+[3.314s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[3.323s] [  2%] Built target actionlib_msgs_generate_messages_eus
+[3.332s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[3.341s] [  2%] Built target roscpp_generate_messages_eus
+[3.350s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[3.361s] [  2%] Built target rosgraph_msgs_generate_messages_py
+[3.370s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[3.379s] [  2%] Built target jsk_footstep_msgs_generate_messages_cpp
+[3.388s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[3.397s] [  2%] Built target actionlib_msgs_generate_messages_cpp
+[3.406s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[3.416s] [  2%] Built target tf_generate_messages_eus
+[3.425s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[3.437s] [  2%] Built target tf_generate_messages_lisp
+[3.447s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[3.456s] [  2%] Built target tf_generate_messages_nodejs
+[3.466s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[3.479s] [  2%] Built target pcl_msgs_generate_messages_py
+[3.496s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[3.505s] [  2%] Built target actionlib_generate_messages_eus
+[3.527s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[3.559s] [  2%] Built target geometry_msgs_generate_messages_cpp
+[3.592s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[3.626s] [  2%] Built target actionlib_generate_messages_lisp
+[3.658s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[3.694s] [  2%] Built target pcl_msgs_generate_messages_lisp
+[3.725s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[3.758s] [  2%] Built target tf_generate_messages_cpp
+[3.792s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[3.835s] [  2%] Built target actionlib_generate_messages_nodejs
+[3.868s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[3.893s] [  2%] Built target tf2_msgs_generate_messages_lisp
+[3.924s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[3.947s] [  2%] Built target actionlib_generate_messages_py
+[3.957s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[3.978s] [  2%] Built target tf2_msgs_generate_messages_py
+[4.004s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[4.024s] [  2%] Built target tf2_msgs_generate_messages_nodejs
+[4.033s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[4.058s] [  2%] Built target tf2_msgs_generate_messages_eus
+[4.092s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[4.124s] [  2%] Built target visualization_msgs_generate_messages_cpp
+[4.158s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_cpp[0m
+[4.184s] [  2%] Built target vector_map_server_generate_messages_cpp
+[4.200s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[4.212s] [  2%] Built target visualization_msgs_generate_messages_eus
+[4.222s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[4.233s] [  2%] Built target visualization_msgs_generate_messages_py
+[4.246s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[4.259s] [  2%] Built target vector_map_msgs_generate_messages_cpp
+[4.269s] [  5%] [34m[1mGenerating ui_label_maker_gui.h[0m
+[4.284s] [35m[1mScanning dependencies of target label_maker[0m
+[4.332s] [  8%] [32mBuilding CXX object CMakeFiles/label_maker.dir/nodes/label_maker/custom_graphics_view.cpp.o[0m
+[5.145s] [ 11%] [32mBuilding CXX object CMakeFiles/label_maker.dir/nodes/label_maker/file_system_operator.cpp.o[0m
+[5.821s] [ 13%] [32mBuilding CXX object CMakeFiles/label_maker.dir/nodes/label_maker/label_maker.cpp.o[0m
+[7.601s] [ 16%] [32mBuilding CXX object CMakeFiles/label_maker.dir/nodes/label_maker/label_maker_gui.cpp.o[0m
+[8.955s] [ 19%] [32mBuilding CXX object CMakeFiles/label_maker.dir/label_maker_autogen/mocs_compilation.cpp.o[0m
+[10.004s] [ 22%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/label_maker[0m
+[10.429s] [ 22%] Built target label_maker
+[10.441s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[10.452s] [ 22%] Built target vector_map_msgs_generate_messages_lisp
+[10.464s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[10.474s] [ 22%] Built target vector_map_msgs_generate_messages_nodejs
+[10.485s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[10.497s] [ 22%] Built target vector_map_msgs_generate_messages_py
+[10.507s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_nodejs[0m
+[10.517s] [ 22%] Built target vector_map_server_generate_messages_nodejs
+[10.527s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[10.543s] [ 22%] Built target vector_map_msgs_generate_messages_eus
+[10.554s] [35m[1mScanning dependencies of target tlr_tuner_autogen[0m
+[10.567s] [ 25%] [34m[1mAutomatic MOC, UIC and RCC for target tlr_tuner[0m
+[10.638s] [ 25%] Built target tlr_tuner_autogen
+[10.648s] [35m[1mScanning dependencies of target feat_proj_autogen[0m
+[10.661s] [ 27%] [34m[1mAutomatic MOC, UIC and RCC for target feat_proj[0m
+[10.689s] [ 27%] Built target feat_proj_autogen
+[10.700s] [ 30%] [34m[1mGenerating ui_mainwindow.h[0m
+[10.714s] [35m[1mScanning dependencies of target tlr_tuner[0m
+[10.769s] [ 33%] [32mBuilding CXX object CMakeFiles/tlr_tuner.dir/nodes/tlr_tuner/tlr_tuner.cpp.o[0m
+[13.738s] [ 36%] [32mBuilding CXX object CMakeFiles/tlr_tuner.dir/tlr_tuner_autogen/mocs_compilation.cpp.o[0m
+[14.377s] [ 38%] [32mBuilding CXX object CMakeFiles/tlr_tuner.dir/nodes/tlr_tuner/tunerBody.cpp.o[0m
+[18.033s] [ 41%] [32mBuilding CXX object CMakeFiles/tlr_tuner.dir/nodes/tlr_tuner/mainwindow.cpp.o[0m
+[21.150s] [ 44%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/tlr_tuner[0m
+[21.812s] [ 44%] Built target tlr_tuner
+[21.822s] [35m[1mScanning dependencies of target feat_proj[0m
+[21.883s] [ 47%] [32mBuilding CXX object CMakeFiles/feat_proj.dir/nodes/feat_proj/feat_proj.cpp.o[0m
+[30.866s] [ 50%] [32mBuilding CXX object CMakeFiles/feat_proj.dir/feat_proj_autogen/mocs_compilation.cpp.o[0m
+[30.883s] [ 52%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/feat_proj[0m
+[31.073s] [ 52%] Built target feat_proj
+[31.082s] [35m[1mScanning dependencies of target tl_switch_autogen[0m
+[31.091s] [ 55%] [34m[1mAutomatic MOC, UIC and RCC for target tl_switch[0m
+[31.114s] [ 55%] Built target tl_switch_autogen
+[31.124s] [35m[1mScanning dependencies of target libcontext_autogen[0m
+[31.133s] [ 58%] [34m[1mAutomatic MOC, UIC and RCC for target libcontext[0m
+[31.155s] [ 58%] Built target libcontext_autogen
+[31.164s] [35m[1mScanning dependencies of target tl_switch[0m
+[31.183s] [ 61%] [32mBuilding CXX object CMakeFiles/tl_switch.dir/nodes/tl_switch/tl_switch.cpp.o[0m
+[33.319s] [ 63%] [32mBuilding CXX object CMakeFiles/tl_switch.dir/tl_switch_autogen/mocs_compilation.cpp.o[0m
+[33.337s] [ 66%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/tl_switch[0m
+[33.478s] [ 66%] Built target tl_switch
+[33.487s] [35m[1mScanning dependencies of target libcontext[0m
+[33.499s] [ 69%] [32mBuilding CXX object CMakeFiles/libcontext.dir/lib/Context.cpp.o[0m
+[34.821s] In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer/lib/Context.cpp:1:0[m[K:
+[34.821s] [01m[K/home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer/include/Context.h:[m[K In static member function '[01m[Kstatic void Context::SetContexts(std::vector<Context>&, const ConstPtr&, int, int)[m[K':
+[34.821s] [01m[K/home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer/include/Context.h:14:7:[m[K [01;35m[Kwarning: [m[K'[01m[Kcurrent_signal_context.Context::newCandidateLightState[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[34.821s]  class [01;35m[KContext[m[K
+[34.821s]        [01;35m[K^~~~~~~[m[K
+[34.821s] [01m[K/home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer/include/Context.h:14:7:[m[K [01;35m[Kwarning: [m[K'[01m[Kcurrent_signal_context.Context::newCandidateLightState[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+[34.821s]  class [01;35m[KContext[m[K
+[34.821s]        [01;35m[K^~~~~~~[m[K
+[34.912s] [ 72%] [32mBuilding CXX object CMakeFiles/libcontext.dir/libcontext_autogen/mocs_compilation.cpp.o[0m
+[34.940s] [ 75%] [32m[1mLinking CXX shared library devel/lib/liblibcontext.so[0m
+[35.010s] [ 75%] Built target libcontext
+[35.019s] [35m[1mScanning dependencies of target region_tlr_autogen[0m
+[35.028s] [ 77%] [34m[1mAutomatic MOC, UIC and RCC for target region_tlr[0m
+[35.054s] [ 77%] Built target region_tlr_autogen
+[35.071s] [35m[1mScanning dependencies of target roi_extractor_autogen[0m
+[35.074s] [ 80%] [34m[1mAutomatic MOC, UIC and RCC for target roi_extractor[0m
+[35.094s] [ 80%] Built target roi_extractor_autogen
+[35.109s] [35m[1mScanning dependencies of target region_tlr[0m
+[35.133s] [ 83%] [32mBuilding CXX object CMakeFiles/region_tlr.dir/nodes/region_tlr/region_tlr.cpp.o[0m
+[38.921s] [ 86%] [32mBuilding CXX object CMakeFiles/region_tlr.dir/region_tlr_autogen/mocs_compilation.cpp.o[0m
+[38.940s] [ 88%] [32mBuilding CXX object CMakeFiles/region_tlr.dir/nodes/region_tlr/TrafficLightDetector.cpp.o[0m
+[40.431s] [ 91%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/region_tlr[0m
+[40.838s] [ 91%] Built target region_tlr
+[40.848s] [35m[1mScanning dependencies of target roi_extractor[0m
+[40.868s] [ 94%] [32mBuilding CXX object CMakeFiles/roi_extractor.dir/nodes/roi_extractor/roi_extractor.cpp.o[0m
+[44.201s] [ 97%] [32mBuilding CXX object CMakeFiles/roi_extractor.dir/roi_extractor_autogen/mocs_compilation.cpp.o[0m
+[44.217s] [100%] [32m[1mLinking CXX executable devel/lib/trafficlight_recognizer/roi_extractor[0m
+[44.536s] [100%] Built target roi_extractor
+[44.548s] Invoked command in '/home/agilex/autoware.ai/build/trafficlight_recognizer' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_server:/home/agilex/autoware.ai/install/libvectormap:/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/runtime_manager:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_server/share:/home/agilex/autoware.ai/install/libvectormap/share:/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/runtime_manager/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/trafficlight_recognizer -- -j8 -l8
+[44.646s] Invoking command in '/home/agilex/autoware.ai/build/trafficlight_recognizer': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_server:/home/agilex/autoware.ai/install/libvectormap:/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/runtime_manager:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_server/share:/home/agilex/autoware.ai/install/libvectormap/share:/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/runtime_manager/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/trafficlight_recognizer --target tests -- -j8 -l8
+[44.701s] [35m[1mScanning dependencies of target tests[0m
+[44.710s] Built target tests
+[44.722s] Invoked command in '/home/agilex/autoware.ai/build/trafficlight_recognizer' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_server:/home/agilex/autoware.ai/install/libvectormap:/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/runtime_manager:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_server/share:/home/agilex/autoware.ai/install/libvectormap/share:/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/runtime_manager/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/trafficlight_recognizer --target tests -- -j8 -l8
+[44.823s] Invoking command in '/home/agilex/autoware.ai/build/trafficlight_recognizer': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_server:/home/agilex/autoware.ai/install/libvectormap:/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/runtime_manager:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_server/share:/home/agilex/autoware.ai/install/libvectormap/share:/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/runtime_manager/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/trafficlight_recognizer --target install -- -j8 -l8
+[44.873s] [  2%] [34m[1mAutomatic MOC, UIC and RCC for target label_maker[0m
+[44.889s] [  2%] Built target label_maker_autogen
+[44.907s] [  2%] Built target vector_map_server_generate_messages_lisp
+[44.924s] [  2%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[44.942s] [  2%] Built target jsk_footstep_msgs_generate_messages_lisp
+[44.960s] [  2%] Built target jsk_footstep_msgs_generate_messages_eus
+[44.978s] [  2%] Built target actionlib_msgs_generate_messages_py
+[44.997s] [  2%] Built target geometry_msgs_generate_messages_py
+[45.015s] [  2%] Built target pcl_msgs_generate_messages_nodejs
+[45.032s] [  2%] Built target jsk_recognition_msgs_generate_messages_py
+[45.050s] [  2%] Built target pcl_msgs_generate_messages_eus
+[45.068s] [  2%] Built target rosgraph_msgs_generate_messages_eus
+[45.087s] [  2%] Built target jsk_recognition_msgs_generate_messages_lisp
+[45.105s] [  2%] Built target jsk_recognition_msgs_generate_messages_eus
+[45.123s] [  2%] Built target tf2_msgs_generate_messages_cpp
+[45.141s] [  2%] Built target sensor_msgs_generate_messages_py
+[45.159s] [  2%] Built target tf_generate_messages_py
+[45.179s] [  2%] Built target sensor_msgs_generate_messages_nodejs
+[45.196s] [  2%] Built target vector_map_server_generate_messages_eus
+[45.214s] [  2%] Built target roscpp_generate_messages_cpp
+[45.232s] [  2%] Built target actionlib_generate_messages_cpp
+[45.250s] [  2%] Built target autoware_msgs_generate_messages_lisp
+[45.268s] [  2%] Built target jsk_footstep_msgs_generate_messages_py
+[45.288s] [  2%] Built target std_msgs_generate_messages_cpp
+[45.305s] [  2%] Built target visualization_msgs_generate_messages_nodejs
+[45.325s] [  2%] Built target geometry_msgs_generate_messages_lisp
+[45.343s] [  2%] Built target autoware_msgs_generate_messages_py
+[45.363s] [  2%] Built target std_msgs_generate_messages_py
+[45.380s] [  2%] Built target autoware_msgs_generate_messages_cpp
+[45.400s] [  2%] Built target rosgraph_msgs_generate_messages_cpp
+[45.418s] [  2%] Built target pcl_msgs_generate_messages_cpp
+[45.436s] [  2%] Built target jsk_recognition_msgs_generate_messages_cpp
+[45.454s] [  2%] Built target sensor_msgs_generate_messages_lisp
+[45.472s] [  2%] Built target autoware_msgs_generate_messages_eus
+[45.493s] [  2%] Built target autoware_msgs_generate_messages_nodejs
+[45.510s] [  2%] Built target visualization_msgs_generate_messages_lisp
+[45.528s] [  2%] Built target std_msgs_generate_messages_eus
+[45.545s] [  2%] Built target geometry_msgs_generate_messages_eus
+[45.564s] [  2%] Built target std_msgs_generate_messages_nodejs
+[45.584s] [  2%] Built target sensor_msgs_generate_messages_eus
+[45.601s] [  2%] Built target roscpp_generate_messages_nodejs
+[45.619s] [  2%] Built target std_msgs_generate_messages_lisp
+[45.636s] [  2%] Built target sensor_msgs_generate_messages_cpp
+[45.654s] [  2%] Built target actionlib_msgs_generate_messages_lisp
+[45.673s] [  2%] Built target actionlib_msgs_generate_messages_nodejs
+[45.693s] [  2%] Built target geometry_msgs_generate_messages_nodejs
+[45.710s] [  2%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[45.728s] [  2%] Built target roscpp_generate_messages_lisp
+[45.745s] [  2%] Built target roscpp_generate_messages_py
+[45.765s] [  2%] Built target rosgraph_msgs_generate_messages_lisp
+[45.786s] [  2%] Built target rosgraph_msgs_generate_messages_nodejs
+[45.804s] [  2%] Built target vector_map_server_generate_messages_py
+[45.821s] [  2%] Built target actionlib_msgs_generate_messages_eus
+[45.839s] [  2%] Built target roscpp_generate_messages_eus
+[45.857s] [  2%] Built target rosgraph_msgs_generate_messages_py
+[45.875s] [  2%] Built target jsk_footstep_msgs_generate_messages_cpp
+[45.895s] [  2%] Built target actionlib_msgs_generate_messages_cpp
+[45.915s] [  2%] Built target tf_generate_messages_eus
+[45.932s] [  2%] Built target tf_generate_messages_lisp
+[45.951s] [  2%] Built target tf_generate_messages_nodejs
+[45.969s] [  2%] Built target pcl_msgs_generate_messages_py
+[45.989s] [  2%] Built target actionlib_generate_messages_eus
+[46.006s] [  2%] Built target geometry_msgs_generate_messages_cpp
+[46.023s] [  2%] Built target actionlib_generate_messages_lisp
+[46.041s] [  2%] Built target pcl_msgs_generate_messages_lisp
+[46.058s] [  2%] Built target tf_generate_messages_cpp
+[46.076s] [  2%] Built target actionlib_generate_messages_nodejs
+[46.095s] [  2%] Built target tf2_msgs_generate_messages_lisp
+[46.113s] [  2%] Built target actionlib_generate_messages_py
+[46.130s] [  2%] Built target tf2_msgs_generate_messages_py
+[46.147s] [  2%] Built target tf2_msgs_generate_messages_nodejs
+[46.167s] [  2%] Built target tf2_msgs_generate_messages_eus
+[46.187s] [  2%] Built target visualization_msgs_generate_messages_cpp
+[46.205s] [  2%] Built target vector_map_server_generate_messages_cpp
+[46.223s] [  2%] Built target visualization_msgs_generate_messages_eus
+[46.241s] [  2%] Built target visualization_msgs_generate_messages_py
+[46.259s] [  2%] Built target vector_map_msgs_generate_messages_cpp
+[46.290s] [ 22%] Built target label_maker
+[46.308s] [ 22%] Built target vector_map_msgs_generate_messages_lisp
+[46.326s] [ 22%] Built target vector_map_msgs_generate_messages_nodejs
+[46.344s] [ 22%] Built target vector_map_msgs_generate_messages_py
+[46.361s] [ 22%] Built target vector_map_server_generate_messages_nodejs
+[46.381s] [ 22%] Built target vector_map_msgs_generate_messages_eus
+[46.399s] [ 25%] [34m[1mAutomatic MOC, UIC and RCC for target tlr_tuner[0m
+[46.415s] [ 25%] Built target tlr_tuner_autogen
+[46.434s] [ 27%] [34m[1mAutomatic MOC, UIC and RCC for target feat_proj[0m
+[46.450s] [ 27%] Built target feat_proj_autogen
+[46.479s] [ 44%] Built target tlr_tuner
+[46.510s] [ 52%] Built target feat_proj
+[46.528s] [ 55%] [34m[1mAutomatic MOC, UIC and RCC for target tl_switch[0m
+[46.545s] [ 55%] Built target tl_switch_autogen
+[46.563s] [ 58%] [34m[1mAutomatic MOC, UIC and RCC for target libcontext[0m
+[46.580s] [ 58%] Built target libcontext_autogen
+[46.604s] [ 66%] Built target tl_switch
+[46.622s] [ 75%] Built target libcontext
+[46.641s] [ 77%] [34m[1mAutomatic MOC, UIC and RCC for target region_tlr[0m
+[46.657s] [ 77%] Built target region_tlr_autogen
+[46.676s] [ 80%] [34m[1mAutomatic MOC, UIC and RCC for target roi_extractor[0m
+[46.692s] [ 80%] Built target roi_extractor_autogen
+[46.716s] [ 91%] Built target region_tlr
+[46.739s] [100%] Built target roi_extractor
+[46.762s] [36mInstall the project...[0m
+[46.771s] -- Install configuration: "Release"
+[46.771s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/lib/pkgconfig/trafficlight_recognizer.pc
+[46.772s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/cmake/trafficlight_recognizerConfig.cmake
+[46.772s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/cmake/trafficlight_recognizerConfig-version.cmake
+[46.772s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/package.xml
+[46.773s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/region_tlr
+[46.773s] -- Set runtime path of "/home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/region_tlr" to ""
+[46.774s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/feat_proj
+[46.775s] -- Set runtime path of "/home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/feat_proj" to ""
+[46.775s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/tlr_tuner
+[46.775s] -- Set runtime path of "/home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/tlr_tuner" to ""
+[46.776s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/roi_extractor
+[46.776s] -- Set runtime path of "/home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/roi_extractor" to ""
+[46.777s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/label_maker
+[46.777s] -- Set runtime path of "/home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/label_maker" to ""
+[46.777s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/lib/liblibcontext.so
+[46.778s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/tl_switch
+[46.778s] -- Set runtime path of "/home/agilex/autoware.ai/install/trafficlight_recognizer/lib/trafficlight_recognizer/tl_switch" to ""
+[46.779s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include
+[46.779s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/TrafficLight.h
+[46.779s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/include/trafficlight_recognizer/include/Context.h
+[46.779s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch
+[46.780s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/traffic_light_recognition_mxnet.launch
+[46.780s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/traffic_light_recognition.launch
+[46.780s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/traffic_light_recognition_ssd.launch
+[46.780s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/roi_extractor.launch
+[46.781s] -- Installing: /home/agilex/autoware.ai/install/trafficlight_recognizer/share/trafficlight_recognizer/launch/feat_proj.launch
+[46.786s] Invoked command in '/home/agilex/autoware.ai/build/trafficlight_recognizer' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_server:/home/agilex/autoware.ai/install/libvectormap:/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/runtime_manager:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_server/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_server/lib/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/libvectormap/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/runtime_manager/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_server/share:/home/agilex/autoware.ai/install/libvectormap/share:/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/runtime_manager/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/trafficlight_recognizer --target install -- -j8 -l8

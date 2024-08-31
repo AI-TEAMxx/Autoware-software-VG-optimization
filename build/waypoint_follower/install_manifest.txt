@@ -1,0 +1,16 @@
+/home/agilex/autoware.ai/install/waypoint_follower/lib/pkgconfig/waypoint_follower.pc
+/home/agilex/autoware.ai/install/waypoint_follower/share/waypoint_follower/cmake/waypoint_followerConfig.cmake
+/home/agilex/autoware.ai/install/waypoint_follower/share/waypoint_follower/cmake/waypoint_followerConfig-version.cmake
+/home/agilex/autoware.ai/install/waypoint_follower/share/waypoint_follower/package.xml
+/home/agilex/autoware.ai/install/waypoint_follower/lib/liblibwaypoint_follower.so
+/home/agilex/autoware.ai/install/waypoint_follower/lib/waypoint_follower/pure_pursuit
+/home/agilex/autoware.ai/install/waypoint_follower/lib/waypoint_follower/wf_simulator
+/home/agilex/autoware.ai/install/waypoint_follower/lib/waypoint_follower/twist_filter
+/home/agilex/autoware.ai/install/waypoint_follower/lib/waypoint_follower/twist_gate
+/home/agilex/autoware.ai/install/waypoint_follower/lib/waypoint_follower/mpc_follower
+/home/agilex/autoware.ai/install/waypoint_follower/lib/waypoint_follower/mpc_waypoints_converter
+/home/agilex/autoware.ai/install/waypoint_follower/include/waypoint_follower/libwaypoint_follower.h
+/home/agilex/autoware.ai/install/waypoint_follower/share/waypoint_follower/launch/mpc_follower.launch
+/home/agilex/autoware.ai/install/waypoint_follower/share/waypoint_follower/launch/pure_pursuit.launch
+/home/agilex/autoware.ai/install/waypoint_follower/share/waypoint_follower/launch/wf_simulator.launch
+/home/agilex/autoware.ai/install/waypoint_follower/share/waypoint_follower/launch/twist_filter.launch

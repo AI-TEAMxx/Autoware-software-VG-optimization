@@ -1,0 +1,14 @@
+[0.010s] Invoking command in '/home/agilex/autoware.ai/build/pc2_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pc2_downsampler -- -j8 -l8
+[0.061s] Invoked command in '/home/agilex/autoware.ai/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pc2_downsampler -- -j8 -l8
+[0.124s] Invoking command in '/home/agilex/autoware.ai/build/pc2_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pc2_downsampler --target tests -- -j8 -l8
+[0.179s] Built target tests
+[0.194s] Invoked command in '/home/agilex/autoware.ai/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pc2_downsampler --target tests -- -j8 -l8
+[0.256s] Invoking command in '/home/agilex/autoware.ai/build/pc2_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pc2_downsampler --target install -- -j8 -l8
+[0.304s] [36mInstall the project...[0m
+[0.312s] -- Install configuration: "Release"
+[0.312s] -- Up-to-date: /home/agilex/autoware.ai/install/pc2_downsampler/lib/pkgconfig/pc2_downsampler.pc
+[0.312s] -- Up-to-date: /home/agilex/autoware.ai/install/pc2_downsampler/share/pc2_downsampler/cmake/pc2_downsamplerConfig.cmake
+[0.313s] -- Up-to-date: /home/agilex/autoware.ai/install/pc2_downsampler/share/pc2_downsampler/cmake/pc2_downsamplerConfig-version.cmake
+[0.313s] -- Up-to-date: /home/agilex/autoware.ai/install/pc2_downsampler/share/pc2_downsampler/package.xml
+[0.313s] -- Up-to-date: /home/agilex/autoware.ai/install/pc2_downsampler/lib/pc2_downsampler/app.py
+[0.316s] Invoked command in '/home/agilex/autoware.ai/build/pc2_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pc2_downsampler --target install -- -j8 -l8

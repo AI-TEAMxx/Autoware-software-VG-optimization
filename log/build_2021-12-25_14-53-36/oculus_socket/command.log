@@ -1,0 +1,8 @@
+Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/oculus_socket
+Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/oculus_socket
+Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target install -- -j8 -l8

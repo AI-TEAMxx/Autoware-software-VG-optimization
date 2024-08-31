@@ -1,0 +1,23 @@
+[0.056s] Invoking command in '/home/agilex/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_cpu -- -j8 -l8
+[0.141s] [100%] Built target ndt_cpu
+[0.158s] Invoked command in '/home/agilex/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_cpu -- -j8 -l8
+[0.247s] Invoking command in '/home/agilex/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_cpu --target tests -- -j8 -l8
+[0.292s] Built target tests
+[0.317s] Invoked command in '/home/agilex/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_cpu --target tests -- -j8 -l8
+[0.433s] Invoking command in '/home/agilex/autoware.ai/build/ndt_cpu': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_cpu --target install -- -j8 -l8
+[0.571s] [100%] Built target ndt_cpu
+[0.595s] [36mInstall the project...[0m
+[0.625s] -- Install configuration: "Release"
+[0.625s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/lib/pkgconfig/ndt_cpu.pc
+[0.626s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig.cmake
+[0.626s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/share/ndt_cpu/cmake/ndt_cpuConfig-version.cmake
+[0.626s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/share/ndt_cpu/package.xml
+[0.626s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/include/ndt_cpu
+[0.626s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/include/ndt_cpu/debug.h
+[0.626s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/include/ndt_cpu/SymmetricEigenSolver.h
+[0.626s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/include/ndt_cpu/Octree.h
+[0.626s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/include/ndt_cpu/NormalDistributionsTransform.h
+[0.627s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/include/ndt_cpu/Registration.h
+[0.627s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/include/ndt_cpu/VoxelGrid.h
+[0.628s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_cpu/lib/libndt_cpu.so
+[0.634s] Invoked command in '/home/agilex/autoware.ai/build/ndt_cpu' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_cpu --target install -- -j8 -l8

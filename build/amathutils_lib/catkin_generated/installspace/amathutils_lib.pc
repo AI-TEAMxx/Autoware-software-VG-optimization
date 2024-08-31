@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/amathutils_lib
+
+Name: amathutils_lib
+Description: Description of amathutils_lib
+Version: 1.11.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lamathutils_lib
+Requires: roscpp autoware_msgs tf tf2

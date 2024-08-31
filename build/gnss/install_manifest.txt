@@ -1,0 +1,6 @@
+/home/agilex/autoware.ai/install/gnss/lib/pkgconfig/gnss.pc
+/home/agilex/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig.cmake
+/home/agilex/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+/home/agilex/autoware.ai/install/gnss/share/gnss/package.xml
+/home/agilex/autoware.ai/install/gnss/include/gnss/geo_pos_conv.hpp
+/home/agilex/autoware.ai/install/gnss/lib/libgnss.so

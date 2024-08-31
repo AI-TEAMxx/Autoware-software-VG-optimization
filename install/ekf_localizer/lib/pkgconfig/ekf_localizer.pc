@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/ekf_localizer
+
+Name: ekf_localizer
+Description: Description of ekf_localizer
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: autoware_build_flags roscpp std_msgs tf2 tf2_ros geometry_msgs autoware_msgs sensor_msgs amathutils_lib

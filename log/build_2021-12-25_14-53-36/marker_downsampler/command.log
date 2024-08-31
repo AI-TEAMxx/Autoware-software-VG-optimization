@@ -1,0 +1,8 @@
+Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/marker_downsampler
+Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/marker_downsampler
+Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target install -- -j8 -l8

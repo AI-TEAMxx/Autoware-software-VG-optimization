@@ -1,0 +1,2 @@
+set(autoware_system_msgs_MESSAGE_FILES "/home/agilex/autoware.ai/src/autoware/messages/autoware_system_msgs/msg/DiagnosticStatus.msg;/home/agilex/autoware.ai/src/autoware/messages/autoware_system_msgs/msg/DiagnosticStatusArray.msg;/home/agilex/autoware.ai/src/autoware/messages/autoware_system_msgs/msg/SystemStatus.msg;/home/agilex/autoware.ai/src/autoware/messages/autoware_system_msgs/msg/NodeStatus.msg;/home/agilex/autoware.ai/src/autoware/messages/autoware_system_msgs/msg/HardwareStatus.msg")
+set(autoware_system_msgs_SERVICE_FILES "")

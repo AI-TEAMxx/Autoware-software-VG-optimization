@@ -1,0 +1,39 @@
+[0.026s] Invoking command in '/home/agilex/autoware.ai/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/lgsvl_simulator_bridge -- -j8 -l8
+[0.066s] Invoked command in '/home/agilex/autoware.ai/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/lgsvl_simulator_bridge -- -j8 -l8
+[0.162s] Invoking command in '/home/agilex/autoware.ai/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/lgsvl_simulator_bridge --target tests -- -j8 -l8
+[0.227s] Built target tests
+[0.254s] Invoked command in '/home/agilex/autoware.ai/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/lgsvl_simulator_bridge --target tests -- -j8 -l8
+[0.504s] Invoking command in '/home/agilex/autoware.ai/build/lgsvl_simulator_bridge': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/lgsvl_simulator_bridge --target install -- -j8 -l8
+[0.653s] [36mInstall the project...[0m
+[0.665s] -- Install configuration: "Release"
+[0.668s] + cd /home/agilex/autoware.ai/src/autoware/simulation/lgsvl_simulator_bridge
+[0.668s] + mkdir -p /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages
+[0.671s] + /usr/bin/env PYTHONPATH=/home/agilex/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages:/home/agilex/autoware.ai/build/lgsvl_simulator_bridge/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:/home/agilex/catkin_ws/devel/lib/python2.7/dist-packages:/opt/ros/melodic/lib/python2.7/dist-packages CATKIN_BINARY_DIR=/home/agilex/autoware.ai/build/lgsvl_simulator_bridge /usr/bin/python2 /home/agilex/autoware.ai/src/autoware/simulation/lgsvl_simulator_bridge/setup.py build --build-base /home/agilex/autoware.ai/build/lgsvl_simulator_bridge install --root=/ --install-layout=deb --prefix=/home/agilex/autoware.ai/install/lgsvl_simulator_bridge --install-scripts=/home/agilex/autoware.ai/install/lgsvl_simulator_bridge/bin
+[0.719s] running build
+[0.719s] running build_py
+[0.719s] running install
+[0.720s] running install_lib
+[0.720s] running install_egg_info
+[0.721s] Removing /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge-1.11.0.egg-info
+[0.721s] Writing /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/lib/python2.7/dist-packages/lgsvl_simulator_bridge-1.11.0.egg-info
+[0.726s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/lib/pkgconfig/lgsvl_simulator_bridge.pc
+[0.727s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig.cmake
+[0.727s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/cmake/lgsvl_simulator_bridgeConfig-version.cmake
+[0.727s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/package.xml
+[0.727s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch
+[0.727s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/bridge.launch
+[0.727s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/launch/lgsvl_simulator.launch
+[0.727s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/rviz
+[0.727s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/rviz/lgsvl_simulator.rviz
+[0.727s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/config
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/config/sample.json
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media/lgsvl_simulator_bridge.png
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/media/autoware.png
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/resource
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/resource/LgsvlSimulatorConfigratorPlugin.ui
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/launch_sim.bash
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/__init__.py
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/lib/lgsvl_simulator_bridge/configurator.py
+[0.728s] -- Up-to-date: /home/agilex/autoware.ai/install/lgsvl_simulator_bridge/share/lgsvl_simulator_bridge/plugin.xml
+[0.730s] Invoked command in '/home/agilex/autoware.ai/build/lgsvl_simulator_bridge' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/lgsvl_simulator_bridge --target install -- -j8 -l8

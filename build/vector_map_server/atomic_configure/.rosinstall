@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/agilex/autoware.ai/build/vector_map_server/devel/setup.sh

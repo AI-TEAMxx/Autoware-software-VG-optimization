@@ -1,0 +1,60 @@
+[0.008s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_camera_description': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/simulation/gazebo_camera_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/gazebo_camera_description
+[0.131s] -- The C compiler identification is GNU 7.5.0
+[0.209s] -- The CXX compiler identification is GNU 7.5.0
+[0.213s] -- Check for working C compiler: /usr/bin/cc
+[0.287s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.287s] -- Detecting C compiler ABI info
+[0.396s] -- Detecting C compiler ABI info - done
+[0.405s] -- Detecting C compile features
+[0.821s] -- Detecting C compile features - done
+[0.828s] -- Check for working CXX compiler: /usr/bin/c++
+[1.064s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.065s] -- Detecting CXX compiler ABI info
+[1.283s] -- Detecting CXX compiler ABI info - done
+[1.298s] -- Detecting CXX compile features
+[2.428s] -- Detecting CXX compile features - done
+[2.430s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/gazebo_camera_description/devel
+[2.430s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[2.430s] -- This workspace overlays: /opt/ros/melodic
+[2.477s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[2.477s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[2.477s] -- Using Debian Python package layout
+[2.477s] -- Using empy: /usr/bin/empy
+[2.637s] -- Using CATKIN_ENABLE_TESTING: ON
+[2.642s] -- Call enable_testing()
+[2.664s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/gazebo_camera_description/test_results
+[2.681s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[2.682s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[2.688s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[2.688s] -- Looking for pthread.h
+[2.780s] -- Looking for pthread.h - found
+[2.780s] -- Looking for pthread_create
+[2.873s] -- Looking for pthread_create - not found
+[2.873s] -- Looking for pthread_create in pthreads
+[2.929s] -- Looking for pthread_create in pthreads - not found
+[2.929s] -- Looking for pthread_create in pthread
+[2.992s] -- Looking for pthread_create in pthread - found
+[2.993s] -- Found Threads: TRUE  
+[2.997s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[3.042s] -- catkin 0.7.29
+[3.042s] -- BUILD_SHARED_LIBS is on
+[4.535s] -- Configuring done
+[4.544s] -- Generating done
+[4.546s] -- Build files have been written to: /home/agilex/autoware.ai/build/gazebo_camera_description
+[4.561s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_camera_description' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/simulation/gazebo_camera_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/gazebo_camera_description
+[4.561s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_camera_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_camera_description -- -j8 -l8
+[5.069s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_camera_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_camera_description -- -j8 -l8
+[5.489s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_camera_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_camera_description --target tests -- -j8 -l8
+[5.701s] [35m[1mScanning dependencies of target tests[0m
+[5.754s] Built target tests
+[5.772s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_camera_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_camera_description --target tests -- -j8 -l8
+[5.948s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_camera_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_camera_description --target install -- -j8 -l8
+[6.054s] [36mInstall the project...[0m
+[6.065s] -- Install configuration: "Release"
+[6.065s] -- Installing: /home/agilex/autoware.ai/install/gazebo_camera_description/lib/pkgconfig/gazebo_camera_description.pc
+[6.065s] -- Installing: /home/agilex/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig.cmake
+[6.065s] -- Installing: /home/agilex/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/cmake/gazebo_camera_descriptionConfig-version.cmake
+[6.066s] -- Installing: /home/agilex/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/package.xml
+[6.066s] -- Installing: /home/agilex/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/urdf
+[6.066s] -- Installing: /home/agilex/autoware.ai/install/gazebo_camera_description/share/gazebo_camera_description/urdf/monocular_camera.xacro
+[6.071s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_camera_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_camera_description --target install -- -j8 -l8

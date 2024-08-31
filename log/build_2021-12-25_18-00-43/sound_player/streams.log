@@ -1,0 +1,15 @@
+[0.024s] Invoking command in '/home/agilex/autoware.ai/build/sound_player': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sound_player -- -j8 -l8
+[0.106s] Invoked command in '/home/agilex/autoware.ai/build/sound_player' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sound_player -- -j8 -l8
+[0.265s] Invoking command in '/home/agilex/autoware.ai/build/sound_player': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sound_player --target tests -- -j8 -l8
+[0.411s] Built target tests
+[0.437s] Invoked command in '/home/agilex/autoware.ai/build/sound_player' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sound_player --target tests -- -j8 -l8
+[0.550s] Invoking command in '/home/agilex/autoware.ai/build/sound_player': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sound_player --target install -- -j8 -l8
+[0.611s] [36mInstall the project...[0m
+[0.618s] -- Install configuration: "Release"
+[0.618s] -- Up-to-date: /home/agilex/autoware.ai/install/sound_player/lib/pkgconfig/sound_player.pc
+[0.618s] -- Up-to-date: /home/agilex/autoware.ai/install/sound_player/share/sound_player/cmake/sound_playerConfig.cmake
+[0.618s] -- Up-to-date: /home/agilex/autoware.ai/install/sound_player/share/sound_player/cmake/sound_playerConfig-version.cmake
+[0.618s] -- Up-to-date: /home/agilex/autoware.ai/install/sound_player/share/sound_player/package.xml
+[0.618s] -- Up-to-date: /home/agilex/autoware.ai/install/sound_player/lib/sound_player/sound_player.py
+[0.618s] -- Up-to-date: /home/agilex/autoware.ai/install/sound_player/lib/sound_player/sound_player.yaml
+[0.622s] Invoked command in '/home/agilex/autoware.ai/build/sound_player' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sound_player --target install -- -j8 -l8

@@ -1,0 +1,8 @@
+[0.052s] Invoking command in '/home/agilex/autoware.ai/build/autoware_quickstart_examples': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_quickstart_examples -- -j8 -l8
+[0.128s] Invoked command in '/home/agilex/autoware.ai/build/autoware_quickstart_examples' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_quickstart_examples -- -j8 -l8
+[0.203s] Invoking command in '/home/agilex/autoware.ai/build/autoware_quickstart_examples': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_quickstart_examples --target tests -- -j8 -l8
+[0.303s] Built target tests
+[0.344s] Invoked command in '/home/agilex/autoware.ai/build/autoware_quickstart_examples' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_quickstart_examples --target tests -- -j8 -l8
+[0.466s] Invoking command in '/home/agilex/autoware.ai/build/autoware_quickstart_examples': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_quickstart_examples --target install -- -j8 -l8
+[0.535s] [36mInstall the project...[0m
+[0.553s] Invoked command in '/home/agilex/autoware.ai/build/autoware_quickstart_examples' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_quickstart_examples --target install -- -j8 -l8

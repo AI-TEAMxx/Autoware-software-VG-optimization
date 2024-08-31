@@ -1,0 +1,16 @@
+[0.015s] Invoking command in '/home/agilex/autoware.ai/build/nmea_navsat': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat -- -j8 -l8
+[0.072s] Invoked command in '/home/agilex/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat -- -j8 -l8
+[0.101s] Invoking command in '/home/agilex/autoware.ai/build/nmea_navsat': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat --target tests -- -j8 -l8
+[0.154s] Built target tests
+[0.161s] Invoked command in '/home/agilex/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat --target tests -- -j8 -l8
+[0.190s] Invoking command in '/home/agilex/autoware.ai/build/nmea_navsat': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat --target install -- -j8 -l8
+[0.226s] [36mInstall the project...[0m
+[0.231s] -- Install configuration: "Release"
+[0.232s] -- Up-to-date: /home/agilex/autoware.ai/install/nmea_navsat/lib/pkgconfig/nmea_navsat.pc
+[0.232s] -- Up-to-date: /home/agilex/autoware.ai/install/nmea_navsat/share/nmea_navsat/cmake/nmea_navsatConfig.cmake
+[0.232s] -- Up-to-date: /home/agilex/autoware.ai/install/nmea_navsat/share/nmea_navsat/cmake/nmea_navsatConfig-version.cmake
+[0.232s] -- Up-to-date: /home/agilex/autoware.ai/install/nmea_navsat/share/nmea_navsat/package.xml
+[0.232s] -- Up-to-date: /home/agilex/autoware.ai/install/nmea_navsat/share/nmea_navsat/launch
+[0.232s] -- Up-to-date: /home/agilex/autoware.ai/install/nmea_navsat/share/nmea_navsat/launch/README.md
+[0.232s] -- Up-to-date: /home/agilex/autoware.ai/install/nmea_navsat/share/nmea_navsat/launch/nmea_navsat.launch
+[0.256s] Invoked command in '/home/agilex/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat --target install -- -j8 -l8

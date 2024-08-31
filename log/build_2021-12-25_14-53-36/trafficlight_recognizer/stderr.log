@@ -1,0 +1,24 @@
+CMake Warning at /home/agilex/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:36 (message):
+  CUDA support is disabled.  Set the AUTOWARE_COMPILE_WITH_CUDA environment
+  variable and recompile to enable it
+Call Stack (most recent call first):
+  CMakeLists.txt:251 (AW_CHECK_CUDA)
+
+
+'SSD/Caffe' is not installed. 'region_tlr_ssd' will not be built.
+CMake Warning at /home/agilex/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake:36 (message):
+  CUDA support is disabled.  Set the AUTOWARE_COMPILE_WITH_CUDA environment
+  variable and recompile to enable it
+Call Stack (most recent call first):
+  CMakeLists.txt:315 (AW_CHECK_CUDA)
+
+
+'MXNET Package' is not installed. 'region_tlr_mxnet' will not be built.
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer/lib/Context.cpp:1:0[m[K:
+[01m[K/home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer/include/Context.h:[m[K In static member function '[01m[Kstatic void Context::SetContexts(std::vector<Context>&, const ConstPtr&, int, int)[m[K':
+[01m[K/home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer/include/Context.h:14:7:[m[K [01;35m[Kwarning: [m[K'[01m[Kcurrent_signal_context.Context::newCandidateLightState[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ class [01;35m[KContext[m[K
+       [01;35m[K^~~~~~~[m[K
+[01m[K/home/agilex/autoware.ai/src/autoware/core_perception/trafficlight_recognizer/include/Context.h:14:7:[m[K [01;35m[Kwarning: [m[K'[01m[Kcurrent_signal_context.Context::newCandidateLightState[m[K' may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+ class [01;35m[KContext[m[K
+       [01;35m[K^~~~~~~[m[K

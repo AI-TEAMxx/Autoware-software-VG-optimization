@@ -1,0 +1,4 @@
+/home/agilex/autoware.ai/install/lidar_point_pillars/lib/pkgconfig/lidar_point_pillars.pc
+/home/agilex/autoware.ai/install/lidar_point_pillars/share/lidar_point_pillars/cmake/lidar_point_pillarsConfig.cmake
+/home/agilex/autoware.ai/install/lidar_point_pillars/share/lidar_point_pillars/cmake/lidar_point_pillarsConfig-version.cmake
+/home/agilex/autoware.ai/install/lidar_point_pillars/share/lidar_point_pillars/package.xml

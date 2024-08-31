@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/agilex/autoware.ai/build/gazebo_imu_description/devel/setup.sh

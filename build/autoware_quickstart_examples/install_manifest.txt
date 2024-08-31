@@ -1,0 +1,14 @@
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/lib/pkgconfig/autoware_quickstart_examples.pc
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/cmake/autoware_quickstart_examplesConfig.cmake
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/cmake/autoware_quickstart_examplesConfig-version.cmake
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/package.xml
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/tf_local.launch
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/README.md
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_detection.launch
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_localization.launch
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_mission_planning.launch
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_motion_planning.launch
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_map.launch
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/my_sensing.launch
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/default (复件).rviz
+/home/agilex/autoware.ai/install/autoware_quickstart_examples/share/autoware_quickstart_examples/launch/rosbag_demo/default.rviz

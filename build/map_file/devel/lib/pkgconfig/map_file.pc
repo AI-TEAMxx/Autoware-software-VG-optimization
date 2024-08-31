@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/build/map_file/devel
+
+Name: map_file
+Description: Description of map_file
+Version: 1.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

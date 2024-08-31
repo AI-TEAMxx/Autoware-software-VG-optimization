@@ -1,0 +1,31 @@
+[0.031s] Invoking command in '/home/agilex/autoware.ai/build/adi_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/adi_driver -- -j8 -l8
+[0.128s] [ 50%] Built target adxl345_node
+[0.160s] [100%] Built target adis16470_node
+[0.170s] Invoked command in '/home/agilex/autoware.ai/build/adi_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/adi_driver -- -j8 -l8
+[0.369s] Invoking command in '/home/agilex/autoware.ai/build/adi_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/adi_driver --target tests -- -j8 -l8
+[0.529s] Built target tests
+[0.542s] Invoked command in '/home/agilex/autoware.ai/build/adi_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/adi_driver --target tests -- -j8 -l8
+[0.805s] Invoking command in '/home/agilex/autoware.ai/build/adi_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/adi_driver --target install -- -j8 -l8
+[0.878s] [ 50%] Built target adis16470_node
+[0.887s] [100%] Built target adxl345_node
+[0.907s] [36mInstall the project...[0m
+[0.916s] -- Install configuration: "Release"
+[0.916s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/lib/pkgconfig/adi_driver.pc
+[0.916s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/cmake/adi_driverConfig.cmake
+[0.917s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/cmake/adi_driverConfig-version.cmake
+[0.917s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/package.xml
+[0.917s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/lib/adi_driver/adis16470_node
+[0.918s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/lib/adi_driver/adxl345_node
+[0.918s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/include/adi_driver
+[0.918s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/include/adi_driver/adis16470.h
+[0.918s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/include/adi_driver/adxl345.h
+[0.919s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/launch
+[0.919s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/launch/imu.rviz
+[0.919s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/launch/adxl345.launch
+[0.919s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/launch/adis16470.launch
+[0.919s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/test
+[0.919s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/test/test_adis16470.py
+[0.919s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/test/test_adxl345.py
+[0.919s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/urdf
+[0.919s] -- Up-to-date: /home/agilex/autoware.ai/install/adi_driver/share/adi_driver/urdf/adis16470_breakout.urdf
+[0.924s] Invoked command in '/home/agilex/autoware.ai/build/adi_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/adi_driver --target install -- -j8 -l8

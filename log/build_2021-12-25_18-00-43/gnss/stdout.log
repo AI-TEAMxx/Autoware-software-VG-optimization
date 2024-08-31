@@ -1,0 +1,12 @@
+[100%] Built target gnss
+Built target tests
+[100%] Built target gnss
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/agilex/autoware.ai/install/gnss/lib/pkgconfig/gnss.pc
+-- Up-to-date: /home/agilex/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig.cmake
+-- Up-to-date: /home/agilex/autoware.ai/install/gnss/share/gnss/cmake/gnssConfig-version.cmake
+-- Up-to-date: /home/agilex/autoware.ai/install/gnss/share/gnss/package.xml
+-- Up-to-date: /home/agilex/autoware.ai/install/gnss/include/gnss
+-- Up-to-date: /home/agilex/autoware.ai/install/gnss/include/gnss/geo_pos_conv.hpp
+-- Up-to-date: /home/agilex/autoware.ai/install/gnss/lib/libgnss.so

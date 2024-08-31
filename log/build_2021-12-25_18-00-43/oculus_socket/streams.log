@@ -1,0 +1,18 @@
+[0.023s] Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket -- -j8 -l8
+[0.078s] [100%] Built target oculus_sender
+[0.091s] Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket -- -j8 -l8
+[0.195s] Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target tests -- -j8 -l8
+[0.249s] Built target tests
+[0.268s] Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target tests -- -j8 -l8
+[0.814s] Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target install -- -j8 -l8
+[0.928s] [100%] Built target oculus_sender
+[0.969s] [36mInstall the project...[0m
+[0.977s] -- Install configuration: "Release"
+[0.977s] -- Up-to-date: /home/agilex/autoware.ai/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+[0.977s] -- Up-to-date: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+[0.977s] -- Up-to-date: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+[0.977s] -- Up-to-date: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/package.xml
+[0.977s] -- Up-to-date: /home/agilex/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender
+[0.978s] -- Up-to-date: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/launch
+[0.978s] -- Up-to-date: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch
+[0.985s] Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target install -- -j8 -l8

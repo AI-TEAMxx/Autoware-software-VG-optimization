@@ -1,0 +1,5 @@
+/home/agilex/autoware.ai/install/calibration_publisher/lib/pkgconfig/calibration_publisher.pc
+/home/agilex/autoware.ai/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig.cmake
+/home/agilex/autoware.ai/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig-version.cmake
+/home/agilex/autoware.ai/install/calibration_publisher/share/calibration_publisher/package.xml
+/home/agilex/autoware.ai/install/calibration_publisher/lib/calibration_publisher/calibration_publisher

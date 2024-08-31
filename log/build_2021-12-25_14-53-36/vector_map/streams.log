@@ -1,0 +1,234 @@
+[0.158s] Invoking command in '/home/agilex/autoware.ai/build/vector_map': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/common/vector_map -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/vector_map
+[0.477s] -- The C compiler identification is GNU 7.5.0
+[0.965s] -- The CXX compiler identification is GNU 7.5.0
+[0.969s] -- Check for working C compiler: /usr/bin/cc
+[1.538s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.538s] -- Detecting C compiler ABI info
+[1.950s] -- Detecting C compiler ABI info - done
+[1.958s] -- Detecting C compile features
+[2.622s] -- Detecting C compile features - done
+[2.625s] -- Check for working CXX compiler: /usr/bin/c++
+[2.744s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.744s] -- Detecting CXX compiler ABI info
+[2.903s] -- Detecting CXX compiler ABI info - done
+[2.915s] -- Detecting CXX compile features
+[3.511s] -- Detecting CXX compile features - done
+[3.513s] -- CUDA compilation status: .
+[3.542s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/vector_map/devel
+[3.542s] -- Using CMAKE_PREFIX_PATH: /home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[3.543s] -- This workspace overlays: /home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[3.568s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.568s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.568s] -- Using Debian Python package layout
+[3.569s] -- Using empy: /usr/bin/empy
+[3.730s] -- Using CATKIN_ENABLE_TESTING: ON
+[3.731s] -- Call enable_testing()
+[3.733s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/vector_map/test_results
+[3.751s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[3.751s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[3.771s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[3.771s] -- Looking for pthread.h
+[3.867s] -- Looking for pthread.h - found
+[3.867s] -- Looking for pthread_create
+[3.955s] -- Looking for pthread_create - not found
+[3.956s] -- Looking for pthread_create in pthreads
+[4.068s] -- Looking for pthread_create in pthreads - not found
+[4.069s] -- Looking for pthread_create in pthread
+[4.526s] -- Looking for pthread_create in pthread - found
+[4.527s] -- Found Threads: TRUE  
+[4.531s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[4.572s] -- catkin 0.7.29
+[4.572s] -- BUILD_SHARED_LIBS is on
+[5.006s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.764s] -- Configuring done
+[5.859s] -- Generating done
+[5.876s] -- Build files have been written to: /home/agilex/autoware.ai/build/vector_map
+[5.884s] Invoked command in '/home/agilex/autoware.ai/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/common/vector_map -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/vector_map
+[5.885s] Invoking command in '/home/agilex/autoware.ai/build/vector_map': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map -- -j8 -l8
+[6.088s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[6.123s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[6.144s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[6.190s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[6.215s] [  0%] Built target geometry_msgs_generate_messages_py
+[6.237s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[6.241s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[6.262s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[6.265s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[6.280s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[6.285s] [  0%] Built target visualization_msgs_generate_messages_eus
+[6.319s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[6.327s] [  0%] Built target tf2_msgs_generate_messages_py
+[6.327s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[6.335s] [  0%] Built target visualization_msgs_generate_messages_py
+[6.377s] [  0%] Built target tf2_msgs_generate_messages_eus
+[6.379s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[6.379s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[6.382s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[6.388s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[6.400s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[6.404s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[6.423s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[6.438s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[6.455s] [  0%] Built target actionlib_msgs_generate_messages_py
+[6.467s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[6.469s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[6.472s] [  0%] Built target actionlib_generate_messages_lisp
+[6.475s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[6.524s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[6.531s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[6.532s] [  0%] Built target actionlib_generate_messages_py
+[6.548s] [  0%] Built target actionlib_generate_messages_eus
+[6.561s] [  0%] Built target actionlib_generate_messages_nodejs
+[6.561s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[6.565s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[6.572s] [  0%] Built target actionlib_generate_messages_cpp
+[6.634s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[6.651s] [  0%] Built target sensor_msgs_generate_messages_eus
+[6.672s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[6.684s] [  0%] Built target roscpp_generate_messages_cpp
+[6.694s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[6.698s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[6.705s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[6.732s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[6.755s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[6.775s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[6.782s] [  0%] Built target std_msgs_generate_messages_py
+[6.815s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[6.843s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[6.847s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[6.851s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[6.860s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[6.866s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[6.881s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[6.887s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[6.932s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[6.950s] [  0%] Built target std_msgs_generate_messages_cpp
+[6.956s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[6.956s] [  0%] Built target std_msgs_generate_messages_lisp
+[6.967s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[6.968s] [  0%] Built target tf_generate_messages_cpp
+[7.005s] [  0%] Built target std_msgs_generate_messages_nodejs
+[7.008s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[7.020s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[7.027s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[7.031s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[7.057s] [  0%] Built target vector_map_msgs_generate_messages_py
+[7.058s] [  0%] Built target std_msgs_generate_messages_eus
+[7.069s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[7.069s] [  0%] Built target tf_generate_messages_py
+[7.075s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[7.084s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[7.115s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[7.120s] [  0%] Built target sensor_msgs_generate_messages_py
+[7.122s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[7.128s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[7.133s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[7.143s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[7.151s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[7.176s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[7.182s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[7.193s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[7.200s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[7.202s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[7.203s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[7.218s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[7.232s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[7.241s] [  0%] Built target tf_generate_messages_nodejs
+[7.244s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[7.255s] [  0%] Built target roscpp_generate_messages_lisp
+[7.255s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[7.255s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[7.255s] [  0%] Built target tf_generate_messages_lisp
+[7.286s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[7.287s] [  0%] Built target roscpp_generate_messages_nodejs
+[7.293s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[7.307s] [  0%] Built target roscpp_generate_messages_py
+[7.307s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[7.319s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[7.319s] [  0%] Built target geometry_msgs_generate_messages_eus
+[7.326s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[7.332s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[7.336s] [  0%] Built target roscpp_generate_messages_eus
+[7.339s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[7.375s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[7.405s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[7.423s] [  0%] Built target tf_generate_messages_eus
+[7.432s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[7.498s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[7.552s] [35m[1mScanning dependencies of target vector_map[0m
+[7.683s] [ 50%] [32mBuilding CXX object CMakeFiles/vector_map.dir/lib/vector_map/vector_map.cpp.o[0m
+[24.170s] [100%] [32m[1mLinking CXX shared library devel/lib/libvector_map.so[0m
+[24.330s] [100%] Built target vector_map
+[24.343s] Invoked command in '/home/agilex/autoware.ai/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map -- -j8 -l8
+[24.399s] Invoking command in '/home/agilex/autoware.ai/build/vector_map': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map --target tests -- -j8 -l8
+[24.451s] [35m[1mScanning dependencies of target tests[0m
+[24.461s] Built target tests
+[24.475s] Invoked command in '/home/agilex/autoware.ai/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map --target tests -- -j8 -l8
+[24.535s] Invoking command in '/home/agilex/autoware.ai/build/vector_map': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map --target install -- -j8 -l8
+[24.589s] [  0%] Built target geometry_msgs_generate_messages_py
+[24.612s] [  0%] Built target tf2_msgs_generate_messages_eus
+[24.632s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[24.651s] [  0%] Built target actionlib_msgs_generate_messages_py
+[24.671s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[24.690s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[24.710s] [  0%] Built target actionlib_generate_messages_py
+[24.729s] [  0%] Built target actionlib_generate_messages_nodejs
+[24.749s] [  0%] Built target actionlib_generate_messages_lisp
+[24.769s] [  0%] Built target actionlib_generate_messages_eus
+[24.788s] [  0%] Built target sensor_msgs_generate_messages_eus
+[24.811s] [  0%] Built target actionlib_generate_messages_cpp
+[24.831s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[24.851s] [  0%] Built target roscpp_generate_messages_cpp
+[24.869s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[24.888s] [  0%] Built target std_msgs_generate_messages_py
+[24.907s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[24.925s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[24.944s] [  0%] Built target std_msgs_generate_messages_cpp
+[24.962s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[24.981s] [  0%] Built target std_msgs_generate_messages_nodejs
+[24.998s] [  0%] Built target std_msgs_generate_messages_lisp
+[25.016s] [  0%] Built target tf_generate_messages_cpp
+[25.033s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[25.050s] [  0%] Built target vector_map_msgs_generate_messages_py
+[25.067s] [  0%] Built target std_msgs_generate_messages_eus
+[25.086s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[25.105s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[25.124s] [  0%] Built target sensor_msgs_generate_messages_py
+[25.142s] [  0%] Built target tf_generate_messages_py
+[25.161s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[25.179s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[25.199s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[25.220s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[25.240s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[25.259s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[25.279s] [  0%] Built target tf_generate_messages_nodejs
+[25.298s] [  0%] Built target roscpp_generate_messages_lisp
+[25.319s] [  0%] Built target tf_generate_messages_lisp
+[25.338s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[25.357s] [  0%] Built target roscpp_generate_messages_py
+[25.377s] [  0%] Built target roscpp_generate_messages_nodejs
+[25.397s] [  0%] Built target roscpp_generate_messages_eus
+[25.416s] [  0%] Built target geometry_msgs_generate_messages_eus
+[25.435s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[25.454s] [  0%] Built target tf_generate_messages_eus
+[25.472s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[25.491s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[25.512s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[25.531s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[25.550s] [  0%] Built target tf2_msgs_generate_messages_py
+[25.569s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[25.588s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[25.608s] [  0%] Built target visualization_msgs_generate_messages_eus
+[25.627s] [  0%] Built target visualization_msgs_generate_messages_py
+[25.652s] [100%] Built target vector_map
+[25.671s] [36mInstall the project...[0m
+[25.680s] -- Install configuration: "Release"
+[25.680s] -- Installing: /home/agilex/autoware.ai/install/vector_map/lib/pkgconfig/vector_map.pc
+[25.680s] -- Installing: /home/agilex/autoware.ai/install/vector_map/share/vector_map/cmake/vector_mapConfig.cmake
+[25.681s] -- Installing: /home/agilex/autoware.ai/install/vector_map/share/vector_map/cmake/vector_mapConfig-version.cmake
+[25.681s] -- Installing: /home/agilex/autoware.ai/install/vector_map/share/vector_map/package.xml
+[25.681s] -- Installing: /home/agilex/autoware.ai/install/vector_map/lib/libvector_map.so
+[25.682s] -- Set runtime path of "/home/agilex/autoware.ai/install/vector_map/lib/libvector_map.so" to ""
+[25.683s] -- Installing: /home/agilex/autoware.ai/install/vector_map/include/vector_map
+[25.683s] -- Installing: /home/agilex/autoware.ai/install/vector_map/include/vector_map/vector_map.h
+[25.688s] Invoked command in '/home/agilex/autoware.ai/build/vector_map' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map --target install -- -j8 -l8

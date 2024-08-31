@@ -1,0 +1,18 @@
+[0.025s] Invoking command in '/home/agilex/autoware.ai/build/memsic_imu': /usr/bin/cmake --build /home/agilex/autoware.ai/build/memsic_imu -- -j8 -l8
+[0.116s] [100%] Built target vg440_node
+[0.137s] Invoked command in '/home/agilex/autoware.ai/build/memsic_imu' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/memsic_imu -- -j8 -l8
+[0.193s] Invoking command in '/home/agilex/autoware.ai/build/memsic_imu': /usr/bin/cmake --build /home/agilex/autoware.ai/build/memsic_imu --target tests -- -j8 -l8
+[0.242s] Built target tests
+[0.250s] Invoked command in '/home/agilex/autoware.ai/build/memsic_imu' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/memsic_imu --target tests -- -j8 -l8
+[0.313s] Invoking command in '/home/agilex/autoware.ai/build/memsic_imu': /usr/bin/cmake --build /home/agilex/autoware.ai/build/memsic_imu --target install -- -j8 -l8
+[0.357s] [100%] Built target vg440_node
+[0.370s] [36mInstall the project...[0m
+[0.377s] -- Install configuration: "Release"
+[0.377s] -- Up-to-date: /home/agilex/autoware.ai/install/memsic_imu/lib/pkgconfig/memsic_imu.pc
+[0.377s] -- Up-to-date: /home/agilex/autoware.ai/install/memsic_imu/share/memsic_imu/cmake/memsic_imuConfig.cmake
+[0.378s] -- Up-to-date: /home/agilex/autoware.ai/install/memsic_imu/share/memsic_imu/cmake/memsic_imuConfig-version.cmake
+[0.380s] -- Up-to-date: /home/agilex/autoware.ai/install/memsic_imu/share/memsic_imu/package.xml
+[0.380s] -- Up-to-date: /home/agilex/autoware.ai/install/memsic_imu/lib/memsic_imu/vg440_node
+[0.380s] -- Up-to-date: /home/agilex/autoware.ai/install/memsic_imu/share/memsic_imu/launch
+[0.380s] -- Up-to-date: /home/agilex/autoware.ai/install/memsic_imu/share/memsic_imu/launch/vg440.launch
+[0.409s] Invoked command in '/home/agilex/autoware.ai/build/memsic_imu' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/memsic_imu --target install -- -j8 -l8

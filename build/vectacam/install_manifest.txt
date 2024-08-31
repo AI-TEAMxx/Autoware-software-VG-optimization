@@ -1,0 +1,7 @@
+/home/agilex/autoware.ai/install/vectacam/lib/pkgconfig/vectacam.pc
+/home/agilex/autoware.ai/install/vectacam/share/vectacam/cmake/vectacamConfig.cmake
+/home/agilex/autoware.ai/install/vectacam/share/vectacam/cmake/vectacamConfig-version.cmake
+/home/agilex/autoware.ai/install/vectacam/share/vectacam/package.xml
+/home/agilex/autoware.ai/install/vectacam/lib/vectacam/vectacam_node
+/home/agilex/autoware.ai/install/vectacam/share/vectacam/launch/initialization_params.txt
+/home/agilex/autoware.ai/install/vectacam/share/vectacam/launch/vectacam.launch

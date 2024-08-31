@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/agilex/autoware.ai/install/lidar_naive_l_shape_detect/setup.sh

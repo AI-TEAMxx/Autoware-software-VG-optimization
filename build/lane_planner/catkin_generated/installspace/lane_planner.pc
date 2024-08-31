@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/lane_planner
+
+Name: lane_planner
+Description: Description of lane_planner
+Version: 1.11.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -llane_planner
+Requires: roscpp std_msgs waypoint_follower vector_map gnss autoware_msgs

@@ -1,0 +1,14 @@
+[0.022s] Invoking command in '/home/agilex/autoware.ai/build/autoware_build_flags': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_build_flags -- -j8 -l8
+[0.057s] Invoked command in '/home/agilex/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_build_flags -- -j8 -l8
+[0.319s] Invoking command in '/home/agilex/autoware.ai/build/autoware_build_flags': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_build_flags --target tests -- -j8 -l8
+[0.507s] Built target tests
+[0.548s] Invoked command in '/home/agilex/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_build_flags --target tests -- -j8 -l8
+[0.778s] Invoking command in '/home/agilex/autoware.ai/build/autoware_build_flags': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_build_flags --target install -- -j8 -l8
+[0.898s] [36mInstall the project...[0m
+[0.922s] -- Install configuration: "Release"
+[0.922s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig/autoware_build_flags.pc
+[0.922s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flags-extras.cmake
+[0.922s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig.cmake
+[0.922s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/cmake/autoware_build_flagsConfig-version.cmake
+[0.922s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_build_flags/share/autoware_build_flags/package.xml
+[0.939s] Invoked command in '/home/agilex/autoware.ai/build/autoware_build_flags' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_build_flags --target install -- -j8 -l8

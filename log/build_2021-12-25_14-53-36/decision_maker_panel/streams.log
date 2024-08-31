@@ -1,0 +1,75 @@
+[0.020s] Invoking command in '/home/agilex/autoware.ai/build/decision_maker_panel': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/visualization/decision_maker_panel -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/decision_maker_panel
+[0.088s] -- The C compiler identification is GNU 7.5.0
+[0.151s] -- The CXX compiler identification is GNU 7.5.0
+[0.155s] -- Check for working C compiler: /usr/bin/cc
+[0.238s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.239s] -- Detecting C compiler ABI info
+[0.306s] -- Detecting C compiler ABI info - done
+[0.314s] -- Detecting C compile features
+[0.569s] -- Detecting C compile features - done
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++
+[0.673s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.674s] -- Detecting CXX compiler ABI info
+[0.772s] -- Detecting CXX compiler ABI info - done
+[0.781s] -- Detecting CXX compile features
+[1.128s] -- Detecting CXX compile features - done
+[1.130s] -- CUDA compilation status: .
+[1.131s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/decision_maker_panel/devel
+[1.131s] -- Using CMAKE_PREFIX_PATH: /home/agilex/autoware.ai/install/autoware_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.131s] -- This workspace overlays: /home/agilex/autoware.ai/install/autoware_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.144s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.144s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.144s] -- Using Debian Python package layout
+[1.145s] -- Using empy: /usr/bin/empy
+[1.295s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.295s] -- Call enable_testing()
+[1.297s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/decision_maker_panel/test_results
+[1.314s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.315s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.327s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.329s] -- Looking for pthread.h
+[1.388s] -- Looking for pthread.h - found
+[1.391s] -- Looking for pthread_create
+[1.446s] -- Looking for pthread_create - not found
+[1.446s] -- Looking for pthread_create in pthreads
+[1.498s] -- Looking for pthread_create in pthreads - not found
+[1.499s] -- Looking for pthread_create in pthread
+[1.556s] -- Looking for pthread_create in pthread - found
+[1.557s] -- Found Threads: TRUE  
+[1.562s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.607s] -- catkin 0.7.29
+[1.608s] -- BUILD_SHARED_LIBS is on
+[1.839s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.075s] -- Using Qt5 based on the rviz_QT_VERSION: 5.9.5
+[2.209s] -- Configuring done
+[2.251s] -- Generating done
+[2.261s] -- Build files have been written to: /home/agilex/autoware.ai/build/decision_maker_panel
+[2.270s] Invoked command in '/home/agilex/autoware.ai/build/decision_maker_panel' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/visualization/decision_maker_panel -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/decision_maker_panel
+[2.271s] Invoking command in '/home/agilex/autoware.ai/build/decision_maker_panel': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/decision_maker_panel -- -j8 -l8
+[2.313s] [35m[1mScanning dependencies of target decision_maker_panel_autogen[0m
+[2.322s] [ 25%] [34m[1mAutomatic MOC for target decision_maker_panel[0m
+[2.346s] [ 25%] Built target decision_maker_panel_autogen
+[2.355s] [35m[1mScanning dependencies of target decision_maker_panel[0m
+[2.394s] [ 50%] [32mBuilding CXX object CMakeFiles/decision_maker_panel.dir/src/decision_maker_panel.cpp.o[0m
+[6.336s] [ 75%] [32mBuilding CXX object CMakeFiles/decision_maker_panel.dir/decision_maker_panel_autogen/mocs_compilation.cpp.o[0m
+[8.284s] [100%] [32m[1mLinking CXX shared library devel/lib/libdecision_maker_panel.so[0m
+[8.812s] [100%] Built target decision_maker_panel
+[8.824s] Invoked command in '/home/agilex/autoware.ai/build/decision_maker_panel' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/decision_maker_panel -- -j8 -l8
+[8.923s] Invoking command in '/home/agilex/autoware.ai/build/decision_maker_panel': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/decision_maker_panel --target tests -- -j8 -l8
+[8.977s] [35m[1mScanning dependencies of target tests[0m
+[8.986s] Built target tests
+[8.998s] Invoked command in '/home/agilex/autoware.ai/build/decision_maker_panel' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/decision_maker_panel --target tests -- -j8 -l8
+[9.080s] Invoking command in '/home/agilex/autoware.ai/build/decision_maker_panel': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/decision_maker_panel --target install -- -j8 -l8
+[9.130s] [ 25%] [34m[1mAutomatic MOC for target decision_maker_panel[0m
+[9.146s] [ 25%] Built target decision_maker_panel_autogen
+[9.175s] [100%] Built target decision_maker_panel
+[9.194s] [36mInstall the project...[0m
+[9.204s] -- Install configuration: "Release"
+[9.204s] -- Installing: /home/agilex/autoware.ai/install/decision_maker_panel/lib/pkgconfig/decision_maker_panel.pc
+[9.205s] -- Installing: /home/agilex/autoware.ai/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig.cmake
+[9.205s] -- Installing: /home/agilex/autoware.ai/install/decision_maker_panel/share/decision_maker_panel/cmake/decision_maker_panelConfig-version.cmake
+[9.205s] -- Installing: /home/agilex/autoware.ai/install/decision_maker_panel/share/decision_maker_panel/package.xml
+[9.206s] -- Installing: /home/agilex/autoware.ai/install/decision_maker_panel/lib/libdecision_maker_panel.so
+[9.208s] -- Set runtime path of "/home/agilex/autoware.ai/install/decision_maker_panel/lib/libdecision_maker_panel.so" to ""
+[9.208s] -- Installing: /home/agilex/autoware.ai/install/decision_maker_panel/share/decision_maker_panel/plugin_description.xml
+[9.213s] Invoked command in '/home/agilex/autoware.ai/build/decision_maker_panel' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/decision_maker_panel --target install -- -j8 -l8

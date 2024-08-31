@@ -1,0 +1,426 @@
+[0.013s] Invoking command in '/home/agilex/autoware.ai/build/points_downsampler': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/core_perception/points_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/points_downsampler
+[0.070s] -- The C compiler identification is GNU 7.5.0
+[0.123s] -- The CXX compiler identification is GNU 7.5.0
+[0.127s] -- Check for working C compiler: /usr/bin/cc
+[0.182s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.183s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.248s] -- Detecting C compile features
+[0.421s] -- Detecting C compile features - done
+[0.425s] -- Check for working CXX compiler: /usr/bin/c++
+[0.502s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.503s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.575s] -- Detecting CXX compile features
+[0.883s] -- Detecting CXX compile features - done
+[0.884s] -- CUDA compilation status: .
+[0.909s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/points_downsampler/devel
+[0.910s] -- Using CMAKE_PREFIX_PATH: /home/agilex/autoware.ai/install/autoware_config_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[0.910s] -- This workspace overlays: /home/agilex/autoware.ai/install/autoware_config_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[0.923s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.924s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.924s] -- Using Debian Python package layout
+[0.924s] -- Using empy: /usr/bin/empy
+[1.080s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.081s] -- Call enable_testing()
+[1.083s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/points_downsampler/test_results
+[1.100s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.100s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.114s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.115s] -- Looking for pthread.h
+[1.179s] -- Looking for pthread.h - found
+[1.179s] -- Looking for pthread_create
+[1.240s] -- Looking for pthread_create - not found
+[1.240s] -- Looking for pthread_create in pthreads
+[1.286s] -- Looking for pthread_create in pthreads - not found
+[1.286s] -- Looking for pthread_create in pthread
+[1.345s] -- Looking for pthread_create in pthread - found
+[1.347s] -- Found Threads: TRUE  
+[1.351s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.395s] -- catkin 0.7.29
+[1.395s] -- BUILD_SHARED_LIBS is on
+[2.047s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.889s] -- points_downsampler: 1 messages, 0 services
+[3.059s] -- Configuring done
+[3.175s] -- Generating done
+[3.188s] -- Build files have been written to: /home/agilex/autoware.ai/build/points_downsampler
+[3.197s] Invoked command in '/home/agilex/autoware.ai/build/points_downsampler' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/core_perception/points_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/points_downsampler
+[3.197s] Invoking command in '/home/agilex/autoware.ai/build/points_downsampler': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/points_downsampler -- -j8 -l8
+[3.239s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[3.248s] [  0%] Built target actionlib_generate_messages_nodejs
+[3.257s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_eus[0m
+[3.266s] [  0%] Built target velodyne_msgs_generate_messages_eus
+[3.274s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_cpp[0m
+[3.285s] [  0%] Built target velodyne_msgs_generate_messages_cpp
+[3.295s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_py[0m
+[3.303s] [  0%] Built target diagnostic_msgs_generate_messages_py
+[3.319s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_nodejs[0m
+[3.336s] [  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[3.346s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_lisp[0m
+[3.360s] [  0%] Built target diagnostic_msgs_generate_messages_lisp
+[3.370s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_eus[0m
+[3.380s] [  0%] Built target diagnostic_msgs_generate_messages_eus
+[3.393s] [35m[1mScanning dependencies of target velodyne_driver_gencfg[0m
+[3.402s] [  0%] Built target velodyne_driver_gencfg
+[3.411s] [35m[1mScanning dependencies of target velodyne_pointcloud_gencfg[0m
+[3.420s] [  0%] Built target velodyne_pointcloud_gencfg
+[3.428s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[3.438s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[3.447s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[3.458s] [  0%] Built target tf2_msgs_generate_messages_eus
+[3.468s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[3.477s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[3.486s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[3.496s] [  0%] Built target actionlib_msgs_generate_messages_py
+[3.504s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[3.515s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[3.525s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[3.535s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.545s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[3.555s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[3.564s] [35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[3.577s] [  0%] Built target dynamic_reconfigure_gencfg
+[3.589s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[3.599s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[3.608s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[3.622s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[3.632s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[3.640s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[3.650s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[3.660s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.669s] [35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[3.678s] [  0%] Built target topic_tools_generate_messages_cpp
+[3.687s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[3.696s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[3.707s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[3.718s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.729s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[3.738s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[3.746s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[3.754s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.763s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[3.777s] [  0%] Built target roscpp_generate_messages_py
+[3.786s] [35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[3.796s] [  0%] Built target bond_generate_messages_eus
+[3.805s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[3.815s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[3.823s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[3.832s] [  0%] Built target roscpp_generate_messages_eus
+[3.840s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[3.853s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[3.862s] [35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[3.872s] [  0%] Built target pcl_ros_gencfg
+[3.881s] [35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[3.890s] [  0%] Built target topic_tools_generate_messages_nodejs
+[3.898s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[3.907s] [  0%] Built target tf2_msgs_generate_messages_py
+[3.915s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[3.924s] [  0%] Built target actionlib_generate_messages_py
+[3.934s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[3.948s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[3.962s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[3.970s] [  0%] Built target std_msgs_generate_messages_cpp
+[3.979s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[3.988s] [  0%] Built target std_msgs_generate_messages_py
+[3.996s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[4.004s] [  0%] Built target roscpp_generate_messages_nodejs
+[4.017s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[4.029s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.038s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[4.046s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[4.059s] [35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[4.069s] [  0%] Built target bond_generate_messages_lisp
+[4.081s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[4.092s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[4.104s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[4.115s] [  0%] Built target roscpp_generate_messages_lisp
+[4.128s] [35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[4.146s] [  0%] Built target std_srvs_generate_messages_eus
+[4.169s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[4.181s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[4.203s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[4.222s] [  0%] Built target roscpp_generate_messages_cpp
+[4.235s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[4.247s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[4.265s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[4.273s] [  0%] Built target actionlib_generate_messages_cpp
+[4.296s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[4.308s] [  0%] Built target geometry_msgs_generate_messages_py
+[4.321s] [35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[4.333s] [  0%] Built target nodelet_generate_messages_cpp
+[4.342s] [35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[4.358s] [  0%] Built target bond_generate_messages_py
+[4.371s] [35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[4.379s] [  0%] Built target std_srvs_generate_messages_nodejs
+[4.393s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[4.403s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[4.414s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[4.422s] [  0%] Built target actionlib_generate_messages_lisp
+[4.439s] [35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[4.449s] [  0%] Built target nodelet_generate_messages_eus
+[4.458s] [35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[4.472s] [  0%] Built target nodelet_generate_messages_lisp
+[4.482s] [35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[4.497s] [  0%] Built target nodelet_generate_messages_nodejs
+[4.519s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[4.529s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[4.556s] [35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[4.568s] [  0%] Built target bond_generate_messages_cpp
+[4.588s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[4.597s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[4.611s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[4.619s] [  0%] Built target tf_generate_messages_eus
+[4.627s] [35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[4.638s] [  0%] Built target bond_generate_messages_nodejs
+[4.652s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[4.662s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[4.680s] [35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[4.694s] [  0%] Built target topic_tools_generate_messages_py
+[4.714s] [35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[4.728s] [  0%] Built target nodelet_topic_tools_gencfg
+[4.749s] [35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[4.771s] [  0%] Built target std_srvs_generate_messages_lisp
+[4.788s] [35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[4.797s] [  0%] Built target topic_tools_generate_messages_lisp
+[4.805s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[4.814s] [  0%] Built target pcl_msgs_generate_messages_eus
+[4.828s] [35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[4.837s] [  0%] Built target topic_tools_generate_messages_eus
+[4.847s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[4.878s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[4.904s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[4.926s] [  0%] Built target sensor_msgs_generate_messages_eus
+[4.934s] [35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[4.942s] [  0%] Built target nodelet_generate_messages_py
+[4.963s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[4.969s] [  0%] Built target sensor_msgs_generate_messages_py
+[4.981s] [35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[4.995s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[5.007s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[5.032s] [  0%] Built target tf_generate_messages_py
+[5.042s] [35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[5.056s] [  0%] Built target std_srvs_generate_messages_cpp
+[5.070s] [35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[5.089s] [  0%] Built target std_srvs_generate_messages_py
+[5.101s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[5.110s] [  0%] Built target tf_generate_messages_lisp
+[5.120s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[5.129s] [  0%] Built target tf_generate_messages_nodejs
+[5.137s] [35m[1mScanning dependencies of target diagnostic_msgs_generate_messages_cpp[0m
+[5.146s] [  0%] Built target diagnostic_msgs_generate_messages_cpp
+[5.155s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[5.164s] [  0%] Built target pcl_msgs_generate_messages_py
+[5.173s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[5.182s] [  0%] Built target actionlib_generate_messages_eus
+[5.193s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[5.201s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[5.210s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[5.219s] [  0%] Built target tf_generate_messages_cpp
+[5.228s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_lisp[0m
+[5.237s] [  0%] Built target velodyne_msgs_generate_messages_lisp
+[5.246s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_nodejs[0m
+[5.255s] [  0%] Built target velodyne_msgs_generate_messages_nodejs
+[5.264s] [35m[1mScanning dependencies of target velodyne_msgs_generate_messages_py[0m
+[5.272s] [  0%] Built target velodyne_msgs_generate_messages_py
+[5.281s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[5.290s] [  0%] Built target std_msgs_generate_messages_eus
+[5.299s] [35m[1mScanning dependencies of target _points_downsampler_generate_messages_check_deps_PointsDownsamplerInfo[0m
+[5.331s] [  0%] Built target _points_downsampler_generate_messages_check_deps_PointsDownsamplerInfo
+[5.340s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[5.348s] [  0%] Built target std_msgs_generate_messages_nodejs
+[5.357s] [35m[1mScanning dependencies of target points_downsampler_generate_messages_cpp[0m
+[5.368s] [  6%] [34m[1mGenerating C++ code from points_downsampler/PointsDownsamplerInfo.msg[0m
+[5.518s] [  6%] Built target points_downsampler_generate_messages_cpp
+[5.531s] [35m[1mScanning dependencies of target points_downsampler_generate_messages_nodejs[0m
+[5.545s] [ 13%] [34m[1mGenerating Javascript code from points_downsampler/PointsDownsamplerInfo.msg[0m
+[5.595s] [ 13%] Built target points_downsampler_generate_messages_nodejs
+[5.604s] [35m[1mScanning dependencies of target points_downsampler_generate_messages_lisp[0m
+[5.613s] [ 20%] [34m[1mGenerating Lisp code from points_downsampler/PointsDownsamplerInfo.msg[0m
+[5.648s] [ 20%] Built target points_downsampler_generate_messages_lisp
+[5.657s] [35m[1mScanning dependencies of target points_downsampler_generate_messages_py[0m
+[5.668s] [ 26%] [34m[1mGenerating Python from MSG points_downsampler/PointsDownsamplerInfo[0m
+[5.799s] [ 33%] [34m[1mGenerating Python msg __init__.py for points_downsampler[0m
+[5.927s] [ 33%] Built target points_downsampler_generate_messages_py
+[5.935s] [35m[1mScanning dependencies of target points_downsampler_generate_messages_eus[0m
+[5.945s] [ 40%] [34m[1mGenerating EusLisp code from points_downsampler/PointsDownsamplerInfo.msg[0m
+[6.004s] [ 46%] [34m[1mGenerating EusLisp manifest code for points_downsampler[0m
+[6.772s] [ 46%] Built target points_downsampler_generate_messages_eus
+[6.782s] [35m[1mScanning dependencies of target random_filter[0m
+[6.834s] [ 53%] [32mBuilding CXX object CMakeFiles/random_filter.dir/nodes/random_filter/random_filter.cpp.o[0m
+[10.935s] [01m[K/home/agilex/autoware.ai/src/autoware/core_perception/points_downsampler/nodes/random_filter/random_filter.cpp:[m[K In function '[01m[Kvoid scan_callback(const ConstPtr&)[m[K':
+[10.935s] [01m[K/home/agilex/autoware.ai/src/autoware/core_perception/points_downsampler/nodes/random_filter/random_filter.cpp:74:25:[m[K [01;35m[Kwarning: [m[Kcomparison between signed and unsigned integer expressions [[01;35m[K-Wsign-compare[m[K]
+[10.935s]    if([01;35m[Kscan.points.size() >= sample_num[m[K)
+[10.935s]       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[15.119s] [ 60%] [32m[1mLinking CXX executable devel/lib/points_downsampler/random_filter[0m
+[15.547s] [ 60%] Built target random_filter
+[15.556s] [35m[1mScanning dependencies of target voxel_grid_filter[0m
+[15.609s] [ 66%] [32mBuilding CXX object CMakeFiles/voxel_grid_filter.dir/nodes/voxel_grid_filter/voxel_grid_filter.cpp.o[0m
+[25.024s] [ 73%] [32m[1mLinking CXX executable devel/lib/points_downsampler/voxel_grid_filter[0m
+[27.262s] [ 73%] Built target voxel_grid_filter
+[27.271s] [35m[1mScanning dependencies of target points_downsampler_generate_messages[0m
+[27.280s] [ 73%] Built target points_downsampler_generate_messages
+[27.289s] [35m[1mScanning dependencies of target ring_filter[0m
+[27.341s] [ 80%] [32mBuilding CXX object CMakeFiles/ring_filter.dir/nodes/ring_filter/ring_filter.cpp.o[0m
+[36.673s] [ 86%] [32m[1mLinking CXX executable devel/lib/points_downsampler/ring_filter[0m
+[38.921s] [ 86%] Built target ring_filter
+[38.936s] [35m[1mScanning dependencies of target distance_filter[0m
+[38.987s] [ 93%] [32mBuilding CXX object CMakeFiles/distance_filter.dir/nodes/distance_filter/distance_filter.cpp.o[0m
+[47.841s] [100%] [32m[1mLinking CXX executable devel/lib/points_downsampler/distance_filter[0m
+[48.275s] [100%] Built target distance_filter
+[48.286s] Invoked command in '/home/agilex/autoware.ai/build/points_downsampler' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/points_downsampler -- -j8 -l8
+[48.571s] Invoking command in '/home/agilex/autoware.ai/build/points_downsampler': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/points_downsampler --target tests -- -j8 -l8
+[48.673s] [35m[1mScanning dependencies of target tests[0m
+[48.682s] Built target tests
+[48.693s] Invoked command in '/home/agilex/autoware.ai/build/points_downsampler' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/points_downsampler --target tests -- -j8 -l8
+[48.824s] Invoking command in '/home/agilex/autoware.ai/build/points_downsampler': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/points_downsampler --target install -- -j8 -l8
+[48.871s] [  0%] Built target actionlib_generate_messages_nodejs
+[48.888s] [  0%] Built target velodyne_msgs_generate_messages_eus
+[48.908s] [  0%] Built target velodyne_msgs_generate_messages_cpp
+[48.928s] [  0%] Built target diagnostic_msgs_generate_messages_py
+[48.948s] [  0%] Built target diagnostic_msgs_generate_messages_nodejs
+[48.970s] [  0%] Built target diagnostic_msgs_generate_messages_lisp
+[48.988s] [  0%] Built target diagnostic_msgs_generate_messages_eus
+[49.009s] [  0%] Built target velodyne_driver_gencfg
+[49.029s] [  0%] Built target velodyne_pointcloud_gencfg
+[49.047s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[49.065s] [  0%] Built target tf2_msgs_generate_messages_eus
+[49.082s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[49.101s] [  0%] Built target actionlib_msgs_generate_messages_py
+[49.117s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[49.138s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[49.155s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[49.176s] [  0%] Built target dynamic_reconfigure_gencfg
+[49.198s] [  0%] Built target dynamic_reconfigure_generate_messages_py
+[49.221s] [  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[49.237s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[49.254s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[49.271s] [  0%] Built target topic_tools_generate_messages_cpp
+[49.291s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[49.325s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[49.386s] [  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[49.430s] [  0%] Built target geometry_msgs_generate_messages_eus
+[49.460s] [  0%] Built target roscpp_generate_messages_py
+[49.488s] [  0%] Built target bond_generate_messages_eus
+[49.522s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[49.553s] [  0%] Built target roscpp_generate_messages_eus
+[49.588s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[49.621s] [  0%] Built target pcl_ros_gencfg
+[49.657s] [  0%] Built target topic_tools_generate_messages_nodejs
+[49.686s] [  0%] Built target tf2_msgs_generate_messages_py
+[49.723s] [  0%] Built target actionlib_generate_messages_py
+[49.756s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[49.783s] [  0%] Built target std_msgs_generate_messages_cpp
+[49.811s] [  0%] Built target std_msgs_generate_messages_py
+[49.838s] [  0%] Built target roscpp_generate_messages_nodejs
+[49.868s] [  0%] Built target std_msgs_generate_messages_lisp
+[49.913s] [  0%] Built target dynamic_reconfigure_generate_messages_eus
+[49.956s] [  0%] Built target bond_generate_messages_lisp
+[49.994s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[50.022s] [  0%] Built target roscpp_generate_messages_lisp
+[50.056s] [  0%] Built target std_srvs_generate_messages_eus
+[50.086s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[50.139s] [  0%] Built target roscpp_generate_messages_cpp
+[50.192s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[50.239s] [  0%] Built target actionlib_generate_messages_cpp
+[50.267s] [  0%] Built target geometry_msgs_generate_messages_py
+[50.290s] [  0%] Built target nodelet_generate_messages_cpp
+[50.322s] [  0%] Built target bond_generate_messages_py
+[50.339s] [  0%] Built target std_srvs_generate_messages_nodejs
+[50.364s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[50.381s] [  0%] Built target actionlib_generate_messages_lisp
+[50.399s] [  0%] Built target nodelet_generate_messages_eus
+[50.416s] [  0%] Built target nodelet_generate_messages_lisp
+[50.436s] [  0%] Built target nodelet_generate_messages_nodejs
+[50.452s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[50.472s] [  0%] Built target bond_generate_messages_cpp
+[50.493s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[50.518s] [  0%] Built target tf_generate_messages_eus
+[50.536s] [  0%] Built target bond_generate_messages_nodejs
+[50.554s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[50.572s] [  0%] Built target topic_tools_generate_messages_py
+[50.592s] [  0%] Built target nodelet_topic_tools_gencfg
+[50.611s] [  0%] Built target std_srvs_generate_messages_lisp
+[50.628s] [  0%] Built target topic_tools_generate_messages_lisp
+[50.646s] [  0%] Built target pcl_msgs_generate_messages_eus
+[50.664s] [  0%] Built target topic_tools_generate_messages_eus
+[50.681s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[50.699s] [  0%] Built target sensor_msgs_generate_messages_eus
+[50.717s] [  0%] Built target nodelet_generate_messages_py
+[50.734s] [  0%] Built target sensor_msgs_generate_messages_py
+[50.752s] [  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[50.770s] [  0%] Built target tf_generate_messages_py
+[50.787s] [  0%] Built target std_srvs_generate_messages_cpp
+[50.807s] [  0%] Built target std_srvs_generate_messages_py
+[50.825s] [  0%] Built target tf_generate_messages_lisp
+[50.844s] [  0%] Built target tf_generate_messages_nodejs
+[50.865s] [  0%] Built target diagnostic_msgs_generate_messages_cpp
+[50.883s] [  0%] Built target pcl_msgs_generate_messages_py
+[50.900s] [  0%] Built target actionlib_generate_messages_eus
+[50.919s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[50.936s] [  0%] Built target tf_generate_messages_cpp
+[50.954s] [  0%] Built target velodyne_msgs_generate_messages_lisp
+[50.972s] [  0%] Built target velodyne_msgs_generate_messages_nodejs
+[50.989s] [  0%] Built target velodyne_msgs_generate_messages_py
+[51.007s] [  0%] Built target std_msgs_generate_messages_eus
+[51.051s] [  0%] Built target _points_downsampler_generate_messages_check_deps_PointsDownsamplerInfo
+[51.076s] [  0%] Built target std_msgs_generate_messages_nodejs
+[51.094s] [  6%] Built target points_downsampler_generate_messages_cpp
+[51.111s] [ 13%] Built target points_downsampler_generate_messages_nodejs
+[51.128s] [ 20%] Built target points_downsampler_generate_messages_lisp
+[51.145s] [ 33%] Built target points_downsampler_generate_messages_py
+[51.162s] [ 46%] Built target points_downsampler_generate_messages_eus
+[51.192s] [ 60%] Built target random_filter
+[51.221s] [ 73%] Built target voxel_grid_filter
+[51.238s] [ 73%] Built target points_downsampler_generate_messages
+[51.275s] [ 86%] Built target ring_filter
+[51.322s] [100%] Built target distance_filter
+[51.328s] [36mInstall the project...[0m
+[51.335s] -- Install configuration: "Release"
+[51.336s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/points_downsampler/msg/PointsDownsamplerInfo.msg
+[51.336s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/points_downsampler/cmake/points_downsampler-msg-paths.cmake
+[51.336s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/include/points_downsampler
+[51.336s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/include/points_downsampler/PointsDownsamplerInfo.h
+[51.336s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/roseus/ros/points_downsampler
+[51.336s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/roseus/ros/points_downsampler/manifest.l
+[51.337s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/roseus/ros/points_downsampler/msg
+[51.337s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/roseus/ros/points_downsampler/msg/PointsDownsamplerInfo.l
+[51.337s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/common-lisp/ros/points_downsampler
+[51.337s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg
+[51.337s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg/_package_PointsDownsamplerInfo.lisp
+[51.337s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg/_package.lisp
+[51.337s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg/points_downsampler-msg.asd
+[51.338s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/common-lisp/ros/points_downsampler/msg/PointsDownsamplerInfo.lisp
+[51.338s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/gennodejs/ros/points_downsampler
+[51.338s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/gennodejs/ros/points_downsampler/msg
+[51.338s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/gennodejs/ros/points_downsampler/msg/PointsDownsamplerInfo.js
+[51.338s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/gennodejs/ros/points_downsampler/msg/_index.js
+[51.338s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/gennodejs/ros/points_downsampler/_index.js
+[51.350s] Listing /home/agilex/autoware.ai/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler ...
+[51.350s] Compiling /home/agilex/autoware.ai/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler/__init__.py ...
+[51.350s] Listing /home/agilex/autoware.ai/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler/msg ...
+[51.350s] Compiling /home/agilex/autoware.ai/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler/msg/_PointsDownsamplerInfo.py ...
+[51.350s] Compiling /home/agilex/autoware.ai/build/points_downsampler/devel/lib/python2.7/dist-packages/points_downsampler/msg/__init__.py ...
+[51.352s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler
+[51.352s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/__init__.pyc
+[51.352s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg
+[51.352s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg/_PointsDownsamplerInfo.pyc
+[51.352s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg/__init__.pyc
+[51.352s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg/_PointsDownsamplerInfo.py
+[51.353s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/msg/__init__.py
+[51.353s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/python2.7/dist-packages/points_downsampler/__init__.py
+[51.353s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/pkgconfig/points_downsampler.pc
+[51.353s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/points_downsampler/cmake/points_downsampler-msg-extras.cmake
+[51.353s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/points_downsampler/cmake/points_downsamplerConfig.cmake
+[51.353s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/points_downsampler/cmake/points_downsamplerConfig-version.cmake
+[51.355s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/points_downsampler/package.xml
+[51.357s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/points_downsampler/voxel_grid_filter
+[51.358s] -- Set runtime path of "/home/agilex/autoware.ai/install/points_downsampler/lib/points_downsampler/voxel_grid_filter" to ""
+[51.358s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/points_downsampler/ring_filter
+[51.363s] -- Set runtime path of "/home/agilex/autoware.ai/install/points_downsampler/lib/points_downsampler/ring_filter" to ""
+[51.363s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/points_downsampler/distance_filter
+[51.369s] -- Set runtime path of "/home/agilex/autoware.ai/install/points_downsampler/lib/points_downsampler/distance_filter" to ""
+[51.369s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/lib/points_downsampler/random_filter
+[51.372s] -- Set runtime path of "/home/agilex/autoware.ai/install/points_downsampler/lib/points_downsampler/random_filter" to ""
+[51.372s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/points_downsampler/launch
+[51.373s] -- Installing: /home/agilex/autoware.ai/install/points_downsampler/share/points_downsampler/launch/points_downsample.launch
+[51.376s] Invoked command in '/home/agilex/autoware.ai/build/points_downsampler' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_config_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_config_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_config_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/points_downsampler --target install -- -j8 -l8

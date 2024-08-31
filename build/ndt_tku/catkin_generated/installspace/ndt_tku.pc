@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/ndt_tku
+
+Name: ndt_tku
+Description: Description of ndt_tku
+Version: 1.11.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lndt_tku
+Requires: 

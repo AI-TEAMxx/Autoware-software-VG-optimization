@@ -1,0 +1,6 @@
+Invoking command in '/home/agilex/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pcl_omp_registration -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pcl_omp_registration -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pcl_omp_registration --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pcl_omp_registration --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/pcl_omp_registration': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pcl_omp_registration --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/pcl_omp_registration' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/pcl_omp_registration --target install -- -j8 -l8

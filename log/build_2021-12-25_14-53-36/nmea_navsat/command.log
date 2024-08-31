@@ -1,0 +1,8 @@
+Invoking command in '/home/agilex/autoware.ai/build/nmea_navsat': /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/nmea_navsat -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/nmea_navsat
+Invoked command in '/home/agilex/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/nmea_navsat -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/nmea_navsat
+Invoking command in '/home/agilex/autoware.ai/build/nmea_navsat': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/nmea_navsat': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/nmea_navsat': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/nmea_navsat' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/nmea_navsat --target install -- -j8 -l8

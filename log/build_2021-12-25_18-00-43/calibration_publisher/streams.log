@@ -1,0 +1,146 @@
+[0.075s] Invoking command in '/home/agilex/autoware.ai/build/calibration_publisher': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/calibration_publisher -- -j8 -l8
+[0.123s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.128s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.130s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.130s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.131s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.134s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.134s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.139s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.160s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.161s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.161s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.168s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.172s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.175s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.184s] [  0%] Built target tf_generate_messages_py
+[0.189s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.204s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[0.206s] [  0%] Built target roscpp_generate_messages_cpp
+[0.214s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.225s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.225s] [  0%] Built target actionlib_generate_messages_cpp
+[0.229s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.233s] [  0%] Built target autoware_msgs_generate_messages_py
+[0.243s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[0.253s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.253s] [  0%] Built target std_msgs_generate_messages_py
+[0.256s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[0.264s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.265s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[0.274s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.285s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.286s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.295s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.297s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.300s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.301s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.314s] [  0%] Built target autoware_msgs_generate_messages_eus
+[0.315s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[0.317s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.327s] [  0%] Built target roscpp_generate_messages_py
+[0.335s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.336s] [  0%] Built target roscpp_generate_messages_lisp
+[0.337s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.340s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.354s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.361s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.374s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[0.377s] [  0%] Built target roscpp_generate_messages_eus
+[0.379s] [  0%] Built target tf_generate_messages_eus
+[0.381s] [  0%] Built target tf_generate_messages_nodejs
+[0.387s] [  0%] Built target tf_generate_messages_lisp
+[0.387s] [  0%] Built target pcl_msgs_generate_messages_py
+[0.391s] [  0%] Built target actionlib_generate_messages_eus
+[0.392s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.410s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.415s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[0.417s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.418s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.437s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.443s] [  0%] Built target actionlib_generate_messages_lisp
+[0.445s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.449s] [  0%] Built target tf_generate_messages_cpp
+[0.450s] [  0%] Built target actionlib_generate_messages_py
+[0.467s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.472s] [  0%] Built target std_msgs_generate_messages_eus
+[0.522s] [100%] Built target calibration_publisher
+[0.530s] Invoked command in '/home/agilex/autoware.ai/build/calibration_publisher' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/calibration_publisher -- -j8 -l8
+[0.609s] Invoking command in '/home/agilex/autoware.ai/build/calibration_publisher': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/calibration_publisher --target tests -- -j8 -l8
+[0.662s] Built target tests
+[0.693s] Invoked command in '/home/agilex/autoware.ai/build/calibration_publisher' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/calibration_publisher --target tests -- -j8 -l8
+[0.787s] Invoking command in '/home/agilex/autoware.ai/build/calibration_publisher': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/calibration_publisher --target install -- -j8 -l8
+[0.895s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[0.897s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.898s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[0.902s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.905s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[0.906s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[0.916s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[0.916s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[0.932s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[0.933s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.943s] [  0%] Built target pcl_msgs_generate_messages_eus
+[0.948s] [  0%] Built target tf_generate_messages_py
+[0.951s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.952s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.960s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.966s] [  0%] Built target actionlib_generate_messages_cpp
+[0.968s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[0.977s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[0.985s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.990s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.002s] [  0%] Built target roscpp_generate_messages_cpp
+[1.003s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[1.003s] [  0%] Built target autoware_msgs_generate_messages_py
+[1.007s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.016s] [  0%] Built target std_msgs_generate_messages_py
+[1.025s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[1.025s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[1.026s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.026s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[1.033s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[1.037s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.040s] [  0%] Built target autoware_msgs_generate_messages_eus
+[1.042s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.043s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.043s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[1.048s] [  0%] Built target sensor_msgs_generate_messages_eus
+[1.049s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.063s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.065s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[1.072s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.072s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.075s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.086s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.086s] [  0%] Built target roscpp_generate_messages_py
+[1.087s] [  0%] Built target roscpp_generate_messages_eus
+[1.097s] [  0%] Built target roscpp_generate_messages_lisp
+[1.101s] [  0%] Built target tf_generate_messages_eus
+[1.101s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.108s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[1.108s] [  0%] Built target tf_generate_messages_nodejs
+[1.113s] [  0%] Built target tf_generate_messages_lisp
+[1.124s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.125s] [  0%] Built target pcl_msgs_generate_messages_py
+[1.141s] [  0%] Built target actionlib_generate_messages_eus
+[1.141s] [  0%] Built target actionlib_generate_messages_lisp
+[1.143s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[1.146s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.159s] [  0%] Built target tf_generate_messages_cpp
+[1.160s] [  0%] Built target actionlib_generate_messages_nodejs
+[1.165s] [  0%] Built target tf2_msgs_generate_messages_eus
+[1.173s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[1.182s] [  0%] Built target tf2_msgs_generate_messages_py
+[1.191s] [  0%] Built target actionlib_generate_messages_py
+[1.193s] [  0%] Built target std_msgs_generate_messages_eus
+[1.195s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[1.228s] [100%] Built target calibration_publisher
+[1.245s] [36mInstall the project...[0m
+[1.262s] -- Install configuration: "Release"
+[1.263s] -- Up-to-date: /home/agilex/autoware.ai/install/calibration_publisher/lib/pkgconfig/calibration_publisher.pc
+[1.263s] -- Up-to-date: /home/agilex/autoware.ai/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig.cmake
+[1.263s] -- Up-to-date: /home/agilex/autoware.ai/install/calibration_publisher/share/calibration_publisher/cmake/calibration_publisherConfig-version.cmake
+[1.264s] -- Up-to-date: /home/agilex/autoware.ai/install/calibration_publisher/share/calibration_publisher/package.xml
+[1.264s] -- Up-to-date: /home/agilex/autoware.ai/install/calibration_publisher/lib/calibration_publisher/calibration_publisher
+[1.270s] Invoked command in '/home/agilex/autoware.ai/build/calibration_publisher' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/calibration_publisher --target install -- -j8 -l8

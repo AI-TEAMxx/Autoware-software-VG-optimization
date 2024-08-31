@@ -1,0 +1,11 @@
+/home/agilex/autoware.ai/install/kitti_launch/lib/pkgconfig/kitti_launch.pc
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/cmake/kitti_launchConfig.cmake
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/cmake/kitti_launchConfig-version.cmake
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/package.xml
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/launch/launch/kittiplayer.launch
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/launch/launch/xml/points_raw.xml
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/launch/launch/xml/camera_lidar.xml
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/launch/xml/xml/points_raw.xml
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/launch/xml/xml/camera_lidar.xml
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/calib/calib/kitti_cam02_sync.yml
+/home/agilex/autoware.ai/install/kitti_launch/share/kitti_launch/calib/calib/kitti_cam02_sync_kitti_conv.yml

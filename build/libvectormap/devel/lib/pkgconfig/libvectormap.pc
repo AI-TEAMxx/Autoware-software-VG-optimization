@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/build/libvectormap/devel
+
+Name: libvectormap
+Description: Description of libvectormap
+Version: 1.11.0
+Cflags: -I/home/agilex/autoware.ai/src/autoware/common/libvectormap/include -I/usr/include/eigen3
+Libs: -L${prefix}/lib -llibvectormap
+Requires: vector_map

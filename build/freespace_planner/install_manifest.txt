@@ -1,0 +1,6 @@
+/home/agilex/autoware.ai/install/freespace_planner/lib/pkgconfig/freespace_planner.pc
+/home/agilex/autoware.ai/install/freespace_planner/share/freespace_planner/cmake/freespace_plannerConfig.cmake
+/home/agilex/autoware.ai/install/freespace_planner/share/freespace_planner/cmake/freespace_plannerConfig-version.cmake
+/home/agilex/autoware.ai/install/freespace_planner/share/freespace_planner/package.xml
+/home/agilex/autoware.ai/install/freespace_planner/lib/freespace_planner/astar_navi
+/home/agilex/autoware.ai/install/freespace_planner/share/freespace_planner/launch/astar_navi.launch

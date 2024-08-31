@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/build/kitti_launch/devel
+
+Name: kitti_launch
+Description: Description of kitti_launch
+Version: 1.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: kitti_box_publisher

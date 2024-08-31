@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/ff_waypoint_follower
+
+Name: ff_waypoint_follower
+Description: Description of ff_waypoint_follower
+Version: 1.11.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp geometry_msgs map_file op_utility op_planner op_simu waypoint_follower autoware_msgs

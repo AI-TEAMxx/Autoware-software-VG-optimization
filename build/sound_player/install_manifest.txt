@@ -1,0 +1,6 @@
+/home/agilex/autoware.ai/install/sound_player/lib/pkgconfig/sound_player.pc
+/home/agilex/autoware.ai/install/sound_player/share/sound_player/cmake/sound_playerConfig.cmake
+/home/agilex/autoware.ai/install/sound_player/share/sound_player/cmake/sound_playerConfig-version.cmake
+/home/agilex/autoware.ai/install/sound_player/share/sound_player/package.xml
+/home/agilex/autoware.ai/install/sound_player/lib/sound_player/sound_player.py
+/home/agilex/autoware.ai/install/sound_player/lib/sound_player/sound_player.yaml

@@ -1,0 +1,8 @@
+/home/agilex/autoware.ai/install/gnss_localizer/lib/pkgconfig/gnss_localizer.pc
+/home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig.cmake
+/home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig-version.cmake
+/home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/package.xml
+/home/agilex/autoware.ai/install/gnss_localizer/lib/gnss_localizer/nmea2tfpose
+/home/agilex/autoware.ai/install/gnss_localizer/lib/gnss_localizer/fix2tfpose
+/home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/fix2tfpose.launch
+/home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/nmea2tfpose.launch

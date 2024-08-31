@@ -1,0 +1,321 @@
+[0.029s] Invoking command in '/home/agilex/autoware.ai/build/custom_msgs': /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/custom_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/custom_msgs
+[0.234s] -- The C compiler identification is GNU 7.5.0
+[0.345s] -- The CXX compiler identification is GNU 7.5.0
+[0.349s] -- Check for working C compiler: /usr/bin/cc
+[0.731s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.732s] -- Detecting C compiler ABI info
+[0.931s] -- Detecting C compiler ABI info - done
+[0.943s] -- Detecting C compile features
+[1.835s] -- Detecting C compile features - done
+[1.837s] -- Check for working CXX compiler: /usr/bin/c++
+[2.211s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.211s] -- Detecting CXX compiler ABI info
+[2.563s] -- Detecting CXX compiler ABI info - done
+[2.571s] -- Detecting CXX compile features
+[3.882s] -- Detecting CXX compile features - done
+[3.883s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/custom_msgs/devel
+[3.883s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[3.884s] -- This workspace overlays: /opt/ros/melodic
+[3.947s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.947s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.947s] -- Using Debian Python package layout
+[3.947s] -- Using empy: /usr/bin/empy
+[4.209s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.209s] -- Call enable_testing()
+[4.227s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/custom_msgs/test_results
+[4.244s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.244s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.267s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.268s] -- Looking for pthread.h
+[4.472s] -- Looking for pthread.h - found
+[4.472s] -- Looking for pthread_create
+[4.631s] -- Looking for pthread_create - not found
+[4.631s] -- Looking for pthread_create in pthreads
+[4.964s] -- Looking for pthread_create in pthreads - not found
+[4.964s] -- Looking for pthread_create in pthread
+[5.182s] -- Looking for pthread_create in pthread - found
+[5.183s] -- Found Threads: TRUE  
+[5.187s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.255s] -- catkin 0.7.29
+[5.255s] -- BUILD_SHARED_LIBS is on
+[5.462s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[5.745s] -- custom_msgs: 11 messages, 0 services
+[5.919s] -- Configuring done
+[5.946s] -- Generating done
+[5.952s] -- Build files have been written to: /home/agilex/autoware.ai/build/custom_msgs
+[5.956s] Invoked command in '/home/agilex/autoware.ai/build/custom_msgs' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/custom_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/custom_msgs
+[5.959s] Invoking command in '/home/agilex/autoware.ai/build/custom_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/custom_msgs -- -j8 -l8
+[6.060s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_velocityEstimate[0m
+[6.072s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_XsensQuaternion[0m
+[6.074s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_ImuSensorSample[0m
+[6.087s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_orientationEstimate[0m
+[6.087s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_BaroSensorSample[0m
+[6.093s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_gnssSample[0m
+[6.100s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_sensorSample[0m
+[6.106s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[6.152s] [  0%] Built target std_msgs_generate_messages_py
+[6.152s] [  0%] Built target _custom_msgs_generate_messages_check_deps_XsensQuaternion
+[6.156s] [  0%] Built target _custom_msgs_generate_messages_check_deps_orientationEstimate
+[6.163s] [  0%] Built target _custom_msgs_generate_messages_check_deps_BaroSensorSample
+[6.165s] [  0%] Built target _custom_msgs_generate_messages_check_deps_sensorSample
+[6.169s] [  0%] Built target _custom_msgs_generate_messages_check_deps_gnssSample
+[6.175s] [  0%] Built target _custom_msgs_generate_messages_check_deps_velocityEstimate
+[6.178s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_positionEstimate[0m
+[6.178s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[6.182s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_GnssSensorSample[0m
+[6.183s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_baroSample[0m
+[6.186s] [  0%] Built target _custom_msgs_generate_messages_check_deps_ImuSensorSample
+[6.192s] [35m[1mScanning dependencies of target _custom_msgs_generate_messages_check_deps_Internal[0m
+[6.198s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[6.202s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[6.205s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[6.207s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[6.224s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[6.233s] [  0%] Built target sensor_msgs_generate_messages_py
+[6.253s] [  0%] Built target std_msgs_generate_messages_nodejs
+[6.257s] [  0%] Built target std_msgs_generate_messages_eus
+[6.259s] [  0%] Built target _custom_msgs_generate_messages_check_deps_positionEstimate
+[6.261s] [  0%] Built target _custom_msgs_generate_messages_check_deps_GnssSensorSample
+[6.264s] [  0%] Built target _custom_msgs_generate_messages_check_deps_Internal
+[6.265s] [  0%] Built target _custom_msgs_generate_messages_check_deps_baroSample
+[6.266s] [  0%] Built target sensor_msgs_generate_messages_eus
+[6.278s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[6.285s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[6.286s] [35m[1mScanning dependencies of target custom_msgs_generate_messages_eus[0m
+[6.289s] [35m[1mScanning dependencies of target custom_msgs_generate_messages_py[0m
+[6.293s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[6.295s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[6.298s] [  0%] Built target std_msgs_generate_messages_cpp
+[6.301s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[6.307s] [  1%] [34m[1mGenerating EusLisp code from custom_msgs/Internal.msg[0m
+[6.309s] [35m[1mScanning dependencies of target custom_msgs_generate_messages_nodejs[0m
+[6.310s] [  3%] [34m[1mGenerating EusLisp code from custom_msgs/positionEstimate.msg[0m
+[6.313s] [  5%] [34m[1mGenerating EusLisp code from custom_msgs/GnssSensorSample.msg[0m
+[6.321s] [  7%] [34m[1mGenerating Python from MSG custom_msgs/GnssSensorSample[0m
+[6.327s] [  8%] [34m[1mGenerating EusLisp code from custom_msgs/sensorSample.msg[0m
+[6.327s] [ 10%] [34m[1mGenerating Javascript code from custom_msgs/GnssSensorSample.msg[0m
+[6.335s] [ 10%] Built target sensor_msgs_generate_messages_cpp
+[6.342s] [ 10%] Built target std_msgs_generate_messages_lisp
+[6.366s] [ 12%] [34m[1mGenerating EusLisp code from custom_msgs/baroSample.msg[0m
+[6.367s] [ 14%] [34m[1mGenerating EusLisp code from custom_msgs/velocityEstimate.msg[0m
+[6.398s] [ 15%] [34m[1mGenerating Python from MSG custom_msgs/Internal[0m
+[6.419s] [ 17%] [34m[1mGenerating EusLisp code from custom_msgs/gnssSample.msg[0m
+[6.447s] [ 19%] [34m[1mGenerating Javascript code from custom_msgs/Internal.msg[0m
+[6.448s] [ 21%] [34m[1mGenerating EusLisp code from custom_msgs/BaroSensorSample.msg[0m
+[6.470s] [ 22%] [34m[1mGenerating EusLisp code from custom_msgs/XsensQuaternion.msg[0m
+[6.500s] [ 24%] [34m[1mGenerating EusLisp code from custom_msgs/orientationEstimate.msg[0m
+[6.507s] [35m[1mScanning dependencies of target custom_msgs_generate_messages_cpp[0m
+[6.526s] [35m[1mScanning dependencies of target custom_msgs_generate_messages_lisp[0m
+[6.543s] [ 26%] [34m[1mGenerating Javascript code from custom_msgs/positionEstimate.msg[0m
+[6.554s] [ 28%] [34m[1mGenerating C++ code from custom_msgs/GnssSensorSample.msg[0m
+[6.565s] [ 29%] [34m[1mGenerating C++ code from custom_msgs/Internal.msg[0m
+[6.584s] [ 31%] [34m[1mGenerating Lisp code from custom_msgs/GnssSensorSample.msg[0m
+[6.599s] [ 33%] [34m[1mGenerating EusLisp code from custom_msgs/ImuSensorSample.msg[0m
+[6.617s] [ 35%] [34m[1mGenerating Javascript code from custom_msgs/sensorSample.msg[0m
+[6.637s] [ 36%] [34m[1mGenerating C++ code from custom_msgs/positionEstimate.msg[0m
+[6.665s] [ 38%] [34m[1mGenerating Lisp code from custom_msgs/Internal.msg[0m
+[6.669s] [ 40%] [34m[1mGenerating Python from MSG custom_msgs/positionEstimate[0m
+[6.690s] [ 42%] [34m[1mGenerating C++ code from custom_msgs/sensorSample.msg[0m
+[6.698s] [ 43%] [34m[1mGenerating Javascript code from custom_msgs/baroSample.msg[0m
+[6.722s] [ 45%] [34m[1mGenerating EusLisp manifest code for custom_msgs[0m
+[6.726s] [ 47%] [34m[1mGenerating Javascript code from custom_msgs/velocityEstimate.msg[0m
+[6.732s] [ 49%] [34m[1mGenerating Lisp code from custom_msgs/positionEstimate.msg[0m
+[6.758s] [ 50%] [34m[1mGenerating C++ code from custom_msgs/baroSample.msg[0m
+[6.807s] [ 52%] [34m[1mGenerating Javascript code from custom_msgs/gnssSample.msg[0m
+[6.820s] [ 54%] [34m[1mGenerating Python from MSG custom_msgs/sensorSample[0m
+[6.843s] [ 56%] [34m[1mGenerating Javascript code from custom_msgs/BaroSensorSample.msg[0m
+[6.861s] [ 57%] [34m[1mGenerating Lisp code from custom_msgs/sensorSample.msg[0m
+[6.869s] [ 59%] [34m[1mGenerating Python from MSG custom_msgs/baroSample[0m
+[6.886s] [ 61%] [34m[1mGenerating C++ code from custom_msgs/velocityEstimate.msg[0m
+[6.889s] [ 63%] [34m[1mGenerating Lisp code from custom_msgs/baroSample.msg[0m
+[6.945s] [ 64%] [34m[1mGenerating Lisp code from custom_msgs/gnssSample.msg[0m
+[6.950s] [ 66%] [34m[1mGenerating Javascript code from custom_msgs/XsensQuaternion.msg[0m
+[6.985s] [ 68%] [34m[1mGenerating Lisp code from custom_msgs/velocityEstimate.msg[0m
+[7.019s] [ 70%] [34m[1mGenerating Javascript code from custom_msgs/ImuSensorSample.msg[0m
+[7.060s] [ 71%] [34m[1mGenerating Javascript code from custom_msgs/orientationEstimate.msg[0m
+[7.079s] [ 73%] [34m[1mGenerating Lisp code from custom_msgs/XsensQuaternion.msg[0m
+[7.093s] [ 75%] [34m[1mGenerating Lisp code from custom_msgs/BaroSensorSample.msg[0m
+[7.117s] [ 77%] [34m[1mGenerating C++ code from custom_msgs/gnssSample.msg[0m
+[7.138s] [ 78%] [34m[1mGenerating Python from MSG custom_msgs/velocityEstimate[0m
+[7.154s] [ 78%] Built target custom_msgs_generate_messages_nodejs
+[7.168s] [ 80%] [34m[1mGenerating C++ code from custom_msgs/orientationEstimate.msg[0m
+[7.180s] [ 82%] [34m[1mGenerating C++ code from custom_msgs/XsensQuaternion.msg[0m
+[7.181s] [ 84%] [34m[1mGenerating Lisp code from custom_msgs/orientationEstimate.msg[0m
+[7.196s] [ 85%] [34m[1mGenerating C++ code from custom_msgs/ImuSensorSample.msg[0m
+[7.208s] [ 87%] [34m[1mGenerating C++ code from custom_msgs/BaroSensorSample.msg[0m
+[7.388s] [ 89%] [34m[1mGenerating Python from MSG custom_msgs/gnssSample[0m
+[7.399s] [ 91%] [34m[1mGenerating Lisp code from custom_msgs/ImuSensorSample.msg[0m
+[7.418s] [ 92%] [34m[1mGenerating Python from MSG custom_msgs/ImuSensorSample[0m
+[7.421s] [ 94%] [34m[1mGenerating Python from MSG custom_msgs/XsensQuaternion[0m
+[7.424s] [ 96%] [34m[1mGenerating Python from MSG custom_msgs/BaroSensorSample[0m
+[7.427s] [ 98%] [34m[1mGenerating Python from MSG custom_msgs/orientationEstimate[0m
+[7.525s] [ 98%] Built target custom_msgs_generate_messages_cpp
+[7.559s] [ 98%] Built target custom_msgs_generate_messages_eus
+[7.570s] [ 98%] Built target custom_msgs_generate_messages_lisp
+[7.691s] [100%] [34m[1mGenerating Python msg __init__.py for custom_msgs[0m
+[7.850s] [100%] Built target custom_msgs_generate_messages_py
+[7.868s] [35m[1mScanning dependencies of target custom_msgs_generate_messages[0m
+[7.888s] [100%] Built target custom_msgs_generate_messages
+[7.902s] Invoked command in '/home/agilex/autoware.ai/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/custom_msgs -- -j8 -l8
+[8.103s] Invoking command in '/home/agilex/autoware.ai/build/custom_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/custom_msgs --target tests -- -j8 -l8
+[8.179s] [35m[1mScanning dependencies of target tests[0m
+[8.189s] Built target tests
+[8.201s] Invoked command in '/home/agilex/autoware.ai/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/custom_msgs --target tests -- -j8 -l8
+[8.908s] Invoking command in '/home/agilex/autoware.ai/build/custom_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/custom_msgs --target install -- -j8 -l8
+[9.401s] [  0%] Built target std_msgs_generate_messages_py
+[9.614s] [  0%] Built target _custom_msgs_generate_messages_check_deps_velocityEstimate
+[9.647s] [  0%] Built target _custom_msgs_generate_messages_check_deps_sensorSample
+[9.658s] [  0%] Built target _custom_msgs_generate_messages_check_deps_orientationEstimate
+[9.666s] [  0%] Built target _custom_msgs_generate_messages_check_deps_XsensQuaternion
+[9.718s] [  0%] Built target _custom_msgs_generate_messages_check_deps_gnssSample
+[9.719s] [  0%] Built target _custom_msgs_generate_messages_check_deps_ImuSensorSample
+[9.803s] [  0%] Built target sensor_msgs_generate_messages_py
+[9.938s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[10.031s] [  0%] Built target std_msgs_generate_messages_nodejs
+[10.090s] [  0%] Built target sensor_msgs_generate_messages_eus
+[10.091s] [  0%] Built target std_msgs_generate_messages_eus
+[10.099s] [  0%] Built target _custom_msgs_generate_messages_check_deps_baroSample
+[10.147s] [  0%] Built target _custom_msgs_generate_messages_check_deps_GnssSensorSample
+[10.182s] [  0%] Built target _custom_msgs_generate_messages_check_deps_Internal
+[10.266s] [  0%] Built target std_msgs_generate_messages_cpp
+[10.269s] [  0%] Built target _custom_msgs_generate_messages_check_deps_positionEstimate
+[10.282s] [  0%] Built target _custom_msgs_generate_messages_check_deps_BaroSensorSample
+[10.290s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[10.318s] [  0%] Built target std_msgs_generate_messages_lisp
+[10.414s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[10.430s] [ 21%] Built target custom_msgs_generate_messages_eus
+[10.455s] [ 40%] Built target custom_msgs_generate_messages_cpp
+[10.470s] [ 61%] Built target custom_msgs_generate_messages_py
+[10.505s] [ 80%] Built target custom_msgs_generate_messages_nodejs
+[10.527s] [100%] Built target custom_msgs_generate_messages_lisp
+[10.665s] [100%] Built target custom_msgs_generate_messages
+[10.768s] [36mInstall the project...[0m
+[10.803s] -- Install configuration: "Release"
+[10.804s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/XsensQuaternion.msg
+[10.804s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/ImuSensorSample.msg
+[10.804s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/BaroSensorSample.msg
+[10.804s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/GnssSensorSample.msg
+[10.804s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/Internal.msg
+[10.804s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/sensorSample.msg
+[10.804s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/baroSample.msg
+[10.804s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/gnssSample.msg
+[10.804s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/orientationEstimate.msg
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/velocityEstimate.msg
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/msg/positionEstimate.msg
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/cmake/custom_msgs-msg-paths.cmake
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/BaroSensorSample.h
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/ImuSensorSample.h
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/orientationEstimate.h
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/XsensQuaternion.h
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/GnssSensorSample.h
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/baroSample.h
+[10.805s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/gnssSample.h
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/sensorSample.h
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/velocityEstimate.h
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/positionEstimate.h
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/include/custom_msgs/Internal.h
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/manifest.l
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/orientationEstimate.l
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/Internal.l
+[10.806s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/positionEstimate.l
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/XsensQuaternion.l
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/velocityEstimate.l
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/sensorSample.l
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/GnssSensorSample.l
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/gnssSample.l
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/ImuSensorSample.l
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/BaroSensorSample.l
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/roseus/ros/custom_msgs/msg/baroSample.l
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg
+[10.807s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/custom_msgs-msg.asd
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/sensorSample.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_orientationEstimate.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/velocityEstimate.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/gnssSample.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/ImuSensorSample.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_Internal.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/orientationEstimate.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_ImuSensorSample.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_GnssSensorSample.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/Internal.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/XsensQuaternion.lisp
+[10.808s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_XsensQuaternion.lisp
+[10.809s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_velocityEstimate.lisp
+[10.809s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_gnssSample.lisp
+[10.855s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/positionEstimate.lisp
+[10.855s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/BaroSensorSample.lisp
+[10.855s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_sensorSample.lisp
+[10.855s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_positionEstimate.lisp
+[10.855s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_BaroSensorSample.lisp
+[10.855s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/GnssSensorSample.lisp
+[10.855s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/baroSample.lisp
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/common-lisp/ros/custom_msgs/msg/_package_baroSample.lisp
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/GnssSensorSample.js
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/positionEstimate.js
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/orientationEstimate.js
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/velocityEstimate.js
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/sensorSample.js
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/Internal.js
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/ImuSensorSample.js
+[10.856s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/BaroSensorSample.js
+[10.857s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/_index.js
+[10.857s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/XsensQuaternion.js
+[10.857s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/gnssSample.js
+[10.857s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/msg/baroSample.js
+[10.857s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/gennodejs/ros/custom_msgs/_index.js
+[10.951s] Listing /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs ...
+[10.951s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/__init__.py ...
+[10.951s] Listing /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg ...
+[10.951s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.py ...
+[10.951s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.py ...
+[10.951s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.py ...
+[10.951s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.py ...
+[10.951s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.py ...
+[10.952s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/__init__.py ...
+[10.952s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.py ...
+[10.952s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.py ...
+[10.952s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.py ...
+[10.952s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.py ...
+[10.952s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.py ...
+[10.952s] Compiling /home/agilex/autoware.ai/build/custom_msgs/devel/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.py ...
+[10.953s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs
+[10.953s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/__init__.pyc
+[10.953s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg
+[10.953s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.py
+[10.953s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.py
+[10.953s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.py
+[10.954s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.pyc
+[10.954s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.py
+[10.954s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.py
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_gnssSample.pyc
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.pyc
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_baroSample.py
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.py
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_positionEstimate.py
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/__init__.pyc
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_ImuSensorSample.pyc
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_GnssSensorSample.pyc
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_BaroSensorSample.pyc
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.pyc
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.py
+[10.955s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/__init__.py
+[10.957s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.py
+[10.957s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_Internal.pyc
+[10.957s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_XsensQuaternion.pyc
+[10.957s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_sensorSample.py
+[10.957s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_orientationEstimate.pyc
+[10.958s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/msg/_velocityEstimate.pyc
+[10.958s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/python2.7/dist-packages/custom_msgs/__init__.py
+[10.958s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/lib/pkgconfig/custom_msgs.pc
+[10.958s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/cmake/custom_msgs-msg-extras.cmake
+[10.958s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig.cmake
+[10.958s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/cmake/custom_msgsConfig-version.cmake
+[10.960s] -- Installing: /home/agilex/autoware.ai/install/custom_msgs/share/custom_msgs/package.xml
+[10.963s] Invoked command in '/home/agilex/autoware.ai/build/custom_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/custom_msgs --target install -- -j8 -l8

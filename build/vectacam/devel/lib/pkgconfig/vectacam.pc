@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/build/vectacam/devel
+
+Name: vectacam
+Description: Description of vectacam
+Version: 1.11.0
+Cflags: 
+Libs: -L${prefix}/lib -lvectacam
+Requires: 

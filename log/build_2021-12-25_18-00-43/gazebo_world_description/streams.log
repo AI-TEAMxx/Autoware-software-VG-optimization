@@ -1,0 +1,13 @@
+[0.016s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_world_description -- -j8 -l8
+[0.066s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_world_description -- -j8 -l8
+[0.181s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_world_description --target tests -- -j8 -l8
+[0.265s] Built target tests
+[0.276s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_world_description --target tests -- -j8 -l8
+[0.403s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_world_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_world_description --target install -- -j8 -l8
+[0.518s] [36mInstall the project...[0m
+[0.536s] -- Install configuration: "Release"
+[0.536s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_world_description/lib/pkgconfig/gazebo_world_description.pc
+[0.536s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig.cmake
+[0.536s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/cmake/gazebo_world_descriptionConfig-version.cmake
+[0.536s] -- Up-to-date: /home/agilex/autoware.ai/install/gazebo_world_description/share/gazebo_world_description/package.xml
+[0.886s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_world_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_world_description --target install -- -j8 -l8

@@ -1,0 +1,7 @@
+/home/agilex/autoware.ai/install/autoware_launcher_rviz/lib/pkgconfig/autoware_launcher_rviz.pc
+/home/agilex/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/cmake/autoware_launcher_rvizConfig.cmake
+/home/agilex/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/cmake/autoware_launcher_rvizConfig-version.cmake
+/home/agilex/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/package.xml
+/home/agilex/autoware.ai/install/autoware_launcher_rviz/lib/libautoware_launcher_rviz.so
+/home/agilex/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/plugin_description.xml
+/home/agilex/autoware.ai/install/autoware_launcher_rviz/share/autoware_launcher_rviz/icons/icons/classes/ModulePanel.png

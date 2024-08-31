@@ -1,0 +1,6 @@
+Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/autoware_bag_tools': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_bag_tools' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_bag_tools --target install -- -j8 -l8

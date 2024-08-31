@@ -1,0 +1,68 @@
+[0.012s] Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/oculus_socket
+[0.068s] -- The C compiler identification is GNU 7.5.0
+[0.124s] -- The CXX compiler identification is GNU 7.5.0
+[0.128s] -- Check for working C compiler: /usr/bin/cc
+[0.185s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.187s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.254s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.431s] -- Check for working CXX compiler: /usr/bin/c++
+[0.497s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.498s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.575s] -- Detecting CXX compile features
+[0.878s] -- Detecting CXX compile features - done
+[0.880s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/oculus_socket/devel
+[0.881s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[0.881s] -- This workspace overlays: /opt/ros/melodic
+[0.895s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.895s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.895s] -- Using Debian Python package layout
+[0.896s] -- Using empy: /usr/bin/empy
+[1.059s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.060s] -- Call enable_testing()
+[1.061s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/oculus_socket/test_results
+[1.079s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.079s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.092s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.094s] -- Looking for pthread.h
+[1.159s] -- Looking for pthread.h - found
+[1.160s] -- Looking for pthread_create
+[1.221s] -- Looking for pthread_create - not found
+[1.222s] -- Looking for pthread_create in pthreads
+[1.269s] -- Looking for pthread_create in pthreads - not found
+[1.270s] -- Looking for pthread_create in pthread
+[1.329s] -- Looking for pthread_create in pthread - found
+[1.330s] -- Found Threads: TRUE  
+[1.335s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.377s] -- catkin 0.7.29
+[1.378s] -- BUILD_SHARED_LIBS is on
+[2.083s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[2.634s] -- Configuring done
+[2.686s] -- Generating done
+[2.696s] -- Build files have been written to: /home/agilex/autoware.ai/build/oculus_socket
+[2.704s] Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/oculus_socket -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/oculus_socket
+[2.706s] Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket -- -j8 -l8
+[2.764s] [35m[1mScanning dependencies of target oculus_sender[0m
+[2.836s] [ 50%] [32mBuilding CXX object CMakeFiles/oculus_sender.dir/nodes/oculus_sender/oculus_sender.cpp.o[0m
+[9.320s] [100%] [32m[1mLinking CXX executable devel/lib/oculus_socket/oculus_sender[0m
+[9.665s] [100%] Built target oculus_sender
+[9.695s] Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket -- -j8 -l8
+[10.181s] Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target tests -- -j8 -l8
+[10.308s] [35m[1mScanning dependencies of target tests[0m
+[10.340s] Built target tests
+[10.365s] Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target tests -- -j8 -l8
+[10.524s] Invoking command in '/home/agilex/autoware.ai/build/oculus_socket': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target install -- -j8 -l8
+[10.597s] [100%] Built target oculus_sender
+[10.616s] [36mInstall the project...[0m
+[10.624s] -- Install configuration: "Release"
+[10.624s] -- Installing: /home/agilex/autoware.ai/install/oculus_socket/lib/pkgconfig/oculus_socket.pc
+[10.625s] -- Installing: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig.cmake
+[10.625s] -- Installing: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/cmake/oculus_socketConfig-version.cmake
+[10.625s] -- Installing: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/package.xml
+[10.626s] -- Installing: /home/agilex/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender
+[10.626s] -- Set runtime path of "/home/agilex/autoware.ai/install/oculus_socket/lib/oculus_socket/oculus_sender" to ""
+[10.627s] -- Installing: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/launch
+[10.627s] -- Installing: /home/agilex/autoware.ai/install/oculus_socket/share/oculus_socket/launch/oculus_sender.launch
+[10.632s] Invoked command in '/home/agilex/autoware.ai/build/oculus_socket' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/oculus_socket --target install -- -j8 -l8

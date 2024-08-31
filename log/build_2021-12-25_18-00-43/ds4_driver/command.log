@@ -1,0 +1,6 @@
+Invoking command in '/home/agilex/autoware.ai/build/ds4_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/ds4_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/ds4_driver': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/ds4_driver' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ds4_driver --target install -- -j8 -l8

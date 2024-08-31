@@ -1,0 +1,4 @@
+Invoking command in '/home/agilex/autoware.ai/build/citysim': /usr/bin/cmake --build /home/agilex/autoware.ai/build/citysim -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/citysim' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/citysim -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/citysim': /usr/bin/cmake --build /home/agilex/autoware.ai/build/citysim --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/citysim' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/citysim --target install -- -j8 -l8

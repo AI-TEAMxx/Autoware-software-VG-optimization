@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/agilex/autoware.ai/build/autoware_rviz_plugins': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_rviz_plugins -- -j8 -l8
+[0.112s] [ 20%] [34m[1mAutomatic MOC for target autoware_rviz_plugins[0m
+[0.142s] [ 20%] Built target autoware_rviz_plugins_autogen
+[0.186s] [100%] Built target autoware_rviz_plugins
+[0.197s] Invoked command in '/home/agilex/autoware.ai/build/autoware_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_rviz_plugins -- -j8 -l8
+[0.401s] Invoking command in '/home/agilex/autoware.ai/build/autoware_rviz_plugins': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_rviz_plugins --target tests -- -j8 -l8
+[0.449s] Built target tests
+[0.492s] Invoked command in '/home/agilex/autoware.ai/build/autoware_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_rviz_plugins --target tests -- -j8 -l8
+[0.843s] Invoking command in '/home/agilex/autoware.ai/build/autoware_rviz_plugins': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_rviz_plugins --target install -- -j8 -l8
+[0.893s] [ 20%] [34m[1mAutomatic MOC for target autoware_rviz_plugins[0m
+[0.907s] [ 20%] Built target autoware_rviz_plugins_autogen
+[0.945s] [100%] Built target autoware_rviz_plugins
+[0.963s] [36mInstall the project...[0m
+[0.970s] -- Install configuration: "Release"
+[0.971s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/lib/pkgconfig/autoware_rviz_plugins.pc
+[0.971s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/cmake/autoware_rviz_pluginsConfig.cmake
+[0.971s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/cmake/autoware_rviz_pluginsConfig-version.cmake
+[0.971s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/package.xml
+[0.971s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/lib/libautoware_rviz_plugins.so
+[0.971s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/media
+[0.972s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/media/flag.dae
+[0.972s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/icons
+[0.975s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/icons/classes
+[0.975s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/icons/classes/OpFlag.png
+[0.975s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_rviz_plugins/share/autoware_rviz_plugins/plugin_description.xml
+[0.982s] Invoked command in '/home/agilex/autoware.ai/build/autoware_rviz_plugins' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_rviz_plugins --target install -- -j8 -l8

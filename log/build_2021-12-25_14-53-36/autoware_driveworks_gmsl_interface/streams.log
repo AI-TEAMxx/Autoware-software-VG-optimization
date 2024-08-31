@@ -1,0 +1,62 @@
+[0.012s] Invoking command in '/home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/autoware_driveworks_gmsl_interface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/autoware_driveworks_gmsl_interface
+[0.171s] -- The C compiler identification is GNU 7.5.0
+[0.303s] -- The CXX compiler identification is GNU 7.5.0
+[0.309s] -- Check for working C compiler: /usr/bin/cc
+[0.460s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.460s] -- Detecting C compiler ABI info
+[0.639s] -- Detecting C compiler ABI info - done
+[0.649s] -- Detecting C compile features
+[1.049s] -- Detecting C compile features - done
+[1.052s] -- Check for working CXX compiler: /usr/bin/c++
+[1.122s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.123s] -- Detecting CXX compiler ABI info
+[1.192s] -- Detecting CXX compiler ABI info - done
+[1.200s] -- Detecting CXX compile features
+[1.509s] -- Detecting CXX compile features - done
+[1.511s] CUDA_TOOLKIT_ROOT_DIR not found or specified
+[1.524s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+[1.527s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface/devel
+[1.528s] -- Using CMAKE_PREFIX_PATH: /home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.528s] -- This workspace overlays: /home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.541s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.542s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.542s] -- Using Debian Python package layout
+[1.542s] -- Using empy: /usr/bin/empy
+[1.708s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.708s] -- Call enable_testing()
+[1.710s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface/test_results
+[1.722s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.723s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.735s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.737s] -- Looking for pthread.h
+[1.798s] -- Looking for pthread.h - found
+[1.799s] -- Looking for pthread_create
+[1.864s] -- Looking for pthread_create - not found
+[1.864s] -- Looking for pthread_create in pthreads
+[1.912s] -- Looking for pthread_create in pthreads - not found
+[1.913s] -- Looking for pthread_create in pthread
+[1.970s] -- Looking for pthread_create in pthread - found
+[1.971s] -- Found Threads: TRUE  
+[1.975s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[2.019s] -- catkin 0.7.29
+[2.019s] -- BUILD_SHARED_LIBS is on
+[2.431s] gmsl_camera driver will not be built. CUDA was not found.
+[2.433s] -- Configuring done
+[2.442s] -- Generating done
+[2.444s] -- Build files have been written to: /home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface
+[2.448s] Invoked command in '/home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/autoware_driveworks_gmsl_interface -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/autoware_driveworks_gmsl_interface
+[2.451s] Invoking command in '/home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface -- -j8 -l8
+[2.531s] Invoked command in '/home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface -- -j8 -l8
+[2.676s] Invoking command in '/home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface --target tests -- -j8 -l8
+[2.721s] [35m[1mScanning dependencies of target tests[0m
+[2.741s] Built target tests
+[2.770s] Invoked command in '/home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface --target tests -- -j8 -l8
+[2.943s] Invoking command in '/home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface --target install -- -j8 -l8
+[3.033s] [36mInstall the project...[0m
+[3.041s] -- Install configuration: "Release"
+[3.042s] -- Installing: /home/agilex/autoware.ai/install/autoware_driveworks_gmsl_interface/lib/pkgconfig/autoware_driveworks_gmsl_interface.pc
+[3.042s] -- Installing: /home/agilex/autoware.ai/install/autoware_driveworks_gmsl_interface/share/autoware_driveworks_gmsl_interface/cmake/autoware_driveworks_gmsl_interfaceConfig.cmake
+[3.042s] -- Installing: /home/agilex/autoware.ai/install/autoware_driveworks_gmsl_interface/share/autoware_driveworks_gmsl_interface/cmake/autoware_driveworks_gmsl_interfaceConfig-version.cmake
+[3.042s] -- Installing: /home/agilex/autoware.ai/install/autoware_driveworks_gmsl_interface/share/autoware_driveworks_gmsl_interface/package.xml
+[3.042s] -- Installing: /home/agilex/autoware.ai/install/autoware_driveworks_gmsl_interface/share/autoware_driveworks_gmsl_interface/nodelet_gmsl_camera.xml
+[3.047s] Invoked command in '/home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_driveworks_gmsl_interface --target install -- -j8 -l8

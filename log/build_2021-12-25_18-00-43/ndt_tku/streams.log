@@ -1,0 +1,19 @@
+[0.018s] Invoking command in '/home/agilex/autoware.ai/build/ndt_tku': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_tku -- -j8 -l8
+[0.086s] [100%] Built target ndt_tku
+[0.102s] Invoked command in '/home/agilex/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_tku -- -j8 -l8
+[0.168s] Invoking command in '/home/agilex/autoware.ai/build/ndt_tku': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_tku --target tests -- -j8 -l8
+[0.211s] Built target tests
+[0.233s] Invoked command in '/home/agilex/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_tku --target tests -- -j8 -l8
+[0.365s] Invoking command in '/home/agilex/autoware.ai/build/ndt_tku': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_tku --target install -- -j8 -l8
+[0.490s] [100%] Built target ndt_tku
+[0.527s] [36mInstall the project...[0m
+[0.552s] -- Install configuration: "Release"
+[0.552s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_tku/lib/pkgconfig/ndt_tku.pc
+[0.552s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig.cmake
+[0.552s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_tku/share/ndt_tku/cmake/ndt_tkuConfig-version.cmake
+[0.552s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_tku/share/ndt_tku/package.xml
+[0.553s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_tku/lib/libndt_tku.so
+[0.553s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_tku/include
+[0.554s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_tku/include/ndt.h
+[0.554s] -- Up-to-date: /home/agilex/autoware.ai/install/ndt_tku/include/algebra.h
+[0.560s] Invoked command in '/home/agilex/autoware.ai/build/ndt_tku' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/ndt_tku --target install -- -j8 -l8

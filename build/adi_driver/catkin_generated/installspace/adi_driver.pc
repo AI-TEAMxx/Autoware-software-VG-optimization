@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/adi_driver
+
+Name: adi_driver
+Description: Description of adi_driver
+Version: 1.11.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: roscpp sensor_msgs

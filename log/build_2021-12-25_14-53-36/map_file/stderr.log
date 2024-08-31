@@ -1,0 +1,19 @@
+** WARNING ** io features related to ensenso will be disabled
+** WARNING ** io features related to davidSDK will be disabled
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/common/map_file/include/map_file/points_map_filter.h:49:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/common/map_file/nodes/points_map_filter/points_map_filter_node.cpp:38[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/common/map_file/include/map_file/points_map_filter.h:49:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/common/map_file/nodes/points_map_filter/points_map_filter.cpp:35[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/agilex/autoware.ai/src/autoware/common/map_file/nodes/points_map_loader/points_map_loader.cpp:61:6:[m[K [01;35m[Kwarning: [m[K'[01m[Kvoid {anonymous}::RequestQueue::clear()[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+ void [01;35m[KRequestQueue[m[K::clear()
+      [01;35m[K^~~~~~~~~~~~[m[K

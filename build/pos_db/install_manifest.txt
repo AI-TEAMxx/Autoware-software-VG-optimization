@@ -1,0 +1,9 @@
+/home/agilex/autoware.ai/install/pos_db/lib/pkgconfig/pos_db.pc
+/home/agilex/autoware.ai/install/pos_db/share/pos_db/cmake/pos_dbConfig.cmake
+/home/agilex/autoware.ai/install/pos_db/share/pos_db/cmake/pos_dbConfig-version.cmake
+/home/agilex/autoware.ai/install/pos_db/share/pos_db/package.xml
+/home/agilex/autoware.ai/install/pos_db/lib/pos_db/pos_downloader
+/home/agilex/autoware.ai/install/pos_db/lib/libpos_db.so
+/home/agilex/autoware.ai/install/pos_db/lib/pos_db/pos_uploader
+/home/agilex/autoware.ai/install/pos_db/include/pos_db/include/pos_db.h
+/home/agilex/autoware.ai/install/pos_db/share/pos_db/model/prius_model.dae

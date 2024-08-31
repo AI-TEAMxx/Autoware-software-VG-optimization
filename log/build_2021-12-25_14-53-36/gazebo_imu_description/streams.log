@@ -1,0 +1,60 @@
+[0.020s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/simulation/gazebo_imu_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/gazebo_imu_description
+[0.281s] -- The C compiler identification is GNU 7.5.0
+[0.541s] -- The CXX compiler identification is GNU 7.5.0
+[0.545s] -- Check for working C compiler: /usr/bin/cc
+[1.001s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.002s] -- Detecting C compiler ABI info
+[1.512s] -- Detecting C compiler ABI info - done
+[1.520s] -- Detecting C compile features
+[2.845s] -- Detecting C compile features - done
+[2.848s] -- Check for working CXX compiler: /usr/bin/c++
+[3.025s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.026s] -- Detecting CXX compiler ABI info
+[3.171s] -- Detecting CXX compiler ABI info - done
+[3.179s] -- Detecting CXX compile features
+[3.773s] -- Detecting CXX compile features - done
+[3.775s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/gazebo_imu_description/devel
+[3.775s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[3.775s] -- This workspace overlays: /opt/ros/melodic
+[3.790s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[3.790s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[3.791s] -- Using Debian Python package layout
+[3.791s] -- Using empy: /usr/bin/empy
+[4.017s] -- Using CATKIN_ENABLE_TESTING: ON
+[4.018s] -- Call enable_testing()
+[4.019s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/gazebo_imu_description/test_results
+[4.036s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[4.036s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[4.048s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[4.050s] -- Looking for pthread.h
+[4.151s] -- Looking for pthread.h - found
+[4.151s] -- Looking for pthread_create
+[4.264s] -- Looking for pthread_create - not found
+[4.265s] -- Looking for pthread_create in pthreads
+[4.360s] -- Looking for pthread_create in pthreads - not found
+[4.361s] -- Looking for pthread_create in pthread
+[4.685s] -- Looking for pthread_create in pthread - found
+[4.686s] -- Found Threads: TRUE  
+[4.690s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[5.022s] -- catkin 0.7.29
+[5.022s] -- BUILD_SHARED_LIBS is on
+[5.759s] -- Configuring done
+[5.769s] -- Generating done
+[5.777s] -- Build files have been written to: /home/agilex/autoware.ai/build/gazebo_imu_description
+[5.784s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/simulation/gazebo_imu_description -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/gazebo_imu_description
+[5.785s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description -- -j8 -l8
+[5.983s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description -- -j8 -l8
+[6.465s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description --target tests -- -j8 -l8
+[6.865s] [35m[1mScanning dependencies of target tests[0m
+[6.926s] Built target tests
+[6.944s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description --target tests -- -j8 -l8
+[7.397s] Invoking command in '/home/agilex/autoware.ai/build/gazebo_imu_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description --target install -- -j8 -l8
+[7.616s] [36mInstall the project...[0m
+[7.632s] -- Install configuration: "Release"
+[7.632s] -- Installing: /home/agilex/autoware.ai/install/gazebo_imu_description/lib/pkgconfig/gazebo_imu_description.pc
+[7.632s] -- Installing: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig.cmake
+[7.633s] -- Installing: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/cmake/gazebo_imu_descriptionConfig-version.cmake
+[7.633s] -- Installing: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/package.xml
+[7.633s] -- Installing: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/urdf
+[7.634s] -- Installing: /home/agilex/autoware.ai/install/gazebo_imu_description/share/gazebo_imu_description/urdf/imu.xacro
+[7.638s] Invoked command in '/home/agilex/autoware.ai/build/gazebo_imu_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/gazebo_imu_description --target install -- -j8 -l8

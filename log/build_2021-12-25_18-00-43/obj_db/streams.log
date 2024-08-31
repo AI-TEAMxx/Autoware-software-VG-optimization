@@ -1,0 +1,87 @@
+[0.032s] Invoking command in '/home/agilex/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_can_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_can_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/obj_db -- -j8 -l8
+[0.108s] [ 33%] Built target obj_db
+[0.113s] [ 33%] Built target rosgraph_msgs_generate_messages_py
+[0.118s] [ 33%] Built target rosgraph_msgs_generate_messages_lisp
+[0.120s] [ 33%] Built target std_msgs_generate_messages_eus
+[0.120s] [ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.136s] [ 33%] Built target roscpp_generate_messages_nodejs
+[0.142s] [ 33%] Built target geometry_msgs_generate_messages_eus
+[0.146s] [ 33%] Built target roscpp_generate_messages_py
+[0.153s] [ 33%] Built target roscpp_generate_messages_lisp
+[0.158s] [ 33%] Built target roscpp_generate_messages_eus
+[0.160s] [ 33%] Built target autoware_can_msgs_generate_messages_eus
+[0.162s] [ 33%] Built target geometry_msgs_generate_messages_nodejs
+[0.183s] [ 33%] Built target std_msgs_generate_messages_lisp
+[0.187s] [ 33%] Built target roscpp_generate_messages_cpp
+[0.193s] [ 33%] Built target visualization_msgs_generate_messages_cpp
+[0.195s] [ 33%] Built target visualization_msgs_generate_messages_eus
+[0.196s] [ 33%] Built target std_msgs_generate_messages_nodejs
+[0.209s] [ 33%] Built target visualization_msgs_generate_messages_lisp
+[0.224s] [ 33%] Built target visualization_msgs_generate_messages_py
+[0.231s] [ 33%] Built target rosgraph_msgs_generate_messages_eus
+[0.232s] [ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[0.239s] [ 33%] Built target std_msgs_generate_messages_cpp
+[0.254s] [ 33%] Built target geometry_msgs_generate_messages_cpp
+[0.260s] [ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[0.261s] [ 33%] Built target visualization_msgs_generate_messages_nodejs
+[0.265s] [ 33%] Built target geometry_msgs_generate_messages_py
+[0.265s] [ 33%] Built target geometry_msgs_generate_messages_lisp
+[0.271s] [ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[0.283s] [ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[0.291s] [ 33%] Built target std_msgs_generate_messages_py
+[0.296s] [ 55%] Built target obj_uploader
+[0.297s] [ 55%] Built target autoware_can_msgs_generate_messages_py
+[0.304s] [ 77%] Built target obj_downloader
+[0.321s] [100%] Built target can_uploader
+[0.332s] Invoked command in '/home/agilex/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_can_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_can_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/obj_db -- -j8 -l8
+[0.567s] Invoking command in '/home/agilex/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_can_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_can_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/obj_db --target tests -- -j8 -l8
+[0.675s] Built target tests
+[0.710s] Invoked command in '/home/agilex/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_can_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_can_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/obj_db --target tests -- -j8 -l8
+[1.120s] Invoking command in '/home/agilex/autoware.ai/build/obj_db': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_can_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_can_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/obj_db --target install -- -j8 -l8
+[1.236s] [  0%] Built target std_msgs_generate_messages_eus
+[1.239s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.269s] [  0%] Built target roscpp_generate_messages_py
+[1.285s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.286s] [ 33%] Built target obj_db
+[1.288s] [ 33%] Built target rosgraph_msgs_generate_messages_py
+[1.296s] [ 33%] Built target rosgraph_msgs_generate_messages_cpp
+[1.325s] [ 33%] Built target geometry_msgs_generate_messages_eus
+[1.332s] [ 33%] Built target roscpp_generate_messages_cpp
+[1.349s] [ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.350s] [ 33%] Built target roscpp_generate_messages_eus
+[1.396s] [ 33%] Built target roscpp_generate_messages_nodejs
+[1.396s] [ 33%] Built target geometry_msgs_generate_messages_nodejs
+[1.401s] [ 33%] Built target roscpp_generate_messages_lisp
+[1.414s] [ 33%] Built target std_msgs_generate_messages_lisp
+[1.414s] [ 33%] Built target autoware_can_msgs_generate_messages_eus
+[1.438s] [ 33%] Built target std_msgs_generate_messages_nodejs
+[1.439s] [ 33%] Built target visualization_msgs_generate_messages_cpp
+[1.444s] [ 33%] Built target visualization_msgs_generate_messages_lisp
+[1.465s] [ 33%] Built target visualization_msgs_generate_messages_py
+[1.477s] [ 33%] Built target visualization_msgs_generate_messages_nodejs
+[1.480s] [ 33%] Built target autoware_can_msgs_generate_messages_py
+[1.490s] [ 33%] Built target visualization_msgs_generate_messages_eus
+[1.496s] [ 33%] Built target geometry_msgs_generate_messages_lisp
+[1.507s] [ 33%] Built target geometry_msgs_generate_messages_py
+[1.514s] [ 33%] Built target std_msgs_generate_messages_cpp
+[1.521s] [ 33%] Built target autoware_can_msgs_generate_messages_nodejs
+[1.522s] [ 33%] Built target geometry_msgs_generate_messages_cpp
+[1.538s] [ 33%] Built target autoware_can_msgs_generate_messages_lisp
+[1.543s] [ 33%] Built target autoware_can_msgs_generate_messages_cpp
+[1.549s] [ 33%] Built target std_msgs_generate_messages_py
+[1.582s] [ 55%] Built target obj_downloader
+[1.584s] [ 77%] Built target obj_uploader
+[1.629s] [100%] Built target can_uploader
+[1.659s] [36mInstall the project...[0m
+[1.693s] -- Install configuration: "Release"
+[1.693s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/lib/pkgconfig/obj_db.pc
+[1.694s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/share/obj_db/cmake/obj_dbConfig.cmake
+[1.694s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/share/obj_db/cmake/obj_dbConfig-version.cmake
+[1.694s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/share/obj_db/package.xml
+[1.694s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/lib/obj_db/can_uploader
+[1.694s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/lib/obj_db/obj_uploader
+[1.694s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/lib/libobj_db.so
+[1.694s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/lib/obj_db/obj_downloader
+[1.694s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/include/obj_db/include
+[1.694s] -- Up-to-date: /home/agilex/autoware.ai/install/obj_db/include/obj_db/include/obj_db.h
+[1.721s] Invoked command in '/home/agilex/autoware.ai/build/obj_db' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_can_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_can_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/autoware_can_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_can_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/obj_db --target install -- -j8 -l8

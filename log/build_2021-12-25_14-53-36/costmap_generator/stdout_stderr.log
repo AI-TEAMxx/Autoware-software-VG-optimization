@@ -1,0 +1,577 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/costmap_generator/devel
+-- Using CMAKE_PREFIX_PATH: /home/agilex/autoware.ai/install/object_map;/home/agilex/autoware.ai/install/vector_map;/home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/autoware_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- This workspace overlays: /home/agilex/autoware.ai/install/object_map;/home/agilex/autoware.ai/install/vector_map;/home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/autoware_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+-- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python2
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/costmap_generator/test_results
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+-- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.29
+-- BUILD_SHARED_LIBS is on
+-- CUDA compilation status: .
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/agilex/autoware.ai/build/costmap_generator
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[  0%] Built target actionlib_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[  0%] Built target autoware_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[  0%] Built target visualization_msgs_generate_messages_py
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[  0%] Built target visualization_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_nodejs[0m
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_py[0m
+[  0%] Built target grid_map_msgs_generate_messages_py
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_nodejs[0m
+[  0%] Built target grid_map_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_eus[0m
+[  0%] Built target grid_map_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_eus[0m
+[  0%] Built target nav_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[  0%] Built target tf2_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_nodejs[0m
+[  0%] Built target nodelet_generate_messages_nodejs
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_lisp[0m
+[  0%] Built target nav_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_generate_messages_eus[0m
+[  0%] Built target nodelet_generate_messages_eus
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_py[0m
+[  0%] Built target nav_msgs_generate_messages_py
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target dynamic_reconfigure_gencfg[0m
+[  0%] Built target dynamic_reconfigure_gencfg
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[  0%] Built target geometry_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_py[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_lisp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_cpp[0m
+[  0%] Built target topic_tools_generate_messages_cpp
+[35m[1mScanning dependencies of target pcl_ros_gencfg[0m
+[  0%] Built target pcl_ros_gencfg
+[35m[1mScanning dependencies of target topic_tools_generate_messages_nodejs[0m
+[  0%] Built target topic_tools_generate_messages_nodejs
+[35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[  0%] Built target tf2_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[  0%] Built target actionlib_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_eus[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[  0%] Built target std_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_lisp[0m
+[  0%] Built target bond_generate_messages_lisp
+[35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[  0%] Built target autoware_msgs_generate_messages_py
+[35m[1mScanning dependencies of target nodelet_generate_messages_lisp[0m
+[  0%] Built target nodelet_generate_messages_lisp
+[35m[1mScanning dependencies of target nav_msgs_generate_messages_cpp[0m
+[  0%] Built target nav_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target nodelet_generate_messages_cpp[0m
+[  0%] Built target nodelet_generate_messages_cpp
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_py[0m
+[  0%] Built target bond_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_nodejs[0m
+[  0%] Built target std_srvs_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[  0%] Built target actionlib_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[  0%] Built target roscpp_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[  0%] Built target actionlib_generate_messages_cpp
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target std_srvs_generate_messages_eus[0m
+[  0%] Built target std_srvs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[  0%] Built target roscpp_generate_messages_lisp
+[35m[1mScanning dependencies of target bond_generate_messages_eus[0m
+[  0%] Built target bond_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[  0%] Built target roscpp_generate_messages_nodejs
+[35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[  0%] Built target geometry_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_cpp[0m
+[  0%] Built target grid_map_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[  0%] Built target roscpp_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_nodejs[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[  0%] Built target std_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[  0%] Built target roscpp_generate_messages_eus
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target bond_generate_messages_cpp[0m
+[  0%] Built target bond_generate_messages_cpp
+[35m[1mScanning dependencies of target bond_generate_messages_nodejs[0m
+[  0%] Built target bond_generate_messages_nodejs
+[35m[1mScanning dependencies of target topic_tools_generate_messages_py[0m
+[  0%] Built target topic_tools_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target nodelet_topic_tools_gencfg[0m
+[  0%] Built target nodelet_topic_tools_gencfg
+[35m[1mScanning dependencies of target std_srvs_generate_messages_lisp[0m
+[  0%] Built target std_srvs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target topic_tools_generate_messages_lisp[0m
+[  0%] Built target topic_tools_generate_messages_lisp
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[  0%] Built target pcl_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target topic_tools_generate_messages_eus[0m
+[  0%] Built target topic_tools_generate_messages_eus
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[  0%] Built target sensor_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target nodelet_generate_messages_py[0m
+[  0%] Built target nodelet_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target dynamic_reconfigure_generate_messages_cpp[0m
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[  0%] Built target tf_generate_messages_py
+[35m[1mScanning dependencies of target std_srvs_generate_messages_cpp[0m
+[  0%] Built target std_srvs_generate_messages_cpp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[  0%] Built target tf_generate_messages_eus
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_srvs_generate_messages_py[0m
+[  0%] Built target std_srvs_generate_messages_py
+[35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[  0%] Built target tf_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[  0%] Built target tf_generate_messages_nodejs
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[  0%] Built target pcl_msgs_generate_messages_py
+[35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[  0%] Built target actionlib_generate_messages_eus
+[35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[  0%] Built target tf_generate_messages_cpp
+[35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[  0%] Built target actionlib_generate_messages_nodejs
+[35m[1mScanning dependencies of target grid_map_msgs_generate_messages_lisp[0m
+[  0%] Built target grid_map_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[  0%] Built target vector_map_msgs_generate_messages_py
+[35m[1mScanning dependencies of target costmap_generator[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/costmap_generator.dir/nodes/costmap_generator/costmap_generator_node.cpp.o[0m
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator_node.cpp:32[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 20%] [32mBuilding CXX object CMakeFiles/costmap_generator.dir/nodes/costmap_generator/objects_to_costmap.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/costmap_generator.dir/nodes/costmap_generator/points_to_costmap.cpp.o[0m
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/points_to_costmap.cpp:31[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 40%] [32mBuilding CXX object CMakeFiles/costmap_generator.dir/nodes/costmap_generator/costmap_generator.cpp.o[0m
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator.cpp:33[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 50%] [32m[1mLinking CXX executable devel/lib/costmap_generator/costmap_generator[0m
+[ 50%] Built target costmap_generator
+[35m[1mScanning dependencies of target costmap_generator_lib[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/costmap_generator_node.cpp.o[0m
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator_node.cpp:32[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 70%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/objects_to_costmap.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/points_to_costmap.cpp.o[0m
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/points_to_costmap.cpp:31[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[ 90%] [32mBuilding CXX object CMakeFiles/costmap_generator_lib.dir/nodes/costmap_generator/costmap_generator.cpp.o[0m
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/nodes/costmap_generator/costmap_generator.cpp:33[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX shared library devel/lib/libcostmap_generator_lib.so[0m
+[100%] Built target costmap_generator_lib
+[35m[1mScanning dependencies of target gtest[0m
+[ 11%] [32mBuilding CXX object gtest/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[ 22%] [32m[1mLinking CXX shared library libgtest.so[0m
+[ 22%] Built target gtest
+[ 22%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[ 22%] Built target jsk_footstep_msgs_generate_messages_lisp
+[ 22%] Built target jsk_footstep_msgs_generate_messages_eus
+[ 22%] Built target jsk_recognition_msgs_generate_messages_py
+[ 22%] Built target jsk_recognition_msgs_generate_messages_lisp
+[ 22%] Built target jsk_recognition_msgs_generate_messages_eus
+[ 22%] Built target autoware_msgs_generate_messages_nodejs
+[ 22%] Built target autoware_msgs_generate_messages_lisp
+[ 22%] Built target autoware_msgs_generate_messages_eus
+[ 22%] Built target autoware_msgs_generate_messages_cpp
+[ 22%] Built target visualization_msgs_generate_messages_py
+[ 22%] Built target visualization_msgs_generate_messages_nodejs
+[ 22%] Built target visualization_msgs_generate_messages_eus
+[ 22%] Built target nav_msgs_generate_messages_nodejs
+[ 22%] Built target grid_map_msgs_generate_messages_py
+[ 22%] Built target grid_map_msgs_generate_messages_nodejs
+[ 22%] Built target grid_map_msgs_generate_messages_eus
+[ 22%] Built target tf2_msgs_generate_messages_nodejs
+[ 22%] Built target visualization_msgs_generate_messages_cpp
+[ 22%] Built target nav_msgs_generate_messages_eus
+[ 22%] Built target tf2_msgs_generate_messages_eus
+[ 22%] Built target tf2_msgs_generate_messages_cpp
+[ 22%] Built target nodelet_generate_messages_nodejs
+[ 22%] Built target nav_msgs_generate_messages_lisp
+[ 22%] Built target pcl_msgs_generate_messages_nodejs
+[ 22%] Built target nodelet_generate_messages_eus
+[ 22%] Built target geometry_msgs_generate_messages_lisp
+[ 22%] Built target nav_msgs_generate_messages_py
+[ 22%] Built target tf2_msgs_generate_messages_lisp
+[ 22%] Built target dynamic_reconfigure_gencfg
+[ 22%] Built target geometry_msgs_generate_messages_py
+[ 22%] Built target dynamic_reconfigure_generate_messages_py
+[ 22%] Built target dynamic_reconfigure_generate_messages_lisp
+[ 22%] Built target pcl_msgs_generate_messages_cpp
+[ 22%] Built target rosgraph_msgs_generate_messages_cpp
+[ 22%] Built target topic_tools_generate_messages_cpp
+[ 22%] Built target pcl_ros_gencfg
+[ 22%] Built target topic_tools_generate_messages_nodejs
+[ 22%] Built target tf2_msgs_generate_messages_py
+[ 22%] Built target actionlib_generate_messages_py
+[ 22%] Built target dynamic_reconfigure_generate_messages_eus
+[ 22%] Built target std_msgs_generate_messages_nodejs
+[ 22%] Built target bond_generate_messages_lisp
+[ 22%] Built target autoware_msgs_generate_messages_py
+[ 22%] Built target nodelet_generate_messages_lisp
+[ 22%] Built target nav_msgs_generate_messages_cpp
+[ 22%] Built target sensor_msgs_generate_messages_lisp
+[ 22%] Built target std_msgs_generate_messages_cpp
+[ 22%] Built target nodelet_generate_messages_cpp
+[ 22%] Built target vector_map_msgs_generate_messages_nodejs
+[ 22%] Built target bond_generate_messages_py
+[ 22%] Built target std_srvs_generate_messages_nodejs
+[ 22%] Built target geometry_msgs_generate_messages_cpp
+[ 22%] Built target actionlib_generate_messages_lisp
+[ 22%] Built target roscpp_generate_messages_cpp
+[ 22%] Built target sensor_msgs_generate_messages_nodejs
+[ 22%] Built target actionlib_generate_messages_cpp
+[ 22%] Built target geometry_msgs_generate_messages_nodejs
+[ 22%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[ 22%] Built target std_srvs_generate_messages_eus
+[ 22%] Built target roscpp_generate_messages_lisp
+[ 22%] Built target bond_generate_messages_eus
+[ 22%] Built target std_msgs_generate_messages_lisp
+[ 22%] Built target roscpp_generate_messages_nodejs
+[ 22%] Built target geometry_msgs_generate_messages_eus
+[ 22%] Built target std_msgs_generate_messages_py
+[ 22%] Built target grid_map_msgs_generate_messages_cpp
+[ 22%] Built target roscpp_generate_messages_py
+[ 22%] Built target dynamic_reconfigure_generate_messages_nodejs
+[ 22%] Built target rosgraph_msgs_generate_messages_eus
+[ 22%] Built target rosgraph_msgs_generate_messages_lisp
+[ 22%] Built target visualization_msgs_generate_messages_lisp
+[ 22%] Built target std_msgs_generate_messages_eus
+[ 22%] Built target actionlib_msgs_generate_messages_eus
+[ 22%] Built target roscpp_generate_messages_eus
+[ 22%] Built target rosgraph_msgs_generate_messages_py
+[ 22%] Built target rosgraph_msgs_generate_messages_nodejs
+[ 22%] Built target bond_generate_messages_cpp
+[ 22%] Built target bond_generate_messages_nodejs
+[ 22%] Built target topic_tools_generate_messages_py
+[ 22%] Built target actionlib_msgs_generate_messages_nodejs
+[ 22%] Built target nodelet_topic_tools_gencfg
+[ 22%] Built target std_srvs_generate_messages_lisp
+[ 22%] Built target jsk_recognition_msgs_generate_messages_cpp
+[ 22%] Built target topic_tools_generate_messages_lisp
+[ 22%] Built target pcl_msgs_generate_messages_eus
+[ 22%] Built target topic_tools_generate_messages_eus
+[ 22%] Built target sensor_msgs_generate_messages_cpp
+[ 22%] Built target sensor_msgs_generate_messages_eus
+[ 22%] Built target nodelet_generate_messages_py
+[ 22%] Built target sensor_msgs_generate_messages_py
+[ 22%] Built target dynamic_reconfigure_generate_messages_cpp
+[ 22%] Built target tf_generate_messages_py
+[ 22%] Built target std_srvs_generate_messages_cpp
+[ 22%] Built target jsk_footstep_msgs_generate_messages_cpp
+[ 22%] Built target tf_generate_messages_eus
+[ 22%] Built target actionlib_msgs_generate_messages_cpp
+[ 22%] Built target std_srvs_generate_messages_py
+[ 22%] Built target tf_generate_messages_lisp
+[ 22%] Built target tf_generate_messages_nodejs
+[ 22%] Built target pcl_msgs_generate_messages_py
+[ 22%] Built target actionlib_generate_messages_eus
+[ 22%] Built target pcl_msgs_generate_messages_lisp
+[ 22%] Built target tf_generate_messages_cpp
+[ 22%] Built target actionlib_generate_messages_nodejs
+[ 22%] Built target grid_map_msgs_generate_messages_lisp
+[ 22%] Built target actionlib_msgs_generate_messages_lisp
+[ 22%] Built target jsk_footstep_msgs_generate_messages_py
+[ 22%] Built target vector_map_msgs_generate_messages_cpp
+[ 22%] Built target vector_map_msgs_generate_messages_eus
+[ 22%] Built target vector_map_msgs_generate_messages_lisp
+[ 22%] Built target vector_map_msgs_generate_messages_py
+[ 22%] Built target actionlib_msgs_generate_messages_py
+[ 77%] Built target costmap_generator_lib
+[35m[1mScanning dependencies of target test-costmap_generator[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/test-costmap_generator.dir/test/src/test_costmap_generator.cpp.o[0m
+In file included from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/points_to_costmap.h:39:0[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/include/costmap_generator/costmap_generator.h:46[m[K,
+                 from [01m[K/home/agilex/autoware.ai/src/autoware/core_planning/costmap_generator/test/src/test_costmap_generator.cpp:34[m[K:
+[01m[K/opt/ros/melodic/include/pcl_ros/point_cloud.h:303:27:[m[K [01;35m[Kwarning: [m[Kvariable templates only available with -std=c++14 or -std=gnu++14
+     constexpr static bool [01;35m[Kpcl_uses_boost[m[K = true;
+                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable devel/lib/costmap_generator/test-costmap_generator[0m
+[100%] Built target test-costmap_generator
+[35m[1mScanning dependencies of target tests[0m
+[100%] Built target tests
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[  0%] Built target jsk_recognition_msgs_generate_messages_py
+[  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_nodejs
+[  0%] Built target autoware_msgs_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_eus
+[  0%] Built target autoware_msgs_generate_messages_cpp
+[  0%] Built target visualization_msgs_generate_messages_py
+[  0%] Built target visualization_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_eus
+[  0%] Built target nav_msgs_generate_messages_nodejs
+[  0%] Built target grid_map_msgs_generate_messages_py
+[  0%] Built target grid_map_msgs_generate_messages_nodejs
+[  0%] Built target grid_map_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_nodejs
+[  0%] Built target visualization_msgs_generate_messages_cpp
+[  0%] Built target nav_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_eus
+[  0%] Built target tf2_msgs_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_nodejs
+[  0%] Built target nav_msgs_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_generate_messages_eus
+[  0%] Built target geometry_msgs_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_py
+[  0%] Built target tf2_msgs_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_cpp
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_cpp
+[  0%] Built target pcl_ros_gencfg
+[  0%] Built target topic_tools_generate_messages_nodejs
+[  0%] Built target tf2_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_lisp
+[  0%] Built target autoware_msgs_generate_messages_py
+[  0%] Built target nodelet_generate_messages_lisp
+[  0%] Built target nav_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target nodelet_generate_messages_cpp
+[  0%] Built target vector_map_msgs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[  0%] Built target std_srvs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target bond_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target grid_map_msgs_generate_messages_cpp
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target visualization_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target bond_generate_messages_cpp
+[  0%] Built target bond_generate_messages_nodejs
+[  0%] Built target topic_tools_generate_messages_py
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target nodelet_topic_tools_gencfg
+[  0%] Built target std_srvs_generate_messages_lisp
+[  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[  0%] Built target topic_tools_generate_messages_lisp
+[  0%] Built target pcl_msgs_generate_messages_eus
+[  0%] Built target topic_tools_generate_messages_eus
+[  0%] Built target sensor_msgs_generate_messages_cpp
+[  0%] Built target sensor_msgs_generate_messages_eus
+[  0%] Built target nodelet_generate_messages_py
+[  0%] Built target sensor_msgs_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target tf_generate_messages_py
+[  0%] Built target std_srvs_generate_messages_cpp
+[  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[  0%] Built target tf_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target std_srvs_generate_messages_py
+[  0%] Built target tf_generate_messages_lisp
+[  0%] Built target tf_generate_messages_nodejs
+[  0%] Built target pcl_msgs_generate_messages_py
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target pcl_msgs_generate_messages_lisp
+[  0%] Built target tf_generate_messages_cpp
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target grid_map_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[  0%] Built target jsk_footstep_msgs_generate_messages_py
+[  0%] Built target vector_map_msgs_generate_messages_cpp
+[  0%] Built target vector_map_msgs_generate_messages_eus
+[  0%] Built target vector_map_msgs_generate_messages_lisp
+[  0%] Built target vector_map_msgs_generate_messages_py
+[ 50%] Built target costmap_generator
+[100%] Built target costmap_generator_lib
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/lib/pkgconfig/costmap_generator.pc
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/share/costmap_generator/cmake/costmap_generatorConfig.cmake
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/share/costmap_generator/cmake/costmap_generatorConfig-version.cmake
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/share/costmap_generator/package.xml
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/lib/costmap_generator/costmap_generator
+-- Set runtime path of "/home/agilex/autoware.ai/install/costmap_generator/lib/costmap_generator/costmap_generator" to ""
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/share/costmap_generator/launch
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/share/costmap_generator/launch/costmap_generator.launch
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/include/costmap_generator
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/include/costmap_generator/costmap_generator.h
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/include/costmap_generator/points_to_costmap.h
+-- Installing: /home/agilex/autoware.ai/install/costmap_generator/include/costmap_generator/objects_to_costmap.h

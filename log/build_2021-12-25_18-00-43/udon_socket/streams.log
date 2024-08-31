@@ -1,0 +1,52 @@
+[0.042s] Invoking command in '/home/agilex/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/udon_socket -- -j8 -l8
+[0.148s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.151s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.154s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.173s] [  0%] Built target roscpp_generate_messages_py
+[0.188s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.201s] [  0%] Built target roscpp_generate_messages_cpp
+[0.208s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.216s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.219s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.238s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.240s] [  0%] Built target roscpp_generate_messages_lisp
+[0.254s] [  0%] Built target roscpp_generate_messages_eus
+[0.273s] [  0%] Built target std_msgs_generate_messages_py
+[0.280s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.289s] [ 33%] Built target udon
+[0.289s] [ 33%] Built target std_msgs_generate_messages_eus
+[0.317s] [ 66%] Built target udon_receiver
+[0.322s] [100%] Built target udon_sender
+[0.335s] Invoked command in '/home/agilex/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/udon_socket -- -j8 -l8
+[0.403s] Invoking command in '/home/agilex/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/udon_socket --target tests -- -j8 -l8
+[0.473s] Built target tests
+[0.486s] Invoked command in '/home/agilex/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/udon_socket --target tests -- -j8 -l8
+[0.552s] Invoking command in '/home/agilex/autoware.ai/build/udon_socket': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/udon_socket --target install -- -j8 -l8
+[0.610s] [  0%] Built target roscpp_generate_messages_py
+[0.620s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.626s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.634s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.638s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.645s] [  0%] Built target roscpp_generate_messages_cpp
+[0.655s] [  0%] Built target roscpp_generate_messages_lisp
+[0.657s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.662s] [  0%] Built target roscpp_generate_messages_eus
+[0.668s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.682s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.685s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.693s] [ 33%] Built target udon
+[0.693s] [ 33%] Built target std_msgs_generate_messages_py
+[0.718s] [ 33%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.719s] [ 33%] Built target std_msgs_generate_messages_eus
+[0.724s] [ 66%] Built target udon_receiver
+[0.760s] [100%] Built target udon_sender
+[0.788s] [36mInstall the project...[0m
+[0.796s] -- Install configuration: "Release"
+[0.796s] -- Up-to-date: /home/agilex/autoware.ai/install/udon_socket/lib/pkgconfig/udon_socket.pc
+[0.796s] -- Up-to-date: /home/agilex/autoware.ai/install/udon_socket/share/udon_socket/cmake/udon_socketConfig.cmake
+[0.797s] -- Up-to-date: /home/agilex/autoware.ai/install/udon_socket/share/udon_socket/cmake/udon_socketConfig-version.cmake
+[0.797s] -- Up-to-date: /home/agilex/autoware.ai/install/udon_socket/share/udon_socket/package.xml
+[0.797s] -- Up-to-date: /home/agilex/autoware.ai/install/udon_socket/lib/libudon.so
+[0.798s] -- Up-to-date: /home/agilex/autoware.ai/install/udon_socket/lib/udon_socket/udon_receiver
+[0.799s] -- Up-to-date: /home/agilex/autoware.ai/install/udon_socket/lib/udon_socket/udon_sender
+[0.805s] Invoked command in '/home/agilex/autoware.ai/build/udon_socket' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/tablet_socket_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/udon_socket --target install -- -j8 -l8

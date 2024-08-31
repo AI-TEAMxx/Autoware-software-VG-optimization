@@ -1,0 +1,863 @@
+[0.018s] Invoking command in '/home/agilex/autoware.ai/build/vector_map_server': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/common/vector_map_server -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/vector_map_server
+[0.079s] -- The C compiler identification is GNU 7.5.0
+[0.138s] -- The CXX compiler identification is GNU 7.5.0
+[0.143s] -- Check for working C compiler: /usr/bin/cc
+[0.203s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.204s] -- Detecting C compiler ABI info
+[0.266s] -- Detecting C compiler ABI info - done
+[0.276s] -- Detecting C compile features
+[0.454s] -- Detecting C compile features - done
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++
+[0.530s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.531s] -- Detecting CXX compiler ABI info
+[0.601s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Detecting CXX compile features
+[0.913s] -- Detecting CXX compile features - done
+[1.008s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/vector_map_server/devel
+[1.008s] -- Using CMAKE_PREFIX_PATH: /home/agilex/autoware.ai/install/vector_map;/home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/autoware_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.008s] -- This workspace overlays: /home/agilex/autoware.ai/install/vector_map;/home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/autoware_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.021s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.021s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.022s] -- Using Debian Python package layout
+[1.023s] -- Using empy: /usr/bin/empy
+[1.177s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.177s] -- Call enable_testing()
+[1.179s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/vector_map_server/test_results
+[1.192s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.192s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.206s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.206s] -- Looking for pthread.h
+[1.273s] -- Looking for pthread.h - found
+[1.273s] -- Looking for pthread_create
+[1.342s] -- Looking for pthread_create - not found
+[1.343s] -- Looking for pthread_create in pthreads
+[1.398s] -- Looking for pthread_create in pthreads - not found
+[1.398s] -- Looking for pthread_create in pthread
+[1.460s] -- Looking for pthread_create in pthread - found
+[1.462s] -- Found Threads: TRUE  
+[1.466s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.509s] -- catkin 0.7.29
+[1.509s] -- BUILD_SHARED_LIBS is on
+[1.605s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.774s] -- CUDA compilation status: .
+[2.017s] -- vector_map_server: 0 messages, 27 services
+[2.196s] -- Configuring done
+[2.281s] -- Generating done
+[2.294s] -- Build files have been written to: /home/agilex/autoware.ai/build/vector_map_server
+[2.300s] Invoked command in '/home/agilex/autoware.ai/build/vector_map_server' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/common/vector_map_server -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/vector_map_server
+[2.303s] Invoking command in '/home/agilex/autoware.ai/build/vector_map_server': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_server -- -j8 -l8
+[2.352s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_py[0m
+[2.360s] [  0%] Built target pcl_msgs_generate_messages_py
+[2.369s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetGuardRail[0m
+[2.403s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetGuardRail
+[2.413s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetFence[0m
+[2.446s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetFence
+[2.460s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRoadSign[0m
+[2.492s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadSign
+[2.501s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRoadPole[0m
+[2.533s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadPole
+[2.543s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetStopLine[0m
+[2.576s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetStopLine
+[2.587s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetCrossWalk[0m
+[2.619s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCrossWalk
+[2.627s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetSignal[0m
+[2.658s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSignal
+[2.666s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetWall[0m
+[2.700s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWall
+[2.708s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetWhiteLine[0m
+[2.740s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWhiteLine
+[2.748s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_PositionState[0m
+[2.782s] [  0%] Built target _vector_map_server_generate_messages_check_deps_PositionState
+[2.792s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetDTLane[0m
+[2.824s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetDTLane
+[2.833s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRoadEdge[0m
+[2.865s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadEdge
+[2.873s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetWayArea[0m
+[2.907s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWayArea
+[2.920s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetCurveMirror[0m
+[2.956s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCurveMirror
+[2.966s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetStreetLight[0m
+[3.000s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetStreetLight
+[3.009s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRailCrossing[0m
+[3.042s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRailCrossing
+[3.053s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[3.062s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[3.072s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetNode[0m
+[3.106s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetNode
+[3.115s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetSideStrip[0m
+[3.146s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSideStrip
+[3.156s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[3.165s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[3.175s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetCurb[0m
+[3.208s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCurb
+[3.217s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetRoadMark[0m
+[3.248s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadMark
+[3.257s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_nodejs[0m
+[3.268s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[3.277s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetSideWalk[0m
+[3.308s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSideWalk
+[3.318s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_py[0m
+[3.326s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[3.335s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[3.344s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[3.355s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[3.364s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[3.372s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_lisp[0m
+[3.380s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[3.389s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_nodejs[0m
+[3.402s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[3.412s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_lisp[0m
+[3.422s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[3.431s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_py[0m
+[3.440s] [  0%] Built target sensor_msgs_generate_messages_py
+[3.450s] [35m[1mScanning dependencies of target tf_generate_messages_py[0m
+[3.459s] [  0%] Built target tf_generate_messages_py
+[3.467s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_nodejs[0m
+[3.475s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[3.484s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[3.492s] [  0%] Built target geometry_msgs_generate_messages_eus
+[3.500s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[3.508s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[3.517s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_eus[0m
+[3.525s] [  0%] Built target autoware_msgs_generate_messages_eus
+[3.534s] [35m[1mScanning dependencies of target roscpp_generate_messages_cpp[0m
+[3.547s] [  0%] Built target roscpp_generate_messages_cpp
+[3.556s] [35m[1mScanning dependencies of target actionlib_generate_messages_cpp[0m
+[3.564s] [  0%] Built target actionlib_generate_messages_cpp
+[3.572s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp[0m
+[3.580s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[3.591s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[3.599s] [  0%] Built target geometry_msgs_generate_messages_py
+[3.608s] [35m[1mScanning dependencies of target actionlib_generate_messages_lisp[0m
+[3.616s] [  0%] Built target actionlib_generate_messages_lisp
+[3.625s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[3.633s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[3.643s] [35m[1mScanning dependencies of target tf_generate_messages_nodejs[0m
+[3.657s] [  0%] Built target tf_generate_messages_nodejs
+[3.669s] [35m[1mScanning dependencies of target roscpp_generate_messages_py[0m
+[3.679s] [  0%] Built target roscpp_generate_messages_py
+[3.692s] [35m[1mScanning dependencies of target tf_generate_messages_lisp[0m
+[3.704s] [  0%] Built target tf_generate_messages_lisp
+[3.713s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_cpp[0m
+[3.723s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[3.731s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_cpp[0m
+[3.740s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[3.749s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_cpp[0m
+[3.762s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[3.770s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_cpp[0m
+[3.778s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[3.786s] [35m[1mScanning dependencies of target tf_generate_messages_eus[0m
+[3.795s] [  0%] Built target tf_generate_messages_eus
+[3.803s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_eus[0m
+[3.814s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[3.828s] [35m[1mScanning dependencies of target roscpp_generate_messages_lisp[0m
+[3.839s] [  0%] Built target roscpp_generate_messages_lisp
+[3.849s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_nodejs[0m
+[3.858s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[3.868s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_lisp[0m
+[3.877s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[3.889s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_eus[0m
+[3.904s] [  0%] Built target sensor_msgs_generate_messages_eus
+[3.924s] [35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp[0m
+[3.943s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[3.962s] [35m[1mScanning dependencies of target roscpp_generate_messages_nodejs[0m
+[3.980s] [  0%] Built target roscpp_generate_messages_nodejs
+[3.997s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[4.006s] [  0%] Built target std_msgs_generate_messages_lisp
+[4.021s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[4.031s] [  0%] Built target std_msgs_generate_messages_cpp
+[4.039s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_nodejs[0m
+[4.048s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[4.062s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_nodejs[0m
+[4.082s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[4.100s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_lisp[0m
+[4.109s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[4.123s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[4.131s] [  0%] Built target std_msgs_generate_messages_eus
+[4.140s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[4.153s] [  0%] Built target vector_map_msgs_generate_messages_py
+[4.177s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[4.188s] [  0%] Built target std_msgs_generate_messages_nodejs
+[4.199s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[4.218s] [  0%] Built target std_msgs_generate_messages_py
+[4.244s] [35m[1mScanning dependencies of target autoware_msgs_generate_messages_py[0m
+[4.260s] [  0%] Built target autoware_msgs_generate_messages_py
+[4.276s] [35m[1mScanning dependencies of target roscpp_generate_messages_eus[0m
+[4.284s] [  0%] Built target roscpp_generate_messages_eus
+[4.297s] [35m[1mScanning dependencies of target rosgraph_msgs_generate_messages_py[0m
+[4.304s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[4.316s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_eus[0m
+[4.326s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[4.351s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_lisp[0m
+[4.359s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[4.368s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_nodejs[0m
+[4.385s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[4.393s] [35m[1mScanning dependencies of target actionlib_msgs_generate_messages_py[0m
+[4.410s] [  0%] Built target actionlib_msgs_generate_messages_py
+[4.426s] [35m[1mScanning dependencies of target jsk_footstep_msgs_generate_messages_eus[0m
+[4.436s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[4.448s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_cpp[0m
+[4.461s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[4.476s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_eus[0m
+[4.486s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[4.501s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_lisp[0m
+[4.514s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[4.532s] [35m[1mScanning dependencies of target actionlib_generate_messages_py[0m
+[4.541s] [  0%] Built target actionlib_generate_messages_py
+[4.557s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_py[0m
+[4.566s] [  0%] Built target tf2_msgs_generate_messages_py
+[4.577s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_nodejs[0m
+[4.595s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[4.611s] [35m[1mScanning dependencies of target tf2_msgs_generate_messages_eus[0m
+[4.623s] [  0%] Built target tf2_msgs_generate_messages_eus
+[4.633s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_cpp[0m
+[4.644s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[4.654s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[4.666s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[4.680s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_eus[0m
+[4.696s] [  0%] Built target visualization_msgs_generate_messages_eus
+[4.717s] [35m[1mScanning dependencies of target visualization_msgs_generate_messages_py[0m
+[4.725s] [  0%] Built target visualization_msgs_generate_messages_py
+[4.734s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_cpp[0m
+[4.743s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[4.754s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_lisp[0m
+[4.770s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[4.779s] [35m[1mScanning dependencies of target jsk_recognition_msgs_generate_messages_py[0m
+[4.791s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[4.804s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_cpp[0m
+[4.820s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[4.834s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_eus[0m
+[4.851s] [  0%] Built target pcl_msgs_generate_messages_eus
+[4.860s] [35m[1mScanning dependencies of target actionlib_generate_messages_nodejs[0m
+[4.886s] [  0%] Built target actionlib_generate_messages_nodejs
+[4.901s] [35m[1mScanning dependencies of target tf_generate_messages_cpp[0m
+[4.922s] [  0%] Built target tf_generate_messages_cpp
+[4.935s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_lisp[0m
+[4.954s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[4.976s] [35m[1mScanning dependencies of target pcl_msgs_generate_messages_nodejs[0m
+[4.991s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[5.001s] [35m[1mScanning dependencies of target actionlib_generate_messages_eus[0m
+[5.009s] [  0%] Built target actionlib_generate_messages_eus
+[5.019s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetUtilityPole[0m
+[5.067s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetUtilityPole
+[5.087s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetDriveOnPortion[0m
+[5.133s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetDriveOnPortion
+[5.146s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetLane[0m
+[5.180s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetLane
+[5.195s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetGutter[0m
+[5.232s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetGutter
+[5.241s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetZebraZone[0m
+[5.277s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetZebraZone
+[5.285s] [35m[1mScanning dependencies of target _vector_map_server_generate_messages_check_deps_GetCrossRoad[0m
+[5.317s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCrossRoad
+[5.332s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_nodejs[0m
+[5.346s] [  1%] [34m[1mGenerating Javascript code from vector_map_server/GetCurveMirror.srv[0m
+[5.387s] [  2%] [34m[1mGenerating Javascript code from vector_map_server/PositionState.srv[0m
+[5.424s] [  3%] [34m[1mGenerating Javascript code from vector_map_server/GetWhiteLine.srv[0m
+[5.465s] [  3%] [34m[1mGenerating Javascript code from vector_map_server/GetWall.srv[0m
+[5.506s] [  4%] [34m[1mGenerating Javascript code from vector_map_server/GetRoadMark.srv[0m
+[5.546s] [  5%] [34m[1mGenerating Javascript code from vector_map_server/GetSignal.srv[0m
+[5.591s] [  5%] [34m[1mGenerating Javascript code from vector_map_server/GetNode.srv[0m
+[5.626s] [  6%] [34m[1mGenerating Javascript code from vector_map_server/GetStopLine.srv[0m
+[5.670s] [  7%] [34m[1mGenerating Javascript code from vector_map_server/GetWayArea.srv[0m
+[5.713s] [  7%] [34m[1mGenerating Javascript code from vector_map_server/GetRoadPole.srv[0m
+[5.763s] [  8%] [34m[1mGenerating Javascript code from vector_map_server/GetCrossRoad.srv[0m
+[5.805s] [  9%] [34m[1mGenerating Javascript code from vector_map_server/GetSideStrip.srv[0m
+[5.851s] [  9%] [34m[1mGenerating Javascript code from vector_map_server/GetRoadSign.srv[0m
+[5.892s] [ 10%] [34m[1mGenerating Javascript code from vector_map_server/GetFence.srv[0m
+[5.936s] [ 11%] [34m[1mGenerating Javascript code from vector_map_server/GetGuardRail.srv[0m
+[5.978s] [ 11%] [34m[1mGenerating Javascript code from vector_map_server/GetSideWalk.srv[0m
+[6.024s] [ 12%] [34m[1mGenerating Javascript code from vector_map_server/GetUtilityPole.srv[0m
+[6.067s] [ 12%] [34m[1mGenerating Javascript code from vector_map_server/GetCrossWalk.srv[0m
+[6.113s] [ 13%] [34m[1mGenerating Javascript code from vector_map_server/GetDriveOnPortion.srv[0m
+[6.159s] [ 15%] [34m[1mGenerating Javascript code from vector_map_server/GetGutter.srv[0m
+[6.200s] [ 15%] [34m[1mGenerating Javascript code from vector_map_server/GetCurb.srv[0m
+[6.246s] [ 16%] [34m[1mGenerating Javascript code from vector_map_server/GetRailCrossing.srv[0m
+[6.290s] [ 17%] [34m[1mGenerating Javascript code from vector_map_server/GetRoadEdge.srv[0m
+[6.335s] [ 17%] [34m[1mGenerating Javascript code from vector_map_server/GetZebraZone.srv[0m
+[6.377s] [ 18%] [34m[1mGenerating Javascript code from vector_map_server/GetLane.srv[0m
+[6.421s] [ 18%] [34m[1mGenerating Javascript code from vector_map_server/GetDTLane.srv[0m
+[6.461s] [ 19%] [34m[1mGenerating Javascript code from vector_map_server/GetStreetLight.srv[0m
+[6.502s] [ 19%] Built target vector_map_server_generate_messages_nodejs
+[6.512s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_cpp[0m
+[6.523s] [ 20%] [34m[1mGenerating C++ code from vector_map_server/GetCurveMirror.srv[0m
+[6.787s] [ 21%] [34m[1mGenerating C++ code from vector_map_server/GetWhiteLine.srv[0m
+[7.061s] [ 21%] [34m[1mGenerating C++ code from vector_map_server/GetWall.srv[0m
+[7.317s] [ 22%] [34m[1mGenerating C++ code from vector_map_server/GetRoadMark.srv[0m
+[7.578s] [ 23%] [34m[1mGenerating C++ code from vector_map_server/GetSignal.srv[0m
+[7.844s] [ 23%] [34m[1mGenerating C++ code from vector_map_server/GetNode.srv[0m
+[8.110s] [ 24%] [34m[1mGenerating C++ code from vector_map_server/GetStopLine.srv[0m
+[8.370s] [ 25%] [34m[1mGenerating C++ code from vector_map_server/GetWayArea.srv[0m
+[8.633s] [ 25%] [34m[1mGenerating C++ code from vector_map_server/GetRoadPole.srv[0m
+[8.890s] [ 26%] [34m[1mGenerating C++ code from vector_map_server/GetCrossRoad.srv[0m
+[9.144s] [ 27%] [34m[1mGenerating C++ code from vector_map_server/GetSideStrip.srv[0m
+[9.405s] [ 27%] [34m[1mGenerating C++ code from vector_map_server/GetRoadSign.srv[0m
+[9.665s] [ 29%] [34m[1mGenerating C++ code from vector_map_server/GetFence.srv[0m
+[9.931s] [ 30%] [34m[1mGenerating C++ code from vector_map_server/GetGuardRail.srv[0m
+[10.187s] [ 30%] [34m[1mGenerating C++ code from vector_map_server/GetSideWalk.srv[0m
+[10.447s] [ 31%] [34m[1mGenerating C++ code from vector_map_server/GetUtilityPole.srv[0m
+[10.707s] [ 32%] [34m[1mGenerating C++ code from vector_map_server/GetCrossWalk.srv[0m
+[10.968s] [ 32%] [34m[1mGenerating C++ code from vector_map_server/GetDriveOnPortion.srv[0m
+[11.235s] [ 33%] [34m[1mGenerating C++ code from vector_map_server/GetGutter.srv[0m
+[11.495s] [ 34%] [34m[1mGenerating C++ code from vector_map_server/GetCurb.srv[0m
+[11.759s] [ 34%] [34m[1mGenerating C++ code from vector_map_server/GetRailCrossing.srv[0m
+[12.043s] [ 35%] [34m[1mGenerating C++ code from vector_map_server/GetRoadEdge.srv[0m
+[12.342s] [ 35%] [34m[1mGenerating C++ code from vector_map_server/GetZebraZone.srv[0m
+[12.614s] [ 36%] [34m[1mGenerating C++ code from vector_map_server/GetLane.srv[0m
+[12.876s] [ 37%] [34m[1mGenerating C++ code from vector_map_server/PositionState.srv[0m
+[13.162s] [ 37%] [34m[1mGenerating C++ code from vector_map_server/GetDTLane.srv[0m
+[13.435s] [ 38%] [34m[1mGenerating C++ code from vector_map_server/GetStreetLight.srv[0m
+[13.717s] [ 38%] Built target vector_map_server_generate_messages_cpp
+[13.739s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_py[0m
+[13.776s] [ 39%] [34m[1mGenerating Python code from SRV vector_map_server/GetCurveMirror[0m
+[13.926s] [ 40%] [34m[1mGenerating Python code from SRV vector_map_server/GetWall[0m
+[14.060s] [ 41%] [34m[1mGenerating Python code from SRV vector_map_server/GetRoadMark[0m
+[14.195s] [ 41%] [34m[1mGenerating Python code from SRV vector_map_server/GetSignal[0m
+[14.332s] [ 43%] [34m[1mGenerating Python code from SRV vector_map_server/GetNode[0m
+[14.473s] [ 44%] [34m[1mGenerating Python code from SRV vector_map_server/GetStopLine[0m
+[14.611s] [ 44%] [34m[1mGenerating Python code from SRV vector_map_server/GetWayArea[0m
+[14.747s] [ 45%] [34m[1mGenerating Python code from SRV vector_map_server/GetRoadPole[0m
+[14.881s] [ 46%] [34m[1mGenerating Python code from SRV vector_map_server/GetCrossRoad[0m
+[15.017s] [ 46%] [34m[1mGenerating Python code from SRV vector_map_server/GetSideStrip[0m
+[15.153s] [ 47%] [34m[1mGenerating Python code from SRV vector_map_server/GetRoadSign[0m
+[15.295s] [ 48%] [34m[1mGenerating Python code from SRV vector_map_server/GetFence[0m
+[15.429s] [ 48%] [34m[1mGenerating Python code from SRV vector_map_server/GetGuardRail[0m
+[15.567s] [ 49%] [34m[1mGenerating Python code from SRV vector_map_server/GetSideWalk[0m
+[15.711s] [ 50%] [34m[1mGenerating Python code from SRV vector_map_server/GetUtilityPole[0m
+[15.852s] [ 50%] [34m[1mGenerating Python code from SRV vector_map_server/GetCrossWalk[0m
+[15.993s] [ 51%] [34m[1mGenerating Python code from SRV vector_map_server/GetDriveOnPortion[0m
+[16.134s] [ 52%] [34m[1mGenerating Python code from SRV vector_map_server/GetGutter[0m
+[16.278s] [ 52%] [34m[1mGenerating Python code from SRV vector_map_server/GetCurb[0m
+[16.414s] [ 53%] [34m[1mGenerating Python code from SRV vector_map_server/GetRailCrossing[0m
+[16.552s] [ 54%] [34m[1mGenerating Python code from SRV vector_map_server/GetRoadEdge[0m
+[16.692s] [ 54%] [34m[1mGenerating Python code from SRV vector_map_server/GetZebraZone[0m
+[16.840s] [ 55%] [34m[1mGenerating Python code from SRV vector_map_server/GetLane[0m
+[16.980s] [ 55%] [34m[1mGenerating Python code from SRV vector_map_server/GetWhiteLine[0m
+[17.120s] [ 56%] [34m[1mGenerating Python code from SRV vector_map_server/PositionState[0m
+[17.264s] [ 58%] [34m[1mGenerating Python code from SRV vector_map_server/GetDTLane[0m
+[17.424s] [ 58%] [34m[1mGenerating Python code from SRV vector_map_server/GetStreetLight[0m
+[17.574s] [ 59%] [34m[1mGenerating Python srv __init__.py for vector_map_server[0m
+[17.709s] [ 59%] Built target vector_map_server_generate_messages_py
+[17.738s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_eus[0m
+[17.758s] [ 60%] [34m[1mGenerating EusLisp code from vector_map_server/GetCurveMirror.srv[0m
+[17.836s] [ 61%] [34m[1mGenerating EusLisp code from vector_map_server/GetRoadMark.srv[0m
+[17.910s] [ 61%] [34m[1mGenerating EusLisp code from vector_map_server/GetSignal.srv[0m
+[17.986s] [ 62%] [34m[1mGenerating EusLisp code from vector_map_server/GetNode.srv[0m
+[18.054s] [ 63%] [34m[1mGenerating EusLisp code from vector_map_server/GetStopLine.srv[0m
+[18.124s] [ 63%] [34m[1mGenerating EusLisp code from vector_map_server/GetWayArea.srv[0m
+[18.187s] [ 64%] [34m[1mGenerating EusLisp code from vector_map_server/GetRoadPole.srv[0m
+[18.264s] [ 65%] [34m[1mGenerating EusLisp code from vector_map_server/GetCrossRoad.srv[0m
+[18.347s] [ 65%] [34m[1mGenerating EusLisp code from vector_map_server/GetSideStrip.srv[0m
+[18.434s] [ 66%] [34m[1mGenerating EusLisp code from vector_map_server/GetRoadSign.srv[0m
+[18.506s] [ 67%] [34m[1mGenerating EusLisp code from vector_map_server/GetFence.srv[0m
+[18.568s] [ 67%] [34m[1mGenerating EusLisp code from vector_map_server/GetGuardRail.srv[0m
+[18.662s] [ 68%] [34m[1mGenerating EusLisp code from vector_map_server/GetSideWalk.srv[0m
+[18.751s] [ 69%] [34m[1mGenerating EusLisp code from vector_map_server/GetUtilityPole.srv[0m
+[18.857s] [ 69%] [34m[1mGenerating EusLisp code from vector_map_server/GetCrossWalk.srv[0m
+[18.919s] [ 70%] [34m[1mGenerating EusLisp code from vector_map_server/GetDriveOnPortion.srv[0m
+[18.988s] [ 72%] [34m[1mGenerating EusLisp code from vector_map_server/GetGutter.srv[0m
+[19.058s] [ 72%] [34m[1mGenerating EusLisp code from vector_map_server/GetCurb.srv[0m
+[19.131s] [ 73%] [34m[1mGenerating EusLisp code from vector_map_server/GetRailCrossing.srv[0m
+[19.206s] [ 74%] [34m[1mGenerating EusLisp code from vector_map_server/GetRoadEdge.srv[0m
+[19.270s] [ 74%] [34m[1mGenerating EusLisp code from vector_map_server/GetZebraZone.srv[0m
+[19.336s] [ 75%] [34m[1mGenerating EusLisp code from vector_map_server/GetLane.srv[0m
+[19.403s] [ 76%] [34m[1mGenerating EusLisp manifest code for vector_map_server[0m
+[20.255s] [ 77%] [34m[1mGenerating EusLisp code from vector_map_server/GetWall.srv[0m
+[20.353s] [ 77%] [34m[1mGenerating EusLisp code from vector_map_server/GetWhiteLine.srv[0m
+[20.436s] [ 78%] [34m[1mGenerating EusLisp code from vector_map_server/PositionState.srv[0m
+[20.524s] [ 79%] [34m[1mGenerating EusLisp code from vector_map_server/GetDTLane.srv[0m
+[20.663s] [ 79%] [34m[1mGenerating EusLisp code from vector_map_server/GetStreetLight.srv[0m
+[20.736s] [ 79%] Built target vector_map_server_generate_messages_eus
+[20.751s] [35m[1mScanning dependencies of target vector_map_server_generate_messages_lisp[0m
+[20.788s] [ 79%] [34m[1mGenerating Lisp code from vector_map_server/GetCurveMirror.srv[0m
+[20.896s] [ 80%] [34m[1mGenerating Lisp code from vector_map_server/GetSignal.srv[0m
+[20.940s] [ 80%] [34m[1mGenerating Lisp code from vector_map_server/GetNode.srv[0m
+[21.008s] [ 81%] [34m[1mGenerating Lisp code from vector_map_server/GetStopLine.srv[0m
+[21.057s] [ 82%] [34m[1mGenerating Lisp code from vector_map_server/GetWayArea.srv[0m
+[21.099s] [ 82%] [34m[1mGenerating Lisp code from vector_map_server/GetRoadPole.srv[0m
+[21.146s] [ 83%] [34m[1mGenerating Lisp code from vector_map_server/GetCrossRoad.srv[0m
+[21.194s] [ 84%] [34m[1mGenerating Lisp code from vector_map_server/GetSideStrip.srv[0m
+[21.236s] [ 84%] [34m[1mGenerating Lisp code from vector_map_server/GetRoadSign.srv[0m
+[21.280s] [ 86%] [34m[1mGenerating Lisp code from vector_map_server/GetFence.srv[0m
+[21.322s] [ 87%] [34m[1mGenerating Lisp code from vector_map_server/GetGuardRail.srv[0m
+[21.367s] [ 87%] [34m[1mGenerating Lisp code from vector_map_server/GetSideWalk.srv[0m
+[21.411s] [ 88%] [34m[1mGenerating Lisp code from vector_map_server/GetUtilityPole.srv[0m
+[21.452s] [ 89%] [34m[1mGenerating Lisp code from vector_map_server/GetCrossWalk.srv[0m
+[21.496s] [ 89%] [34m[1mGenerating Lisp code from vector_map_server/GetDriveOnPortion.srv[0m
+[21.538s] [ 90%] [34m[1mGenerating Lisp code from vector_map_server/GetGutter.srv[0m
+[21.587s] [ 91%] [34m[1mGenerating Lisp code from vector_map_server/GetCurb.srv[0m
+[21.633s] [ 91%] [34m[1mGenerating Lisp code from vector_map_server/GetRailCrossing.srv[0m
+[21.682s] [ 92%] [34m[1mGenerating Lisp code from vector_map_server/GetRoadEdge.srv[0m
+[21.730s] [ 93%] [34m[1mGenerating Lisp code from vector_map_server/GetZebraZone.srv[0m
+[21.791s] [ 93%] [34m[1mGenerating Lisp code from vector_map_server/GetLane.srv[0m
+[21.858s] [ 93%] [34m[1mGenerating Lisp code from vector_map_server/GetRoadMark.srv[0m
+[21.900s] [ 94%] [34m[1mGenerating Lisp code from vector_map_server/GetWall.srv[0m
+[21.946s] [ 95%] [34m[1mGenerating Lisp code from vector_map_server/GetWhiteLine.srv[0m
+[21.994s] [ 95%] [34m[1mGenerating Lisp code from vector_map_server/PositionState.srv[0m
+[22.044s] [ 96%] [34m[1mGenerating Lisp code from vector_map_server/GetDTLane.srv[0m
+[22.095s] [ 97%] [34m[1mGenerating Lisp code from vector_map_server/GetStreetLight.srv[0m
+[22.146s] [ 97%] Built target vector_map_server_generate_messages_lisp
+[22.168s] [35m[1mScanning dependencies of target vector_map_client[0m
+[22.214s] [ 97%] [32mBuilding CXX object CMakeFiles/vector_map_client.dir/nodes/vector_map_client/vector_map_client.cpp.o[0m
+[25.998s] [ 98%] [32m[1mLinking CXX executable devel/lib/vector_map_server/vector_map_client[0m
+[26.166s] [ 98%] Built target vector_map_client
+[26.195s] [35m[1mScanning dependencies of target vector_map_server[0m
+[26.232s] [100%] [32mBuilding CXX object CMakeFiles/vector_map_server.dir/nodes/vector_map_server/vector_map_server.cpp.o[0m
+[29.922s] [01m[K/home/agilex/autoware.ai/src/autoware/common/vector_map_server/nodes/vector_map_server/vector_map_server.cpp:315:19:[m[K [01;35m[Kwarning: [m[K'[01m[Kstd::vector<vector_map_msgs::Lane_<std::allocator<void> >, std::allocator<vector_map_msgs::Lane_<std::allocator<void> > > > {anonymous}::findNearLanes(const vector_map::VectorMap&, const std::vector<vector_map_msgs::Lane_<std::allocator<void> >, std::allocator<vector_map_msgs::Lane_<std::allocator<void> > > >&, const Point&, double)[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+[29.922s]  std::vector<Lane> [01;35m[KfindNearLanes[m[K(const VectorMap& vmap, const std::vector<Lane>& lanes, const Point& base_point,
+[29.922s]                    [01;35m[K^~~~~~~~~~~~~[m[K
+[29.922s] [01m[K/home/agilex/autoware.ai/src/autoware/common/vector_map_server/nodes/vector_map_server/vector_map_server.cpp:102:6:[m[K [01;35m[Kwarning: [m[K'[01m[Kbool {anonymous}::isMergingLane(const Lane&)[m[K' defined but not used [[01;35m[K-Wunused-function[m[K]
+[29.922s]  bool [01;35m[KisMergingLane[m[K(const Lane& lane)
+[29.922s]       [01;35m[K^~~~~~~~~~~~~[m[K
+[38.102s] [100%] [32m[1mLinking CXX executable devel/lib/vector_map_server/vector_map_server[0m
+[38.301s] [100%] Built target vector_map_server
+[38.310s] [35m[1mScanning dependencies of target vector_map_server_generate_messages[0m
+[38.319s] [100%] Built target vector_map_server_generate_messages
+[38.332s] Invoked command in '/home/agilex/autoware.ai/build/vector_map_server' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_server -- -j8 -l8
+[38.480s] Invoking command in '/home/agilex/autoware.ai/build/vector_map_server': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_server --target tests -- -j8 -l8
+[38.538s] [35m[1mScanning dependencies of target tests[0m
+[38.548s] Built target tests
+[38.561s] Invoked command in '/home/agilex/autoware.ai/build/vector_map_server' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_server --target tests -- -j8 -l8
+[38.649s] Invoking command in '/home/agilex/autoware.ai/build/vector_map_server': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_server --target install -- -j8 -l8
+[38.701s] [  0%] Built target pcl_msgs_generate_messages_py
+[38.743s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetGuardRail
+[38.785s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetFence
+[38.826s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadSign
+[38.868s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadPole
+[38.909s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetStopLine
+[38.952s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCrossWalk
+[38.993s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSignal
+[39.034s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWall
+[39.082s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWhiteLine
+[39.126s] [  0%] Built target _vector_map_server_generate_messages_check_deps_PositionState
+[39.168s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetDTLane
+[39.210s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadEdge
+[39.250s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetWayArea
+[39.294s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCurveMirror
+[39.336s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetStreetLight
+[39.377s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRailCrossing
+[39.396s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[39.440s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetNode
+[39.487s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSideStrip
+[39.507s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[39.551s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCurb
+[39.595s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetRoadMark
+[39.615s] [  0%] Built target autoware_msgs_generate_messages_nodejs
+[39.658s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetSideWalk
+[39.677s] [  0%] Built target jsk_footstep_msgs_generate_messages_py
+[39.697s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[39.716s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[39.735s] [  0%] Built target autoware_msgs_generate_messages_lisp
+[39.754s] [  0%] Built target jsk_footstep_msgs_generate_messages_nodejs
+[39.774s] [  0%] Built target jsk_footstep_msgs_generate_messages_lisp
+[39.793s] [  0%] Built target sensor_msgs_generate_messages_py
+[39.812s] [  0%] Built target tf_generate_messages_py
+[39.832s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[39.851s] [  0%] Built target geometry_msgs_generate_messages_eus
+[39.870s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[39.889s] [  0%] Built target autoware_msgs_generate_messages_eus
+[39.909s] [  0%] Built target roscpp_generate_messages_cpp
+[39.928s] [  0%] Built target actionlib_generate_messages_cpp
+[39.947s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[39.968s] [  0%] Built target geometry_msgs_generate_messages_py
+[39.987s] [  0%] Built target actionlib_generate_messages_lisp
+[40.017s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[40.025s] [  0%] Built target tf_generate_messages_nodejs
+[40.046s] [  0%] Built target roscpp_generate_messages_py
+[40.066s] [  0%] Built target tf_generate_messages_lisp
+[40.086s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[40.106s] [  0%] Built target autoware_msgs_generate_messages_cpp
+[40.126s] [  0%] Built target jsk_footstep_msgs_generate_messages_cpp
+[40.144s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[40.162s] [  0%] Built target tf_generate_messages_eus
+[40.182s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[40.201s] [  0%] Built target roscpp_generate_messages_lisp
+[40.218s] [  0%] Built target jsk_recognition_msgs_generate_messages_nodejs
+[40.236s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[40.254s] [  0%] Built target sensor_msgs_generate_messages_eus
+[40.272s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[40.289s] [  0%] Built target roscpp_generate_messages_nodejs
+[40.307s] [  0%] Built target std_msgs_generate_messages_lisp
+[40.325s] [  0%] Built target std_msgs_generate_messages_cpp
+[40.344s] [  0%] Built target visualization_msgs_generate_messages_nodejs
+[40.362s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[40.381s] [  0%] Built target visualization_msgs_generate_messages_lisp
+[40.407s] [  0%] Built target std_msgs_generate_messages_eus
+[40.429s] [  0%] Built target vector_map_msgs_generate_messages_py
+[40.448s] [  0%] Built target std_msgs_generate_messages_nodejs
+[40.466s] [  0%] Built target std_msgs_generate_messages_py
+[40.485s] [  0%] Built target autoware_msgs_generate_messages_py
+[40.503s] [  0%] Built target roscpp_generate_messages_eus
+[40.522s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[40.540s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[40.559s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[40.580s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[40.599s] [  0%] Built target actionlib_msgs_generate_messages_py
+[40.619s] [  0%] Built target jsk_footstep_msgs_generate_messages_eus
+[40.636s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[40.654s] [  0%] Built target jsk_recognition_msgs_generate_messages_eus
+[40.671s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[40.690s] [  0%] Built target actionlib_generate_messages_py
+[40.707s] [  0%] Built target tf2_msgs_generate_messages_py
+[40.725s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[40.742s] [  0%] Built target tf2_msgs_generate_messages_eus
+[40.759s] [  0%] Built target visualization_msgs_generate_messages_cpp
+[40.780s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[40.799s] [  0%] Built target visualization_msgs_generate_messages_eus
+[40.816s] [  0%] Built target visualization_msgs_generate_messages_py
+[40.838s] [  0%] Built target jsk_recognition_msgs_generate_messages_cpp
+[40.857s] [  0%] Built target jsk_recognition_msgs_generate_messages_lisp
+[40.877s] [  0%] Built target jsk_recognition_msgs_generate_messages_py
+[40.894s] [  0%] Built target pcl_msgs_generate_messages_cpp
+[40.916s] [  0%] Built target pcl_msgs_generate_messages_eus
+[40.929s] [  0%] Built target actionlib_generate_messages_nodejs
+[40.947s] [  0%] Built target tf_generate_messages_cpp
+[40.967s] [  0%] Built target pcl_msgs_generate_messages_lisp
+[40.984s] [  0%] Built target pcl_msgs_generate_messages_nodejs
+[41.003s] [  0%] Built target actionlib_generate_messages_eus
+[41.043s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetUtilityPole
+[41.084s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetDriveOnPortion
+[41.128s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetLane
+[41.167s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetGutter
+[41.211s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetZebraZone
+[41.255s] [  0%] Built target _vector_map_server_generate_messages_check_deps_GetCrossRoad
+[41.279s] [ 19%] Built target vector_map_server_generate_messages_nodejs
+[41.303s] [ 38%] Built target vector_map_server_generate_messages_cpp
+[41.325s] [ 59%] Built target vector_map_server_generate_messages_py
+[41.347s] [ 79%] Built target vector_map_server_generate_messages_eus
+[41.368s] [ 97%] Built target vector_map_server_generate_messages_lisp
+[41.392s] [ 98%] Built target vector_map_client
+[41.417s] [100%] Built target vector_map_server
+[41.441s] [100%] Built target vector_map_server_generate_messages
+[41.464s] [36mInstall the project...[0m
+[41.473s] -- Install configuration: "Release"
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetDTLane.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetNode.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetLane.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetWayArea.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetRoadEdge.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetGutter.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetCurb.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetWhiteLine.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetStopLine.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetZebraZone.srv
+[41.474s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetCrossWalk.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetRoadMark.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetRoadPole.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetRoadSign.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetSignal.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetStreetLight.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetUtilityPole.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetGuardRail.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetSideWalk.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetDriveOnPortion.srv
+[41.475s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetCrossRoad.srv
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetSideStrip.srv
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetCurveMirror.srv
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetWall.srv
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetFence.srv
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/GetRailCrossing.srv
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/srv/PositionState.srv
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/cmake/vector_map_server-msg-paths.cmake
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadEdgeRequest.h
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCrossRoadRequest.h
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetStreetLightResponse.h
+[41.476s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadSignResponse.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetSignalResponse.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetNode.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetLaneRequest.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCrossRoadResponse.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetStreetLightRequest.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCrossWalkRequest.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetWayAreaRequest.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetWhiteLineResponse.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadPoleRequest.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetFence.h
+[41.477s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetZebraZoneResponse.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetSideStrip.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCrossWalk.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetGutter.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetWallResponse.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetWall.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetZebraZone.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadPoleResponse.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetNodeResponse.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCurveMirror.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCurbResponse.h
+[41.478s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRailCrossing.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetUtilityPoleResponse.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetGuardRailResponse.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetStreetLight.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetDTLaneRequest.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadMarkRequest.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetStopLineResponse.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/PositionStateResponse.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetFenceResponse.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetLane.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetStopLineRequest.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadMark.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetDriveOnPortionRequest.h
+[41.479s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadSignRequest.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetSideStripRequest.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCurveMirrorResponse.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadMarkResponse.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/PositionStateRequest.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetLaneResponse.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetWayAreaResponse.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCurveMirrorRequest.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRailCrossingRequest.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetWallRequest.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCurbRequest.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetWhiteLine.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetSideStripResponse.h
+[41.480s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetGutterRequest.h
+[41.481s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetWhiteLineRequest.h
+[41.481s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetDriveOnPortionResponse.h
+[41.481s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetDriveOnPortion.h
+[41.481s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetZebraZoneRequest.h
+[41.481s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetNodeRequest.h
+[41.482s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetSideWalkRequest.h
+[41.482s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetGuardRailRequest.h
+[41.482s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetSignalRequest.h
+[41.482s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadEdge.h
+[41.482s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetFenceRequest.h
+[41.482s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetSignal.h
+[41.482s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCurb.h
+[41.482s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetStopLine.h
+[41.483s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetSideWalkResponse.h
+[41.483s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetDTLane.h
+[41.483s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadPole.h
+[41.483s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCrossWalkResponse.h
+[41.483s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetGutterResponse.h
+[41.483s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetGuardRail.h
+[41.483s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRailCrossingResponse.h
+[41.483s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetUtilityPole.h
+[41.484s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetDTLaneResponse.h
+[41.484s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetSideWalk.h
+[41.484s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetUtilityPoleRequest.h
+[41.484s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetWayArea.h
+[41.484s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadSign.h
+[41.484s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetRoadEdgeResponse.h
+[41.484s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/GetCrossRoad.h
+[41.484s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/include/vector_map_server/PositionState.h
+[41.485s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server
+[41.485s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/manifest.l
+[41.485s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv
+[41.485s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/PositionState.l
+[41.485s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetCrossWalk.l
+[41.485s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetDTLane.l
+[41.485s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetSignal.l
+[41.486s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetSideStrip.l
+[41.486s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetSideWalk.l
+[41.486s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRoadPole.l
+[41.486s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetWayArea.l
+[41.486s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetGuardRail.l
+[41.486s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetStreetLight.l
+[41.486s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetNode.l
+[41.486s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetFence.l
+[41.486s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetZebraZone.l
+[41.487s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetWhiteLine.l
+[41.487s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRoadMark.l
+[41.487s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRailCrossing.l
+[41.487s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetStopLine.l
+[41.487s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetCrossRoad.l
+[41.487s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetCurveMirror.l
+[41.487s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetUtilityPole.l
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRoadSign.l
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetCurb.l
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetDriveOnPortion.l
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetRoadEdge.l
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetWall.l
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetGutter.l
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/roseus/ros/vector_map_server/srv/GetLane.l
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/vector_map_server-srv.asd
+[41.488s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetCrossWalk.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetWayArea.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetGuardRail.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRailCrossing.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetZebraZone.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetCrossRoad.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRoadEdge.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetSideWalk.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetDriveOnPortion.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetDTLane.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRoadPole.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetSignal.lisp
+[41.489s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetSideWalk.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetCurb.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetWall.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetStreetLight.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetDTLane.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetWall.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/PositionState.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRoadMark.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetGutter.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetUtilityPole.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetCrossRoad.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRailCrossing.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetWhiteLine.lisp
+[41.490s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRoadEdge.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetDriveOnPortion.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetCurveMirror.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRoadPole.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetUtilityPole.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetZebraZone.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetWayArea.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRoadSign.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetLane.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetSignal.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetLane.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetStopLine.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetWhiteLine.lisp
+[41.491s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetNode.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetStreetLight.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetNode.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetGutter.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetCurveMirror.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetFence.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetRoadMark.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetSideStrip.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetCrossWalk.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetRoadSign.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetGuardRail.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetStopLine.lisp
+[41.492s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_PositionState.lisp
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetSideStrip.lisp
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/_package_GetCurb.lisp
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/common-lisp/ros/vector_map_server/srv/GetFence.lisp
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/_index.js
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetFence.js
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetWhiteLine.js
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRoadMark.js
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetCrossRoad.js
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetGuardRail.js
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetCrossWalk.js
+[41.493s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRoadSign.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetLane.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetDriveOnPortion.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetGutter.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetWayArea.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetSideWalk.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetZebraZone.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/_index.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRoadPole.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetDTLane.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/PositionState.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetCurveMirror.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetSignal.js
+[41.494s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetSideStrip.js
+[41.495s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetWall.js
+[41.495s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRailCrossing.js
+[41.495s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetCurb.js
+[41.495s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetUtilityPole.js
+[41.495s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetRoadEdge.js
+[41.495s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetStreetLight.js
+[41.495s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetNode.js
+[41.495s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/gennodejs/ros/vector_map_server/srv/GetStopLine.js
+[41.630s] Listing /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/__init__.py ...
+[41.630s] Listing /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossRoad.py ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossWalk.py ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurb.py ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurveMirror.py ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetDTLane.py ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetDriveOnPortion.py ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetFence.py ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetGuardRail.py ...
+[41.630s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetGutter.py ...
+[41.631s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetLane.py ...
+[41.631s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetNode.py ...
+[41.631s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRailCrossing.py ...
+[41.631s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadEdge.py ...
+[41.631s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadMark.py ...
+[41.631s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadPole.py ...
+[41.631s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadSign.py ...
+[41.631s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideStrip.py ...
+[41.634s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideWalk.py ...
+[41.634s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetSignal.py ...
+[41.634s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetStopLine.py ...
+[41.634s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetStreetLight.py ...
+[41.634s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetUtilityPole.py ...
+[41.634s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetWall.py ...
+[41.634s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetWayArea.py ...
+[41.635s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetWhiteLine.py ...
+[41.635s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_GetZebraZone.py ...
+[41.635s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/_PositionState.py ...
+[41.635s] Compiling /home/agilex/autoware.ai/build/vector_map_server/devel/lib/python2.7/dist-packages/vector_map_server/srv/__init__.py ...
+[41.635s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server
+[41.635s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/__init__.pyc
+[41.635s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/__init__.py
+[41.635s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv
+[41.635s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetGuardRail.py
+[41.635s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadPole.py
+[41.635s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadSign.pyc
+[41.636s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetStopLine.pyc
+[41.636s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossWalk.pyc
+[41.636s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWall.pyc
+[41.636s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideStrip.pyc
+[41.636s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetFence.pyc
+[41.636s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurveMirror.pyc
+[41.636s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossWalk.py
+[41.636s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadEdge.py
+[41.636s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadSign.py
+[41.637s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetGutter.pyc
+[41.637s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadMark.pyc
+[41.637s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_PositionState.pyc
+[41.637s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetStreetLight.pyc
+[41.637s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetNode.pyc
+[41.637s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossRoad.py
+[41.637s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurb.pyc
+[41.637s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetDriveOnPortion.py
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/__init__.pyc
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetLane.pyc
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadPole.pyc
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWayArea.py
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadMark.py
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetZebraZone.py
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRailCrossing.py
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurb.py
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetNode.py
+[41.638s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetDTLane.py
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCurveMirror.py
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWhiteLine.py
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/__init__.py
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideWalk.pyc
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetDTLane.pyc
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWall.py
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetStopLine.py
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRoadEdge.pyc
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetDriveOnPortion.pyc
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWhiteLine.pyc
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSignal.py
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetRailCrossing.pyc
+[41.639s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetUtilityPole.py
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetFence.py
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideWalk.py
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetStreetLight.py
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetWayArea.pyc
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetCrossRoad.pyc
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetGutter.py
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetGuardRail.pyc
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_PositionState.py
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetUtilityPole.pyc
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetZebraZone.pyc
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSideStrip.py
+[41.640s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetSignal.pyc
+[41.641s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/python2.7/dist-packages/vector_map_server/srv/_GetLane.py
+[41.641s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/pkgconfig/vector_map_server.pc
+[41.641s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/cmake/vector_map_server-msg-extras.cmake
+[41.641s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/cmake/vector_map_serverConfig.cmake
+[41.641s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/cmake/vector_map_serverConfig-version.cmake
+[41.641s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/share/vector_map_server/package.xml
+[41.641s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/vector_map_server/vector_map_server
+[41.641s] -- Set runtime path of "/home/agilex/autoware.ai/install/vector_map_server/lib/vector_map_server/vector_map_server" to ""
+[41.641s] -- Installing: /home/agilex/autoware.ai/install/vector_map_server/lib/vector_map_server/vector_map_client
+[41.641s] -- Set runtime path of "/home/agilex/autoware.ai/install/vector_map_server/lib/vector_map_server/vector_map_client" to ""
+[41.645s] Invoked command in '/home/agilex/autoware.ai/build/vector_map_server' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:/home/agilex/autoware.ai/install/autoware_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/vector_map_server --target install -- -j8 -l8

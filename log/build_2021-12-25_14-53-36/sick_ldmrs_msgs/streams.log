@@ -1,0 +1,170 @@
+[0.091s] Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_msgs': /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/sick_ldmrs_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/sick_ldmrs_msgs
+[0.430s] -- The C compiler identification is GNU 7.5.0
+[0.644s] -- The CXX compiler identification is GNU 7.5.0
+[0.648s] -- Check for working C compiler: /usr/bin/cc
+[1.045s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.046s] -- Detecting C compiler ABI info
+[1.355s] -- Detecting C compiler ABI info - done
+[1.364s] -- Detecting C compile features
+[2.578s] -- Detecting C compile features - done
+[2.581s] -- Check for working CXX compiler: /usr/bin/c++
+[3.059s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.059s] -- Detecting CXX compiler ABI info
+[3.362s] -- Detecting CXX compiler ABI info - done
+[3.368s] -- Detecting CXX compile features
+[4.977s] -- Detecting CXX compile features - done
+[4.978s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/sick_ldmrs_msgs/devel
+[4.978s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[4.978s] -- This workspace overlays: /opt/ros/melodic
+[5.060s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[5.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[5.061s] -- Using Debian Python package layout
+[5.061s] -- Using empy: /usr/bin/empy
+[5.510s] -- Using CATKIN_ENABLE_TESTING: ON
+[5.510s] -- Call enable_testing()
+[5.520s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/sick_ldmrs_msgs/test_results
+[5.537s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[5.537s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[5.550s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[5.551s] -- Looking for pthread.h
+[5.903s] -- Looking for pthread.h - found
+[5.903s] -- Looking for pthread_create
+[6.162s] -- Looking for pthread_create - not found
+[6.163s] -- Looking for pthread_create in pthreads
+[6.474s] -- Looking for pthread_create in pthreads - not found
+[6.474s] -- Looking for pthread_create in pthread
+[6.819s] -- Looking for pthread_create in pthread - found
+[6.820s] -- Found Threads: TRUE  
+[6.824s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[6.981s] -- catkin 0.7.29
+[6.981s] -- BUILD_SHARED_LIBS is on
+[7.421s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[7.824s] -- sick_ldmrs_msgs: 2 messages, 0 services
+[8.185s] -- Configuring done
+[8.199s] -- Generating done
+[8.202s] -- Build files have been written to: /home/agilex/autoware.ai/build/sick_ldmrs_msgs
+[8.211s] Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_msgs' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/drivers/awf_drivers/sick_ldmrs_msgs -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/sick_ldmrs_msgs
+[8.212s] Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_msgs -- -j8 -l8
+[8.312s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[8.323s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_py[0m
+[8.324s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_eus[0m
+[8.338s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_lisp[0m
+[8.338s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[8.345s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[8.379s] [35m[1mScanning dependencies of target _sick_ldmrs_msgs_generate_messages_check_deps_ObjectArray[0m
+[8.380s] [  0%] Built target geometry_msgs_generate_messages_py
+[8.381s] [35m[1mScanning dependencies of target _sick_ldmrs_msgs_generate_messages_check_deps_Object[0m
+[8.385s] [  0%] Built target std_msgs_generate_messages_eus
+[8.387s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[8.387s] [  0%] Built target geometry_msgs_generate_messages_eus
+[8.392s] [  0%] Built target std_msgs_generate_messages_py
+[8.395s] [  0%] Built target std_msgs_generate_messages_lisp
+[8.408s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_nodejs[0m
+[8.416s] [35m[1mScanning dependencies of target geometry_msgs_generate_messages_cpp[0m
+[8.424s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[8.429s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[8.436s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[8.439s] [  0%] Built target _sick_ldmrs_msgs_generate_messages_check_deps_ObjectArray
+[8.443s] [  0%] Built target std_msgs_generate_messages_nodejs
+[8.451s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[8.458s] [  0%] Built target _sick_ldmrs_msgs_generate_messages_check_deps_Object
+[8.474s] [  0%] Built target std_msgs_generate_messages_cpp
+[8.492s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_py[0m
+[8.517s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_lisp[0m
+[8.519s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_cpp[0m
+[8.541s] [  8%] [34m[1mGenerating Python from MSG sick_ldmrs_msgs/Object[0m
+[8.542s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_nodejs[0m
+[8.548s] [ 16%] [34m[1mGenerating Python from MSG sick_ldmrs_msgs/ObjectArray[0m
+[8.555s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages_eus[0m
+[8.558s] [ 25%] [34m[1mGenerating Lisp code from sick_ldmrs_msgs/Object.msg[0m
+[8.568s] [ 33%] [34m[1mGenerating C++ code from sick_ldmrs_msgs/ObjectArray.msg[0m
+[8.573s] [ 41%] [34m[1mGenerating Lisp code from sick_ldmrs_msgs/ObjectArray.msg[0m
+[8.586s] [ 50%] [34m[1mGenerating C++ code from sick_ldmrs_msgs/Object.msg[0m
+[8.587s] [ 58%] [34m[1mGenerating Javascript code from sick_ldmrs_msgs/Object.msg[0m
+[8.605s] [ 66%] [34m[1mGenerating EusLisp code from sick_ldmrs_msgs/Object.msg[0m
+[8.687s] [ 75%] [34m[1mGenerating EusLisp code from sick_ldmrs_msgs/ObjectArray.msg[0m
+[8.701s] [ 83%] [34m[1mGenerating Javascript code from sick_ldmrs_msgs/ObjectArray.msg[0m
+[8.714s] [ 91%] [34m[1mGenerating EusLisp manifest code for sick_ldmrs_msgs[0m
+[8.793s] [ 91%] Built target sick_ldmrs_msgs_generate_messages_lisp
+[8.871s] [ 91%] Built target sick_ldmrs_msgs_generate_messages_nodejs
+[8.894s] [100%] [34m[1mGenerating Python msg __init__.py for sick_ldmrs_msgs[0m
+[8.916s] [100%] Built target sick_ldmrs_msgs_generate_messages_cpp
+[9.130s] [100%] Built target sick_ldmrs_msgs_generate_messages_py
+[9.360s] [100%] Built target sick_ldmrs_msgs_generate_messages_eus
+[9.372s] [35m[1mScanning dependencies of target sick_ldmrs_msgs_generate_messages[0m
+[9.382s] [100%] Built target sick_ldmrs_msgs_generate_messages
+[9.402s] Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_msgs -- -j8 -l8
+[9.503s] Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_msgs --target tests -- -j8 -l8
+[9.638s] [35m[1mScanning dependencies of target tests[0m
+[9.658s] Built target tests
+[9.675s] Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_msgs --target tests -- -j8 -l8
+[9.812s] Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_msgs --target install -- -j8 -l8
+[9.945s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[9.954s] [  0%] Built target geometry_msgs_generate_messages_py
+[9.957s] [  0%] Built target geometry_msgs_generate_messages_eus
+[9.963s] [  0%] Built target std_msgs_generate_messages_lisp
+[9.970s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[9.972s] [  0%] Built target std_msgs_generate_messages_py
+[9.985s] [  0%] Built target std_msgs_generate_messages_eus
+[9.991s] [  0%] Built target _sick_ldmrs_msgs_generate_messages_check_deps_Object
+[9.997s] [  0%] Built target std_msgs_generate_messages_nodejs
+[10.005s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[10.018s] [  0%] Built target std_msgs_generate_messages_cpp
+[10.036s] [  0%] Built target _sick_ldmrs_msgs_generate_messages_check_deps_ObjectArray
+[10.110s] [ 16%] Built target sick_ldmrs_msgs_generate_messages_cpp
+[10.116s] [ 41%] Built target sick_ldmrs_msgs_generate_messages_py
+[10.145s] [ 58%] Built target sick_ldmrs_msgs_generate_messages_nodejs
+[10.167s] [ 75%] Built target sick_ldmrs_msgs_generate_messages_lisp
+[10.171s] [100%] Built target sick_ldmrs_msgs_generate_messages_eus
+[10.245s] [100%] Built target sick_ldmrs_msgs_generate_messages
+[10.274s] [36mInstall the project...[0m
+[10.281s] -- Install configuration: "Release"
+[10.283s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/sick_ldmrs_msgs/msg/Object.msg
+[10.283s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/sick_ldmrs_msgs/msg/ObjectArray.msg
+[10.283s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/sick_ldmrs_msgs/cmake/sick_ldmrs_msgs-msg-paths.cmake
+[10.283s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/include/sick_ldmrs_msgs
+[10.283s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/include/sick_ldmrs_msgs/ObjectArray.h
+[10.283s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/include/sick_ldmrs_msgs/Object.h
+[10.284s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/roseus/ros/sick_ldmrs_msgs
+[10.284s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/roseus/ros/sick_ldmrs_msgs/manifest.l
+[10.284s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/roseus/ros/sick_ldmrs_msgs/msg
+[10.284s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/roseus/ros/sick_ldmrs_msgs/msg/Object.l
+[10.284s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/roseus/ros/sick_ldmrs_msgs/msg/ObjectArray.l
+[10.284s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/common-lisp/ros/sick_ldmrs_msgs
+[10.284s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/common-lisp/ros/sick_ldmrs_msgs/msg
+[10.285s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/common-lisp/ros/sick_ldmrs_msgs/msg/sick_ldmrs_msgs-msg.asd
+[10.285s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/common-lisp/ros/sick_ldmrs_msgs/msg/_package.lisp
+[10.285s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/common-lisp/ros/sick_ldmrs_msgs/msg/ObjectArray.lisp
+[10.285s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/common-lisp/ros/sick_ldmrs_msgs/msg/_package_ObjectArray.lisp
+[10.285s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/common-lisp/ros/sick_ldmrs_msgs/msg/Object.lisp
+[10.285s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/common-lisp/ros/sick_ldmrs_msgs/msg/_package_Object.lisp
+[10.286s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/gennodejs/ros/sick_ldmrs_msgs
+[10.286s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/gennodejs/ros/sick_ldmrs_msgs/msg
+[10.286s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/gennodejs/ros/sick_ldmrs_msgs/msg/Object.js
+[10.286s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/gennodejs/ros/sick_ldmrs_msgs/msg/ObjectArray.js
+[10.286s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/gennodejs/ros/sick_ldmrs_msgs/msg/_index.js
+[10.286s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/gennodejs/ros/sick_ldmrs_msgs/_index.js
+[10.309s] Listing /home/agilex/autoware.ai/build/sick_ldmrs_msgs/devel/lib/python2.7/dist-packages/sick_ldmrs_msgs ...
+[10.310s] Compiling /home/agilex/autoware.ai/build/sick_ldmrs_msgs/devel/lib/python2.7/dist-packages/sick_ldmrs_msgs/__init__.py ...
+[10.310s] Listing /home/agilex/autoware.ai/build/sick_ldmrs_msgs/devel/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg ...
+[10.310s] Compiling /home/agilex/autoware.ai/build/sick_ldmrs_msgs/devel/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg/_Object.py ...
+[10.310s] Compiling /home/agilex/autoware.ai/build/sick_ldmrs_msgs/devel/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg/_ObjectArray.py ...
+[10.310s] Compiling /home/agilex/autoware.ai/build/sick_ldmrs_msgs/devel/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg/__init__.py ...
+[10.312s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs
+[10.312s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs/__init__.pyc
+[10.312s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg
+[10.313s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg/_Object.pyc
+[10.313s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg/_ObjectArray.pyc
+[10.313s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg/__init__.pyc
+[10.313s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg/__init__.py
+[10.313s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg/_Object.py
+[10.314s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs/msg/_ObjectArray.py
+[10.314s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/python2.7/dist-packages/sick_ldmrs_msgs/__init__.py
+[10.315s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/lib/pkgconfig/sick_ldmrs_msgs.pc
+[10.315s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/sick_ldmrs_msgs/cmake/sick_ldmrs_msgs-msg-extras.cmake
+[10.315s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/sick_ldmrs_msgs/cmake/sick_ldmrs_msgsConfig.cmake
+[10.315s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/sick_ldmrs_msgs/cmake/sick_ldmrs_msgsConfig-version.cmake
+[10.316s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/share/sick_ldmrs_msgs/package.xml
+[10.316s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/include/sick_ldmrs_msgs
+[10.316s] -- Installing: /home/agilex/autoware.ai/install/sick_ldmrs_msgs/include/sick_ldmrs_msgs/sick_ldmrs_point_type.h
+[10.320s] Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_msgs --target install -- -j8 -l8

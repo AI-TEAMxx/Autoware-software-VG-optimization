@@ -1,0 +1,8 @@
+/home/agilex/autoware.ai/install/pixel_cloud_fusion/lib/pkgconfig/pixel_cloud_fusion.pc
+/home/agilex/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/cmake/pixel_cloud_fusionConfig.cmake
+/home/agilex/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/cmake/pixel_cloud_fusionConfig-version.cmake
+/home/agilex/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/package.xml
+/home/agilex/autoware.ai/install/pixel_cloud_fusion/lib/pixel_cloud_fusion/pixel_cloud_fusion
+/home/agilex/autoware.ai/install/pixel_cloud_fusion/lib/libpixel_cloud_fusion_lib.so
+/home/agilex/autoware.ai/install/pixel_cloud_fusion/include/pixel_cloud_fusion/pixel_cloud_fusion.h
+/home/agilex/autoware.ai/install/pixel_cloud_fusion/share/pixel_cloud_fusion/launch/pixel_cloud_fusion.launch

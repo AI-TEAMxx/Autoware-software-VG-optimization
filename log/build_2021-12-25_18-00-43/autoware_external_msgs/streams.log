@@ -1,0 +1,13 @@
+[0.031s] Invoking command in '/home/agilex/autoware.ai/build/autoware_external_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_external_msgs -- -j8 -l8
+[0.122s] Invoked command in '/home/agilex/autoware.ai/build/autoware_external_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_external_msgs -- -j8 -l8
+[0.201s] Invoking command in '/home/agilex/autoware.ai/build/autoware_external_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_external_msgs --target tests -- -j8 -l8
+[0.290s] Built target tests
+[0.356s] Invoked command in '/home/agilex/autoware.ai/build/autoware_external_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_external_msgs --target tests -- -j8 -l8
+[0.443s] Invoking command in '/home/agilex/autoware.ai/build/autoware_external_msgs': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_external_msgs --target install -- -j8 -l8
+[0.502s] [36mInstall the project...[0m
+[0.520s] -- Install configuration: "Release"
+[0.520s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_external_msgs/lib/pkgconfig/autoware_external_msgs.pc
+[0.520s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_external_msgs/share/autoware_external_msgs/cmake/autoware_external_msgsConfig.cmake
+[0.520s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_external_msgs/share/autoware_external_msgs/cmake/autoware_external_msgsConfig-version.cmake
+[0.521s] -- Up-to-date: /home/agilex/autoware.ai/install/autoware_external_msgs/share/autoware_external_msgs/package.xml
+[0.526s] Invoked command in '/home/agilex/autoware.ai/build/autoware_external_msgs' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_external_msgs --target install -- -j8 -l8

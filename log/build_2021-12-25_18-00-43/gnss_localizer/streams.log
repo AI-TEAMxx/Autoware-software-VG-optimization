@@ -1,0 +1,122 @@
+[0.030s] Invoking command in '/home/agilex/autoware.ai/build/gnss_localizer': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss_localizer -- -j8 -l8
+[0.077s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[0.082s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[0.084s] [  0%] Built target geometry_msgs_generate_messages_py
+[0.090s] [  0%] Built target tf2_msgs_generate_messages_eus
+[0.093s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[0.098s] [  0%] Built target actionlib_msgs_generate_messages_py
+[0.101s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[0.101s] [  0%] Built target tf2_msgs_generate_messages_py
+[0.109s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[0.117s] [  0%] Built target actionlib_generate_messages_nodejs
+[0.121s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[0.123s] [  0%] Built target std_msgs_generate_messages_eus
+[0.123s] [  0%] Built target actionlib_generate_messages_eus
+[0.124s] [  0%] Built target sensor_msgs_generate_messages_py
+[0.130s] [  0%] Built target actionlib_generate_messages_py
+[0.130s] [  0%] Built target actionlib_generate_messages_lisp
+[0.142s] [  0%] Built target tf_generate_messages_eus
+[0.144s] [  0%] Built target tf_generate_messages_py
+[0.146s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[0.150s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[0.154s] [  0%] Built target roscpp_generate_messages_py
+[0.167s] [  0%] Built target std_msgs_generate_messages_py
+[0.173s] [  0%] Built target roscpp_generate_messages_nodejs
+[0.176s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[0.182s] [  0%] Built target roscpp_generate_messages_eus
+[0.195s] [  0%] Built target roscpp_generate_messages_lisp
+[0.195s] [  0%] Built target geometry_msgs_generate_messages_eus
+[0.197s] [  0%] Built target roscpp_generate_messages_cpp
+[0.202s] [  0%] Built target tf_generate_messages_lisp
+[0.213s] [  0%] Built target std_msgs_generate_messages_cpp
+[0.215s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[0.223s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[0.226s] [  0%] Built target actionlib_generate_messages_cpp
+[0.235s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[0.238s] [  0%] Built target sensor_msgs_generate_messages_eus
+[0.240s] [  0%] Built target tf_generate_messages_nodejs
+[0.247s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[0.249s] [  0%] Built target std_msgs_generate_messages_lisp
+[0.249s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[0.253s] [  0%] Built target tf_generate_messages_cpp
+[0.263s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[0.269s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[0.287s] [  0%] Built target nmea_msgs_generate_messages_eus
+[0.287s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[0.287s] [  0%] Built target std_msgs_generate_messages_nodejs
+[0.289s] [  0%] Built target nmea_msgs_generate_messages_py
+[0.289s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[0.294s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[0.294s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[0.306s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[0.360s] [ 40%] Built target fix2tfpose
+[0.360s] [100%] Built target nmea2tfpose
+[0.371s] Invoked command in '/home/agilex/autoware.ai/build/gnss_localizer' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss_localizer -- -j8 -l8
+[0.705s] Invoking command in '/home/agilex/autoware.ai/build/gnss_localizer': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss_localizer --target tests -- -j8 -l8
+[0.806s] Built target tests
+[0.833s] Invoked command in '/home/agilex/autoware.ai/build/gnss_localizer' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss_localizer --target tests -- -j8 -l8
+[1.050s] Invoking command in '/home/agilex/autoware.ai/build/gnss_localizer': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss_localizer --target install -- -j8 -l8
+[1.101s] [  0%] Built target tf2_msgs_generate_messages_lisp
+[1.101s] [  0%] Built target tf2_msgs_generate_messages_nodejs
+[1.102s] [  0%] Built target tf2_msgs_generate_messages_eus
+[1.103s] [  0%] Built target geometry_msgs_generate_messages_py
+[1.105s] [  0%] Built target tf2_msgs_generate_messages_py
+[1.121s] [  0%] Built target actionlib_msgs_generate_messages_py
+[1.121s] [  0%] Built target tf2_msgs_generate_messages_cpp
+[1.127s] [  0%] Built target actionlib_msgs_generate_messages_lisp
+[1.129s] [  0%] Built target actionlib_generate_messages_nodejs
+[1.133s] [  0%] Built target actionlib_generate_messages_lisp
+[1.144s] [  0%] Built target actionlib_generate_messages_eus
+[1.151s] [  0%] Built target sensor_msgs_generate_messages_py
+[1.151s] [  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[1.154s] [  0%] Built target std_msgs_generate_messages_eus
+[1.154s] [  0%] Built target tf_generate_messages_py
+[1.173s] [  0%] Built target tf_generate_messages_eus
+[1.173s] [  0%] Built target rosgraph_msgs_generate_messages_cpp
+[1.175s] [  0%] Built target rosgraph_msgs_generate_messages_eus
+[1.186s] [  0%] Built target rosgraph_msgs_generate_messages_lisp
+[1.186s] [  0%] Built target roscpp_generate_messages_py
+[1.199s] [  0%] Built target actionlib_generate_messages_py
+[1.201s] [  0%] Built target geometry_msgs_generate_messages_eus
+[1.211s] [  0%] Built target std_msgs_generate_messages_py
+[1.218s] [  0%] Built target roscpp_generate_messages_eus
+[1.219s] [  0%] Built target roscpp_generate_messages_nodejs
+[1.226s] [  0%] Built target actionlib_generate_messages_cpp
+[1.229s] [  0%] Built target tf_generate_messages_lisp
+[1.242s] [  0%] Built target sensor_msgs_generate_messages_nodejs
+[1.250s] [  0%] Built target actionlib_msgs_generate_messages_nodejs
+[1.250s] [  0%] Built target roscpp_generate_messages_cpp
+[1.263s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.267s] [  0%] Built target geometry_msgs_generate_messages_nodejs
+[1.268s] [  0%] Built target sensor_msgs_generate_messages_eus
+[1.280s] [  0%] Built target sensor_msgs_generate_messages_lisp
+[1.286s] [  0%] Built target roscpp_generate_messages_lisp
+[1.293s] [  0%] Built target nmea_msgs_generate_messages_lisp
+[1.303s] [  0%] Built target tf_generate_messages_nodejs
+[1.320s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.323s] [  0%] Built target nmea_msgs_generate_messages_eus
+[1.327s] [  0%] Built target actionlib_msgs_generate_messages_cpp
+[1.341s] [  0%] Built target sensor_msgs_generate_messages_cpp
+[1.346s] [  0%] Built target rosgraph_msgs_generate_messages_py
+[1.356s] [  0%] Built target std_msgs_generate_messages_nodejs
+[1.364s] [  0%] Built target nmea_msgs_generate_messages_cpp
+[1.365s] [  0%] Built target nmea_msgs_generate_messages_nodejs
+[1.381s] [  0%] Built target geometry_msgs_generate_messages_cpp
+[1.395s] [  0%] Built target nmea_msgs_generate_messages_py
+[1.406s] [  0%] Built target actionlib_msgs_generate_messages_eus
+[1.411s] [  0%] Built target geometry_msgs_generate_messages_lisp
+[1.415s] [  0%] Built target tf_generate_messages_cpp
+[1.457s] [ 60%] Built target nmea2tfpose
+[1.463s] [100%] Built target fix2tfpose
+[1.494s] [36mInstall the project...[0m
+[1.514s] -- Install configuration: "Release"
+[1.514s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss_localizer/lib/pkgconfig/gnss_localizer.pc
+[1.514s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig.cmake
+[1.514s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/cmake/gnss_localizerConfig-version.cmake
+[1.514s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/package.xml
+[1.519s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss_localizer/lib/gnss_localizer/nmea2tfpose
+[1.523s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss_localizer/lib/gnss_localizer/fix2tfpose
+[1.523s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch
+[1.523s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/fix2tfpose.launch
+[1.523s] -- Up-to-date: /home/agilex/autoware.ai/install/gnss_localizer/share/gnss_localizer/launch/nmea2tfpose.launch
+[1.529s] Invoked command in '/home/agilex/autoware.ai/build/gnss_localizer' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/gnss:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/gnss/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/gnss/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/gnss/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/gnss/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/gnss_localizer --target install -- -j8 -l8

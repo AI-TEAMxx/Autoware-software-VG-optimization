@@ -1,0 +1,59 @@
+[0.008s] Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/marker_downsampler
+[0.065s] -- The C compiler identification is GNU 7.5.0
+[0.116s] -- The CXX compiler identification is GNU 7.5.0
+[0.120s] -- Check for working C compiler: /usr/bin/cc
+[0.184s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.185s] -- Detecting C compiler ABI info
+[0.246s] -- Detecting C compiler ABI info - done
+[0.254s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.445s] -- Check for working CXX compiler: /usr/bin/c++
+[0.515s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.515s] -- Detecting CXX compiler ABI info
+[0.588s] -- Detecting CXX compiler ABI info - done
+[0.596s] -- Detecting CXX compile features
+[0.916s] -- Detecting CXX compile features - done
+[0.918s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/marker_downsampler/devel
+[0.919s] -- Using CMAKE_PREFIX_PATH: /opt/ros/melodic
+[0.919s] -- This workspace overlays: /opt/ros/melodic
+[0.932s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[0.932s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[0.933s] -- Using Debian Python package layout
+[0.933s] -- Using empy: /usr/bin/empy
+[1.088s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.088s] -- Call enable_testing()
+[1.090s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/marker_downsampler/test_results
+[1.108s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.108s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.126s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.130s] -- Looking for pthread.h
+[1.200s] -- Looking for pthread.h - found
+[1.200s] -- Looking for pthread_create
+[1.260s] -- Looking for pthread_create - not found
+[1.261s] -- Looking for pthread_create in pthreads
+[1.313s] -- Looking for pthread_create in pthreads - not found
+[1.313s] -- Looking for pthread_create in pthread
+[1.375s] -- Looking for pthread_create in pthread - found
+[1.376s] -- Found Threads: TRUE  
+[1.381s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.422s] -- catkin 0.7.29
+[1.422s] -- BUILD_SHARED_LIBS is on
+[1.620s] -- Configuring done
+[1.629s] -- Generating done
+[1.631s] -- Build files have been written to: /home/agilex/autoware.ai/build/marker_downsampler
+[1.637s] Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/utilities/marker_downsampler -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/marker_downsampler
+[1.638s] Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler -- -j8 -l8
+[1.688s] Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler -- -j8 -l8
+[1.731s] Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target tests -- -j8 -l8
+[1.778s] [35m[1mScanning dependencies of target tests[0m
+[1.788s] Built target tests
+[1.802s] Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target tests -- -j8 -l8
+[1.833s] Invoking command in '/home/agilex/autoware.ai/build/marker_downsampler': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target install -- -j8 -l8
+[1.876s] [36mInstall the project...[0m
+[1.883s] -- Install configuration: "Release"
+[1.883s] -- Installing: /home/agilex/autoware.ai/install/marker_downsampler/lib/pkgconfig/marker_downsampler.pc
+[1.884s] -- Installing: /home/agilex/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig.cmake
+[1.884s] -- Installing: /home/agilex/autoware.ai/install/marker_downsampler/share/marker_downsampler/cmake/marker_downsamplerConfig-version.cmake
+[1.884s] -- Installing: /home/agilex/autoware.ai/install/marker_downsampler/share/marker_downsampler/package.xml
+[1.884s] -- Installing: /home/agilex/autoware.ai/install/marker_downsampler/lib/marker_downsampler/app.py
+[1.889s] Invoked command in '/home/agilex/autoware.ai/build/marker_downsampler' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/marker_downsampler --target install -- -j8 -l8

@@ -1,0 +1,102 @@
+[0.030s] Invoking command in '/home/agilex/autoware.ai/build/libvectormap': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/common/libvectormap -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/libvectormap
+[0.083s] -- The C compiler identification is GNU 7.5.0
+[0.137s] -- The CXX compiler identification is GNU 7.5.0
+[0.141s] -- Check for working C compiler: /usr/bin/cc
+[0.197s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.197s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.273s] -- Detecting C compile features
+[0.452s] -- Detecting C compile features - done
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++
+[0.536s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.536s] -- Detecting CXX compiler ABI info
+[0.601s] -- Detecting CXX compiler ABI info - done
+[0.611s] -- Detecting CXX compile features
+[0.933s] -- Detecting CXX compile features - done
+[0.935s] -- CUDA compilation status: .
+[1.025s] -- Using CATKIN_DEVEL_PREFIX: /home/agilex/autoware.ai/build/libvectormap/devel
+[1.025s] -- Using CMAKE_PREFIX_PATH: /home/agilex/autoware.ai/install/vector_map;/home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.026s] -- This workspace overlays: /home/agilex/autoware.ai/install/vector_map;/home/agilex/autoware.ai/install/vector_map_msgs;/home/agilex/autoware.ai/install/autoware_build_flags;/opt/ros/melodic
+[1.039s] -- Found PythonInterp: /usr/bin/python2 (found suitable version "2.7.17", minimum required is "2") 
+[1.039s] -- Using PYTHON_EXECUTABLE: /usr/bin/python2
+[1.040s] -- Using Debian Python package layout
+[1.040s] -- Using empy: /usr/bin/empy
+[1.197s] -- Using CATKIN_ENABLE_TESTING: ON
+[1.197s] -- Call enable_testing()
+[1.199s] -- Using CATKIN_TEST_RESULTS_DIR: /home/agilex/autoware.ai/build/libvectormap/test_results
+[1.212s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.212s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.225s] -- Found PythonInterp: /usr/bin/python2 (found version "2.7.17") 
+[1.226s] -- Looking for pthread.h
+[1.283s] -- Looking for pthread.h - found
+[1.284s] -- Looking for pthread_create
+[1.351s] -- Looking for pthread_create - not found
+[1.351s] -- Looking for pthread_create in pthreads
+[1.403s] -- Looking for pthread_create in pthreads - not found
+[1.406s] -- Looking for pthread_create in pthread
+[1.467s] -- Looking for pthread_create in pthread - found
+[1.469s] -- Found Threads: TRUE  
+[1.473s] -- Using Python nosetests: /usr/bin/nosetests-2.7
+[1.518s] -- catkin 0.7.29
+[1.518s] -- BUILD_SHARED_LIBS is on
+[1.605s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.793s] -- Configuring done
+[1.819s] -- Generating done
+[1.825s] -- Build files have been written to: /home/agilex/autoware.ai/build/libvectormap
+[1.831s] Invoked command in '/home/agilex/autoware.ai/build/libvectormap' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake /home/agilex/autoware.ai/src/autoware/common/libvectormap -DCMAKE_BUILD_TYPE=Release -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/agilex/autoware.ai/install/libvectormap
+[1.831s] Invoking command in '/home/agilex/autoware.ai/build/libvectormap': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/libvectormap -- -j8 -l8
+[1.870s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_eus[0m
+[1.880s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[1.888s] [35m[1mScanning dependencies of target std_msgs_generate_messages_lisp[0m
+[1.898s] [  0%] Built target std_msgs_generate_messages_lisp
+[1.906s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_cpp[0m
+[1.916s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[1.927s] [35m[1mScanning dependencies of target _catkin_empty_exported_target[0m
+[1.936s] [  0%] Built target _catkin_empty_exported_target
+[1.945s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_nodejs[0m
+[1.954s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[1.963s] [35m[1mScanning dependencies of target std_msgs_generate_messages_cpp[0m
+[1.974s] [  0%] Built target std_msgs_generate_messages_cpp
+[1.983s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_lisp[0m
+[1.992s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[2.001s] [35m[1mScanning dependencies of target std_msgs_generate_messages_eus[0m
+[2.012s] [  0%] Built target std_msgs_generate_messages_eus
+[2.021s] [35m[1mScanning dependencies of target vector_map_msgs_generate_messages_py[0m
+[2.030s] [  0%] Built target vector_map_msgs_generate_messages_py
+[2.039s] [35m[1mScanning dependencies of target std_msgs_generate_messages_nodejs[0m
+[2.048s] [  0%] Built target std_msgs_generate_messages_nodejs
+[2.057s] [35m[1mScanning dependencies of target std_msgs_generate_messages_py[0m
+[2.066s] [  0%] Built target std_msgs_generate_messages_py
+[2.075s] [35m[1mScanning dependencies of target libvectormap[0m
+[2.126s] [ 50%] [32mBuilding CXX object CMakeFiles/libvectormap.dir/src/vector_map.cpp.o[0m
+[4.668s] [100%] [32m[1mLinking CXX static library devel/lib/liblibvectormap.a[0m
+[4.708s] [100%] Built target libvectormap
+[4.722s] Invoked command in '/home/agilex/autoware.ai/build/libvectormap' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/libvectormap -- -j8 -l8
+[4.852s] Invoking command in '/home/agilex/autoware.ai/build/libvectormap': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/libvectormap --target tests -- -j8 -l8
+[4.906s] [35m[1mScanning dependencies of target tests[0m
+[4.914s] Built target tests
+[4.924s] Invoked command in '/home/agilex/autoware.ai/build/libvectormap' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/libvectormap --target tests -- -j8 -l8
+[5.002s] Invoking command in '/home/agilex/autoware.ai/build/libvectormap': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/libvectormap --target install -- -j8 -l8
+[5.046s] [  0%] Built target vector_map_msgs_generate_messages_eus
+[5.064s] [  0%] Built target std_msgs_generate_messages_lisp
+[5.081s] [  0%] Built target vector_map_msgs_generate_messages_cpp
+[5.102s] [  0%] Built target _catkin_empty_exported_target
+[5.120s] [  0%] Built target vector_map_msgs_generate_messages_nodejs
+[5.144s] [  0%] Built target std_msgs_generate_messages_cpp
+[5.162s] [  0%] Built target vector_map_msgs_generate_messages_lisp
+[5.180s] [  0%] Built target std_msgs_generate_messages_eus
+[5.198s] [  0%] Built target vector_map_msgs_generate_messages_py
+[5.220s] [  0%] Built target std_msgs_generate_messages_nodejs
+[5.238s] [  0%] Built target std_msgs_generate_messages_py
+[5.262s] [100%] Built target libvectormap
+[5.280s] [36mInstall the project...[0m
+[5.288s] -- Install configuration: "Release"
+[5.288s] -- Installing: /home/agilex/autoware.ai/install/libvectormap/lib/pkgconfig/libvectormap.pc
+[5.288s] -- Installing: /home/agilex/autoware.ai/install/libvectormap/share/libvectormap/cmake/libvectormapConfig.cmake
+[5.288s] -- Installing: /home/agilex/autoware.ai/install/libvectormap/share/libvectormap/cmake/libvectormapConfig-version.cmake
+[5.288s] -- Installing: /home/agilex/autoware.ai/install/libvectormap/share/libvectormap/package.xml
+[5.289s] -- Installing: /home/agilex/autoware.ai/install/libvectormap/lib/liblibvectormap.a
+[5.289s] -- Installing: /home/agilex/autoware.ai/install/libvectormap/include/libvectormap
+[5.289s] -- Installing: /home/agilex/autoware.ai/install/libvectormap/include/libvectormap/vector_map.h
+[5.289s] -- Installing: /home/agilex/autoware.ai/install/libvectormap/include/libvectormap/Math.h
+[5.292s] Invoked command in '/home/agilex/autoware.ai/build/libvectormap' returned '0': CMAKE_PREFIX_PATH=/home/agilex/autoware.ai/install/vector_map:/home/agilex/autoware.ai/install/vector_map_msgs:/home/agilex/autoware.ai/install/autoware_build_flags:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/agilex/autoware.ai/install/vector_map/lib:${LD_LIBRARY_PATH} PKG_CONFIG_PATH=/home/agilex/autoware.ai/install/vector_map/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map/lib/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/vector_map_msgs/lib/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/x86_64-linux-gnu/pkgconfig:/home/agilex/autoware.ai/install/autoware_build_flags/lib/pkgconfig:${PKG_CONFIG_PATH} PYTHONPATH=/home/agilex/autoware.ai/install/vector_map_msgs/lib/python2.7/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/agilex/autoware.ai/install/vector_map/share:/home/agilex/autoware.ai/install/vector_map_msgs/share:/home/agilex/autoware.ai/install/autoware_build_flags/share:${ROS_PACKAGE_PATH} /usr/bin/cmake --build /home/agilex/autoware.ai/build/libvectormap --target install -- -j8 -l8

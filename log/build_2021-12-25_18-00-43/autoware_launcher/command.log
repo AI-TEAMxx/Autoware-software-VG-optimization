@@ -1,0 +1,6 @@
+Invoking command in '/home/agilex/autoware.ai/build/autoware_launcher': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/autoware_launcher': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher --target tests -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher --target tests -- -j8 -l8
+Invoking command in '/home/agilex/autoware.ai/build/autoware_launcher': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher --target install -- -j8 -l8
+Invoked command in '/home/agilex/autoware.ai/build/autoware_launcher' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/autoware_launcher --target install -- -j8 -l8

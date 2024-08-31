@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/install/garmin
+
+Name: garmin
+Description: Description of garmin
+Version: 1.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/agilex/autoware.ai/build/custom_msgs/devel
+
+Name: custom_msgs
+Description: Description of custom_msgs
+Version: 1.11.0
+Cflags: -I/home/agilex/autoware.ai/build/custom_msgs/devel/include
+Libs: -L${prefix}/lib 
+Requires: rospy roscpp std_msgs sensor_msgs message_generation message_runtime

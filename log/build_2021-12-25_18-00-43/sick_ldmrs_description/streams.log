@@ -1,0 +1,22 @@
+[0.037s] Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description -- -j8 -l8
+[0.093s] Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description -- -j8 -l8
+[0.225s] Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description --target tests -- -j8 -l8
+[0.294s] Built target tests
+[0.331s] Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description --target tests -- -j8 -l8
+[0.447s] Invoking command in '/home/agilex/autoware.ai/build/sick_ldmrs_description': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description --target install -- -j8 -l8
+[0.528s] [36mInstall the project...[0m
+[0.536s] -- Install configuration: "Release"
+[0.536s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/lib/pkgconfig/sick_ldmrs_description.pc
+[0.536s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig.cmake
+[0.536s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/cmake/sick_ldmrs_descriptionConfig-version.cmake
+[0.536s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/package.xml
+[0.537s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/launch
+[0.537s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/upload_urdf.launch
+[0.539s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/launch/show_urdf.launch
+[0.539s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes
+[0.540s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs.dae
+[0.540s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/meshes/sick_ldmrs_color.png
+[0.541s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf
+[0.542s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs.urdf.xacro
+[0.542s] -- Up-to-date: /home/agilex/autoware.ai/install/sick_ldmrs_description/share/sick_ldmrs_description/urdf/sick_ldmrs_macros.urdf.xacro
+[0.557s] Invoked command in '/home/agilex/autoware.ai/build/sick_ldmrs_description' returned '0': /usr/bin/cmake --build /home/agilex/autoware.ai/build/sick_ldmrs_description --target install -- -j8 -l8
